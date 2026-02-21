@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
+
+/* ───────────────────────────────────────────────
+   Zen Books — Design System Tokens (Tailwind v4)
+   ─────────────────────────────────────────────── */
+@theme {
+  /* Fonts */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  /* Brand colors */
+  --color-brand-primary: #047857;    /* emerald-700 */
+  --color-brand-primary-hover: #065f46; /* emerald-800 */
+  --color-brand-accent: #10b981;     /* emerald-500 */
+  --color-brand-surface: #ecfdf5;    /* emerald-50 */
+  --color-brand-surface-subtle: #f0fdf4; /* emerald-50/40 */
+
+  /* Neutrals & Backgrounds */
+  --color-surface-primary: #ffffff;
+  --color-surface-secondary: #F5F2ED; /* Warm beige/cream (Osome-like) */
+  --color-surface-tertiary: #EBE8E2; /* Slightly darker beige */
+  --color-border-default: #E6E2DC;   /* Beige border */
+  --color-border-subtle: rgba(230, 226, 220, 0.6);
+
+  /* Text */
+  --color-text-primary: #1c1917;     /* stone-900 */
+  --color-text-secondary: #57534e;   /* stone-600 */
+  --color-text-muted: #78716c;       /* stone-500 */
+  --color-text-on-dark: #f5f5f4;     /* stone-100 */
+
+  /* Spacing scale (section-level) */
+  --spacing-section-y: 5rem;         /* py-20 */
+  --spacing-section-y-lg: 7rem;      /* py-28 */
+  --spacing-section-header-mb: 3.5rem; /* mb-14 */
+
+  /* Container */
+  --container-max: 72rem;            /* max-w-6xl */
+}
+
+/* Base resets */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-surface-secondary);
+  color: var(--color-text-primary);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+@keyframes floatShape {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-10px) translateX(6px); }
+}
+
+@keyframes pulseOutline {
+  0%, 92%, 100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+  96% {
+    box-shadow: 0 0 0 14px rgba(16, 185, 129, 0.18);
+  }
+}
