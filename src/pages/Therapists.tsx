@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle, Heart, Users, Calendar } from 'lucide-react';
+import { BookingSection } from '../components/BookingSection';
 
 export default function Therapists() {
   return (
@@ -33,9 +34,9 @@ export default function Therapists() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <button className="bg-purple-700 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
-              Book a QuickBooks Clarity Call
-            </button>
+            <a href="#book" className="bg-purple-700 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 inline-block">
+              Book Your Practice Review
+            </a>
           </motion.div>
         </div>
       </section>
@@ -106,21 +107,21 @@ export default function Therapists() {
                 title: "Practice Cleanup",
                 subtitle: "Best for: When you’ve fallen behind and need a fresh start.",
                 features: ["Categorize past income and expenses", "Separate personal from business transactions", "Reconcile your business checking (and credit cards if applicable)"],
-                cta: "Get Started with Cleanup",
+                cta: "Clean Up My Practice Books",
                 icon: <Calendar className="w-6 h-6" />
               },
               {
                 title: "Steady Practice Care",
                 subtitle: "Best for: A calm, organized practice month after month.",
                 features: ["Monthly categorization of all transactions", "Reconciliation of bank and credit card accounts", "Quarterly P&L review with simple explanations"],
-                cta: "Get Started with Steady Care",
+                cta: "Start Monthly Practice Care",
                 icon: <Heart className="w-6 h-6" />
               },
               {
                 title: "Premium Practice Support",
                 subtitle: "Best for: Group practices or busy consultants.",
                 features: ["Monthly P&L and Balance Sheet", "Payroll support and contractor (1099) tracking", "Monthly check-in calls to review your numbers"],
-                cta: "Get Started with Premium Support",
+                cta: "Get Premium Practice Support",
                 icon: <Users className="w-6 h-6" />
               }
             ].map((pkg, index) => (
@@ -138,9 +139,9 @@ export default function Therapists() {
                     </li>
                   ))}
                 </ul>
-                <button className="w-full py-3 rounded-xl border-2 border-purple-100 text-purple-800 font-semibold hover:bg-purple-50 transition-colors">
+                <a href="#book" className="w-full py-3 rounded-xl border-2 border-purple-100 text-purple-800 font-semibold hover:bg-purple-50 transition-colors text-center block">
                   {pkg.cta}
-                </button>
+                </a>
               </div>
             ))}
           </div>
@@ -192,6 +193,9 @@ export default function Therapists() {
           </div>
         </div>
       </section>
+
+      {/* Booking Section */}
+      <BookingSection />
     </div>
   );
 }

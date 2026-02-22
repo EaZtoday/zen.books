@@ -1,17 +1,12 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
-import { Link, NavLink } from 'react-router-dom';
-
-const navLinks = [
-  { label: 'How It Works', href: '/#how-it-works' },
-  { label: 'About', href: '/about' },
-];
+import { Link } from 'react-router-dom';
 
 const industries = [
   { label: 'Real Estate Investors', href: '/real-estate-investors' },
   { label: 'Therapists & Consultants', href: '/therapists-consultants' },
-  { label: 'Nonprofits', href: '/#personas' },
-  { label: 'Restaurants & Construction', href: '/#personas' },
+  { label: 'Nonprofits', href: '/nonprofits' },
+  { label: 'Restaurants & Construction', href: '/restaurants-construction' },
 ];
 
 export default function Navbar() {

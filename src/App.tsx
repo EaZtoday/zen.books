@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import RealEstate from './pages/RealEstate';
 import Therapists from './pages/Therapists';
+import Nonprofits from './pages/Nonprofits';
+import RestaurantsConstruction from './pages/RestaurantsConstruction';
 import About from './pages/About';
 import { useEffect } from 'react';
 
@@ -28,6 +30,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/real-estate-investors" element={<RealEstate />} />
           <Route path="/therapists-consultants" element={<Therapists />} />
+          <Route path="/nonprofits" element={<Nonprofits />} />
+          <Route path="/restaurants-construction" element={<RestaurantsConstruction />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </main>

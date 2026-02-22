@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle, Building, Briefcase, TrendingUp } from 'lucide-react';
+import { BookingSection } from '../components/BookingSection';
 
 export default function RealEstate() {
   return (
@@ -33,9 +34,9 @@ export default function RealEstate() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <button className="bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
-              Book a QuickBooks Clarity Call
-            </button>
+            <a href="#book" className="bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 inline-block">
+              Book Your Portfolio Review
+            </a>
           </motion.div>
         </div>
       </section>
@@ -106,21 +107,21 @@ export default function RealEstate() {
                 title: "The Portfolio Cleanup & Setup",
                 subtitle: "Best for: Investors who are behind and need a fresh start.",
                 features: ["Categorize historical transactions by property/class", "Reconcile mortgages and escrow accounts", "Fix \"mystery\" transfers between entities"],
-                cta: "Get Started with Cleanup",
+                cta: "Clean Up My Portfolio",
                 icon: <Building className="w-6 h-6" />
               },
               {
                 title: "Monthly Portfolio Care",
                 subtitle: "Best for: Ongoing peace of mind and accurate monthly reports.",
                 features: ["Categorize monthly rents and expenses", "Reconcile bank accounts and credit cards", "Deliver monthly P&L by property or portfolio view"],
-                cta: "Get Started with Monthly Care",
+                cta: "Start Monthly Portfolio Care",
                 icon: <Briefcase className="w-6 h-6" />
               },
               {
                 title: "Premium Portfolio Support",
                 subtitle: "Best for: Growing portfolios that need deeper insight and strategy.",
                 features: ["Everything in Monthly Portfolio Care", "Quarterly calls to review portfolio performance", "Coordinate directly with your property management software data"],
-                cta: "Get Started with Premium Support",
+                cta: "Get Premium Portfolio Support",
                 icon: <TrendingUp className="w-6 h-6" />
               }
             ].map((pkg, index) => (
@@ -138,9 +139,9 @@ export default function RealEstate() {
                     </li>
                   ))}
                 </ul>
-                <button className="w-full py-3 rounded-xl border-2 border-blue-100 text-blue-800 font-semibold hover:bg-blue-50 transition-colors">
+                <a href="#book" className="w-full py-3 rounded-xl border-2 border-blue-100 text-blue-800 font-semibold hover:bg-blue-50 transition-colors text-center block">
                   {pkg.cta}
-                </button>
+                </a>
               </div>
             ))}
           </div>
@@ -193,6 +194,9 @@ export default function RealEstate() {
           </div>
         </div>
       </section>
+
+      {/* Booking Section */}
+      <BookingSection />
     </div>
   );
 }

@@ -6,6 +6,8 @@ const footerLinks = [
   { label: 'About', href: '/about' },
   { label: 'Real Estate', href: '/real-estate-investors' },
   { label: 'Therapists', href: '/therapists-consultants' },
+  { label: 'Nonprofits', href: '/nonprofits' },
+  { label: 'Restaurants & Construction', href: '/restaurants-construction' },
 ];
 
 export default function Footer() {
@@ -22,21 +24,21 @@ export default function Footer() {
               Calm, judgment-free bookkeeping (done in QuickBooks Online).
             </p>
           </div>
-          
+
           {/* Links */}
           <div className="flex flex-wrap gap-6">
             {footerLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
-                href={link.href}
+                to={link.href}
                 className="text-sm text-stone-500 hover:text-stone-700 transition-colors"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
-        
+
         {/* Bottom bar */}
         <div className="mt-8 pt-6 border-t border-stone-100 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-stone-400">
