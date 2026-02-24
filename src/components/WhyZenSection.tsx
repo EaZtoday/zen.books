@@ -27,14 +27,14 @@ const differentiators = [
 
 export function WhyZenSection() {
   return (
-    <section className="py-32 md:py-40 bg-white">
+    <section className="py-32 md:py-40 bg-cream">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-20">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-sm font-medium tracking-widest uppercase text-stone-400 mb-4"
+            className="text-sm font-medium tracking-widest uppercase text-warm-400 mb-4"
           >
             Why Zen Books
           </motion.p>
@@ -43,7 +43,7 @@ export function WhyZenSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight text-stone-900"
+            className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight text-warm-900"
           >
             Built different, on purpose.
           </motion.h2>
@@ -59,11 +59,11 @@ export function WhyZenSection() {
               transition={{ delay: i * 0.1 }}
               className="text-center"
             >
-              <div className="w-14 h-14 bg-stone-100 rounded-2xl flex items-center justify-center text-stone-700 mx-auto mb-6">
+              <div className="w-14 h-14 bg-fern-50 rounded-2xl flex items-center justify-center text-fern mx-auto mb-6">
                 {d.icon}
               </div>
-              <h3 className="text-lg font-serif font-medium text-stone-900 mb-3">{d.title}</h3>
-              <p className="text-stone-500 leading-relaxed">{d.description}</p>
+              <h3 className="text-lg font-serif font-medium text-warm-900 mb-3">{d.title}</h3>
+              <p className="text-warm-600 leading-relaxed">{d.description}</p>
             </motion.div>
           ))}
         </div>

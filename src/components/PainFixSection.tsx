@@ -11,14 +11,14 @@ const items = [
 
 export function PainFixSection() {
   return (
-    <section className="py-32 md:py-40 bg-stone-900">
+    <section className="py-32 md:py-40 bg-forest">
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-20">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-sm font-medium tracking-widest uppercase text-emerald-400 mb-4"
+            className="text-sm font-medium tracking-widest uppercase text-accent mb-4"
           >
             From Chaos to Calm
           </motion.p>
@@ -27,7 +27,7 @@ export function PainFixSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight text-white"
+            className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight text-cream"
           >
             Sound familiar?
           </motion.h2>
@@ -41,12 +41,12 @@ export function PainFixSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.08 }}
-              className="grid md:grid-cols-2 gap-8 md:gap-16 py-8 border-b border-stone-800 last:border-0"
+              className="grid md:grid-cols-2 gap-8 md:gap-16 py-8 border-b border-forest-200 last:border-0"
             >
-              <p className="text-xl md:text-2xl text-stone-400 italic font-serif">
+              <p className="text-xl md:text-2xl text-forest-400 italic font-serif">
                 "{item.pain}"
               </p>
-              <p className="text-lg text-stone-300 leading-relaxed">
+              <p className="text-lg text-forest-500 leading-relaxed">
                 {item.fix}
               </p>
             </motion.div>

@@ -23,15 +23,15 @@ export function BookingSection() {
 
   if (submitted) {
     return (
-      <section id="book" className="py-32 md:py-40 bg-stone-50">
+      <section id="book" className="py-32 md:py-40 bg-cream-100">
         <div className="max-w-xl mx-auto px-6 text-center">
-          <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-8">
-            <Heart className="w-8 h-8 text-emerald-700" />
+          <div className="w-16 h-16 bg-fern-50 rounded-full flex items-center justify-center mx-auto mb-8">
+            <Heart className="w-8 h-8 text-fern" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-serif font-medium text-stone-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-serif font-medium text-warm-900 mb-6">
             We got your request.
           </h2>
-          <p className="text-lg text-stone-500 leading-relaxed">
+          <p className="text-lg text-warm-600 leading-relaxed">
             We'll review your info and reach out within 24 hours to schedule your free Clarity Call. No pressure, no judgment.
           </p>
         </div>
@@ -40,7 +40,7 @@ export function BookingSection() {
   }
 
   return (
-    <section id="book" className="py-32 md:py-40 bg-stone-900">
+    <section id="book" className="py-32 md:py-40 bg-forest">
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         <div className="grid gap-16 md:grid-cols-2 items-start">
           <div>
@@ -48,7 +48,7 @@ export function BookingSection() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-sm font-medium tracking-widest uppercase text-emerald-400 mb-4"
+              className="text-sm font-medium tracking-widest uppercase text-accent mb-4"
             >
               Get Started
             </motion.p>
@@ -57,7 +57,7 @@ export function BookingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-white mb-6"
+              className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-cream mb-6"
             >
               Book your free<br />Clarity Call.
             </motion.h2>
@@ -66,7 +66,7 @@ export function BookingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="text-lg text-stone-400 leading-relaxed mb-10"
+              className="text-lg text-forest-400 leading-relaxed mb-10"
             >
               Tell us about your situation. We'll reach out within 24 hours to schedule a no-pressure call.
             </motion.p>
@@ -76,7 +76,7 @@ export function BookingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="space-y-4 text-stone-500 text-sm"
+              className="space-y-4 text-forest-400 text-sm"
             >
               <p>No commitment required</p>
               <p>Zero judgment — we've seen it all</p>
@@ -86,57 +86,57 @@ export function BookingSection() {
 
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-stone-400 mb-2">Name</label>
+              <label htmlFor="name" className="block text-sm font-medium text-forest-500 mb-2">Name</label>
               <input type="text" id="name" name="name" required value={formData.name} onChange={handleChange}
-                className="w-full px-4 py-3.5 rounded-xl bg-stone-800 border border-stone-700 text-white placeholder-stone-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 transition-colors"
+                className="w-full px-4 py-3.5 rounded-xl bg-forest-100 border border-forest-200 text-cream placeholder-forest-300 focus:outline-none focus:ring-2 focus:ring-accent/40 transition-colors"
                 placeholder="Jane Smith" />
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-stone-400 mb-2">Email</label>
+              <label htmlFor="email" className="block text-sm font-medium text-forest-500 mb-2">Email</label>
               <input type="email" id="email" name="email" required value={formData.email} onChange={handleChange}
-                className="w-full px-4 py-3.5 rounded-xl bg-stone-800 border border-stone-700 text-white placeholder-stone-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 transition-colors"
+                className="w-full px-4 py-3.5 rounded-xl bg-forest-100 border border-forest-200 text-cream placeholder-forest-300 focus:outline-none focus:ring-2 focus:ring-accent/40 transition-colors"
                 placeholder="jane@example.com" />
             </div>
 
             <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-stone-400 mb-2">
-                Phone <span className="text-stone-600">(optional)</span>
+              <label htmlFor="phone" className="block text-sm font-medium text-forest-500 mb-2">
+                Phone <span className="text-forest-300">(optional)</span>
               </label>
               <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange}
-                className="w-full px-4 py-3.5 rounded-xl bg-stone-800 border border-stone-700 text-white placeholder-stone-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 transition-colors"
+                className="w-full px-4 py-3.5 rounded-xl bg-forest-100 border border-forest-200 text-cream placeholder-forest-300 focus:outline-none focus:ring-2 focus:ring-accent/40 transition-colors"
                 placeholder="(555) 123-4567" />
             </div>
 
             <div>
-              <label htmlFor="businessType" className="block text-sm font-medium text-stone-400 mb-2">Business type</label>
+              <label htmlFor="businessType" className="block text-sm font-medium text-forest-500 mb-2">Business type</label>
               <select id="businessType" name="businessType" required value={formData.businessType} onChange={handleChange}
-                className="w-full px-4 py-3.5 rounded-xl bg-stone-800 border border-stone-700 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/40 transition-colors appearance-none">
-                <option value="" disabled className="text-stone-500">Select...</option>
-                <option value="real-estate" className="text-stone-900">Real Estate Investor</option>
-                <option value="therapist" className="text-stone-900">Therapist or Consultant</option>
-                <option value="nonprofit" className="text-stone-900">Nonprofit</option>
-                <option value="restaurant-construction" className="text-stone-900">Restaurant or Construction</option>
-                <option value="other" className="text-stone-900">Other</option>
+                className="w-full px-4 py-3.5 rounded-xl bg-forest-100 border border-forest-200 text-cream focus:outline-none focus:ring-2 focus:ring-accent/40 transition-colors appearance-none">
+                <option value="" disabled className="text-forest-300">Select...</option>
+                <option value="real-estate" className="text-warm-900">Real Estate Investor</option>
+                <option value="therapist" className="text-warm-900">Therapist or Consultant</option>
+                <option value="nonprofit" className="text-warm-900">Nonprofit</option>
+                <option value="restaurant-construction" className="text-warm-900">Restaurant or Construction</option>
+                <option value="other" className="text-warm-900">Other</option>
               </select>
             </div>
 
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-stone-400 mb-2">
-                Tell us about your situation <span className="text-stone-600">(optional)</span>
+              <label htmlFor="message" className="block text-sm font-medium text-forest-500 mb-2">
+                Tell us about your situation <span className="text-forest-300">(optional)</span>
               </label>
               <textarea id="message" name="message" rows={3} value={formData.message} onChange={handleChange}
-                className="w-full px-4 py-3.5 rounded-xl bg-stone-800 border border-stone-700 text-white placeholder-stone-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 transition-colors resize-none"
+                className="w-full px-4 py-3.5 rounded-xl bg-forest-100 border border-forest-200 text-cream placeholder-forest-300 focus:outline-none focus:ring-2 focus:ring-accent/40 transition-colors resize-none"
                 placeholder="I'm about 2 years behind..." />
             </div>
 
             <button type="submit"
-              className="w-full mt-4 inline-flex items-center justify-center gap-2 bg-white text-stone-900 px-8 py-4 rounded-full text-base font-medium hover:bg-stone-100 transition-all">
+              className="w-full mt-4 inline-flex items-center justify-center gap-2 bg-accent text-white px-8 py-4 rounded-full text-base font-medium hover:bg-accent-dark transition-all">
               Request Your Free Call
               <Send className="w-4 h-4" />
             </button>
 
-            <p className="text-xs text-stone-600 text-center mt-3">
+            <p className="text-xs text-forest-300 text-center mt-3">
               We'll never share your information.
             </p>
           </form>

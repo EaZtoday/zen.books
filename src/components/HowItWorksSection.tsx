@@ -22,14 +22,14 @@ const steps = [
 
 export function HowItWorksSection() {
   return (
-    <section id="how-it-works" className="py-32 md:py-40 bg-stone-50">
+    <section id="how-it-works" className="py-32 md:py-40 bg-cream-100">
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-20">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-sm font-medium tracking-widest uppercase text-stone-400 mb-4"
+            className="text-sm font-medium tracking-widest uppercase text-warm-400 mb-4"
           >
             Getting Started
           </motion.p>
@@ -38,7 +38,7 @@ export function HowItWorksSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight text-stone-900"
+            className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight text-warm-900"
           >
             Three steps to calm.
           </motion.h2>
@@ -54,14 +54,14 @@ export function HowItWorksSection() {
               transition={{ delay: i * 0.1 }}
               className="flex flex-col md:flex-row gap-8 md:gap-16 items-start"
             >
-              <span className="text-7xl md:text-8xl font-serif font-medium text-stone-200 leading-none shrink-0">
+              <span className="text-7xl md:text-8xl font-serif font-medium text-cream-300 leading-none shrink-0">
                 {step.number}
               </span>
               <div className="pt-2 md:pt-4">
-                <h3 className="text-2xl md:text-3xl font-serif font-medium text-stone-900 mb-4">
+                <h3 className="text-2xl md:text-3xl font-serif font-medium text-warm-900 mb-4">
                   {step.title}
                 </h3>
-                <p className="text-lg text-stone-500 leading-relaxed max-w-xl">
+                <p className="text-lg text-warm-600 leading-relaxed max-w-xl">
                   {step.description}
                 </p>
               </div>
@@ -77,7 +77,7 @@ export function HowItWorksSection() {
         >
           <a
             href="#book"
-            className="inline-flex items-center justify-center gap-2 bg-stone-900 text-white px-8 py-4 rounded-full text-base font-medium hover:bg-stone-800 transition-all"
+            className="inline-flex items-center justify-center gap-2 bg-accent text-white px-8 py-4 rounded-full text-base font-medium hover:bg-accent-dark transition-all"
           >
             Book a Clarity Call
             <ArrowRight className="w-4 h-4" />
