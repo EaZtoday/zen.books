@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import { StickyBottomCTA } from './components/StickyBottomCTA';
 import Home from './pages/Home';
 import RealEstate from './pages/RealEstate';
 import Therapists from './pages/Therapists';
@@ -22,9 +23,10 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white text-stone-800 font-sans">
+    <div className="min-h-screen bg-cream text-warm-900 font-sans">
       <ScrollToTop />
       <Navbar />
+      <StickyBottomCTA />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />

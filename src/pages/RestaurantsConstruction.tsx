@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import { BookingSection } from '../components/BookingSection';
@@ -73,6 +73,7 @@ const faqs = [
 ];
 
 export default function RestaurantsConstruction() {
+  useEffect(() => { document.title = 'Bookkeeping for Restaurants & Construction — Zen Books'; }, []);
   return (
     <>
       {/* Hero */}
@@ -130,6 +131,15 @@ export default function RestaurantsConstruction() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Impulse CTA */}
+      <section className="py-10 bg-cream text-center">
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
+          <a href="#book" className="inline-flex items-center gap-2 text-fern font-medium hover:gap-3 transition-all text-lg">
+            Sound familiar? Let's fix it <ArrowRight className="w-4 h-4" />
+          </a>
+        </motion.div>
       </section>
 
       {/* How We Help */}

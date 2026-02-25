@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import { ArrowRight } from 'lucide-react';
 
 const items = [
   { pain: "My QuickBooks and bank never match.", fix: "We reconcile your accounts line by line so your numbers finally tell the truth." },
@@ -52,6 +53,22 @@ export function PainFixSection() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mt-16"
+        >
+          <a
+            href="#book"
+            className="inline-flex items-center justify-center gap-2 bg-accent text-white px-8 py-4 rounded-full text-base font-medium hover:bg-accent-dark transition-all"
+          >
+            Let's Fix This
+            <ArrowRight className="w-4 h-4" />
+          </a>
+          <p className="text-sm text-forest-300 mt-4">Free call. No judgment. We've seen it all.</p>
+        </motion.div>
       </div>
     </section>
   );

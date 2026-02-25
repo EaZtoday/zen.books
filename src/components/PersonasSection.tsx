@@ -17,8 +17,8 @@ const personas = [
     description: 'Stay in session, not in spreadsheets. We organize your income and expenses so you know exactly what you\'re taking home.',
     href: '/therapists-consultants',
     icon: <Users className="w-6 h-6" />,
-    color: 'text-teal-700',
-    bg: 'bg-teal-50',
+    color: 'text-fern',
+    bg: 'bg-fern-50',
   },
   {
     title: 'Nonprofits',
@@ -33,8 +33,8 @@ const personas = [
     description: 'High-volume transactions, vendors, payroll. We handle the numbers so you can stay on the job site or in the kitchen.',
     href: '/restaurants-construction',
     icon: <Utensils className="w-6 h-6" />,
-    color: 'text-amber-700',
-    bg: 'bg-amber-50',
+    color: 'text-accent',
+    bg: 'bg-accent-50',
   },
 ];
 
