@@ -4,10 +4,10 @@ import { CheckCircle, ArrowRight } from 'lucide-react';
 import { BookingSection } from '../components/BookingSection';
 
 const pains = [
-  "I have hundreds of transactions a month and no time to categorize any of them.",
-  "I don't actually know my food cost or job cost percentages.",
-  "My POS deposits never seem to match what's in my bank account.",
-  "I have a dozen subcontractors and 1099 season is a panic.",
+  "I had to actually disconnect my POS software from my accounting software because of all the data noise it generated.",
+  "I've been in construction for 20 years and I still don't know if I'm actually making money or just collecting a paycheck.",
+  "Accounting in the restaurant industry is a nightmare. Tips, waste, comps — nothing is straightforward.",
+  "Half my guys are so old school they still mail paper invoices. QuickBooks only works if everyone else uses it. Which they don't.",
 ];
 
 const solutions = [
@@ -68,49 +68,52 @@ const faqs = [
   { q: 'Do you work with POS systems like Toast or Square?', a: 'Yes. We reconcile POS deposits to your bank account, accounting for fees, tips, and timing differences.' },
   { q: 'Can you track costs per job for construction?', a: 'Yes. We set up job costing in QuickBooks using Projects or Classes so you know profitability per job.' },
   { q: 'What about 1099s for my subcontractors?', a: 'We track all sub payments throughout the year so 1099 prep is handled at year-end. No last-minute scrambling.' },
+  { q: 'No one understands my industry.', a: 'We reconcile POS systems like Toast and Square daily. We set up job costing in QuickBooks. We track food cost percentages and subcontractor payments. This is what we do.' },
+  { q: 'I don\'t have time to gather the paperwork you need.', a: 'We pull transactions directly from your bank feeds and POS systems. You don\'t need to gather anything. Just keep running your business.' },
 ];
 
 export default function RestaurantsConstruction() {
   return (
     <>
       {/* Hero */}
-      <section className="min-h-screen flex items-center justify-center bg-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-amber-50/50 via-white to-white" />
+      <section className="min-h-screen flex items-center justify-center bg-cream relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-fern-50/50 via-cream to-cream" />
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-14">
           <motion.p
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
-            className="text-sm font-medium tracking-widest uppercase text-amber-600 mb-8"
+            className="text-sm font-medium tracking-widest uppercase text-fern mb-8"
           >
             For Restaurants & Construction
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight text-stone-900 leading-[1.05] mb-8"
+            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight text-warm-900 leading-[1.05] mb-8"
           >
             Stay on the job.<br />We'll track every dollar.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg md:text-xl text-stone-500 leading-relaxed mb-12 max-w-2xl mx-auto"
+            className="text-lg md:text-xl text-warm-600 leading-relaxed mb-12 max-w-2xl mx-auto"
           >
             High-volume transactions, vendors, payroll. We handle the numbers so you can stay on the job site or in the kitchen.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <a href="#book" className="inline-flex items-center justify-center gap-2 bg-stone-900 text-white px-8 py-4 rounded-full text-base font-medium hover:bg-stone-800 transition-all">
-              Book Your Operations Review <ArrowRight className="w-4 h-4" />
+            <a href="#book" className="inline-flex items-center justify-center gap-2 bg-fern text-white px-8 py-4 rounded-full text-base font-medium hover:bg-fern-dark transition-all">
+              Book an Operations Review <ArrowRight className="w-4 h-4" />
             </a>
+            <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment. No judgment.</p>
           </motion.div>
         </div>
       </section>
 
       {/* Pain Points */}
-      <section className="py-32 md:py-40 bg-stone-50">
+      <section className="py-32 md:py-40 bg-cream-100">
         <div className="max-w-4xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-stone-900 text-center mb-20"
+            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
             The pain of operations bookkeeping.
           </motion.h2>
@@ -120,7 +123,7 @@ export default function RestaurantsConstruction() {
                 key={i}
                 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
                 transition={{ delay: i * 0.08 }}
-                className="text-xl md:text-2xl text-stone-400 italic font-serif text-center py-6 border-b border-stone-200 last:border-0"
+                className="text-xl md:text-2xl text-warm-400 italic font-serif text-center py-6 border-b border-cream-300 last:border-0"
               >
                 "{pain}"
               </motion.p>
@@ -130,7 +133,7 @@ export default function RestaurantsConstruction() {
       </section>
 
       {/* How We Help */}
-      <section className="py-32 md:py-40 bg-stone-900">
+      <section className="py-32 md:py-40 bg-forest">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
@@ -144,10 +147,45 @@ export default function RestaurantsConstruction() {
                 key={i}
                 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className="p-10 rounded-3xl border border-stone-800"
+                className="p-10 rounded-3xl border border-forest-200"
               >
-                <h3 className="text-xl font-serif font-medium text-amber-400 mb-4">{s.title}</h3>
-                <p className="text-stone-400 leading-relaxed text-lg">{s.desc}</p>
+                <h3 className="text-xl font-serif font-medium text-fern-light mb-4">{s.title}</h3>
+                <p className="text-forest-400 leading-relaxed text-lg">{s.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Social Proof */}
+      <section className="py-20 md:py-28 bg-cream">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <motion.p
+            initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+            className="text-sm font-medium tracking-widest uppercase text-fern mb-6"
+          >
+            Why operators trust Zen Books
+          </motion.p>
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-3xl md:text-4xl font-serif font-medium text-warm-900 mb-16"
+          >
+            We handle the mess so you can stay on the floor.
+          </motion.h2>
+          <div className="grid gap-8 md:grid-cols-3">
+            {[
+              { stat: 'POS-reconciled', label: 'Toast, Square, Clover — matched to your bank daily' },
+              { stat: 'Job-costed', label: 'Know which projects actually made money' },
+              { stat: 'High-volume', label: 'Hundreds of transactions a month, processed accurately' },
+            ].map((item, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+              >
+                <p className="text-2xl font-serif font-medium text-fern mb-2">{item.stat}</p>
+                <p className="text-warm-600 text-sm leading-relaxed">{item.label}</p>
               </motion.div>
             ))}
           </div>
@@ -155,11 +193,11 @@ export default function RestaurantsConstruction() {
       </section>
 
       {/* Packages */}
-      <section className="py-32 md:py-40 bg-white">
+      <section className="py-32 md:py-40 bg-cream">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-stone-900 text-center mb-20"
+            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
             Packages for operations.
           </motion.h2>
@@ -169,20 +207,20 @@ export default function RestaurantsConstruction() {
                 key={i}
                 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className={`rounded-3xl p-10 flex flex-col ${pkg.featured ? 'bg-stone-900 text-white ring-2 ring-stone-900' : 'bg-stone-50 border border-stone-200'}`}
+                className={`rounded-3xl p-10 flex flex-col ${pkg.featured ? 'bg-forest text-white ring-2 ring-fern' : 'bg-cream-100 border border-cream-300'}`}
               >
-                <h3 className={`text-2xl font-serif font-medium mb-2 ${pkg.featured ? 'text-white' : 'text-stone-900'}`}>{pkg.name}</h3>
-                <p className={`text-sm mb-8 ${pkg.featured ? 'text-stone-400' : 'text-stone-500'}`}>{pkg.subtitle}</p>
+                <h3 className={`text-2xl font-serif font-medium mb-2 ${pkg.featured ? 'text-white' : 'text-warm-900'}`}>{pkg.name}</h3>
+                <p className={`text-sm mb-8 ${pkg.featured ? 'text-forest-400' : 'text-warm-600'}`}>{pkg.subtitle}</p>
                 <ul className="space-y-4 flex-1">
                   {pkg.features.map((f, fi) => (
                     <li key={fi} className="flex items-start gap-3">
-                      <CheckCircle className={`w-5 h-5 mt-0.5 shrink-0 ${pkg.featured ? 'text-amber-400' : 'text-amber-600'}`} />
-                      <span className={`text-sm leading-relaxed ${pkg.featured ? 'text-stone-300' : 'text-stone-600'}`}>{f}</span>
+                      <CheckCircle className={`w-5 h-5 mt-0.5 shrink-0 ${pkg.featured ? 'text-fern-light' : 'text-fern'}`} />
+                      <span className={`text-sm leading-relaxed ${pkg.featured ? 'text-forest-500' : 'text-warm-600'}`}>{f}</span>
                     </li>
                   ))}
                 </ul>
-                <a href="#book" className={`mt-10 text-center py-3.5 rounded-full font-medium transition-all ${pkg.featured ? 'bg-white text-stone-900 hover:bg-stone-100' : 'border border-stone-300 text-stone-700 hover:border-stone-400'}`}>
-                  Get Started
+                <a href="#book" className={`mt-10 text-center py-3.5 rounded-full font-medium transition-all ${pkg.featured ? 'bg-white text-warm-900 hover:bg-cream-100' : 'border border-cream-300 text-warm-900 hover:border-cream-400'}`}>
+                  Book an Operations Review
                 </a>
               </motion.div>
             ))}
@@ -191,11 +229,11 @@ export default function RestaurantsConstruction() {
       </section>
 
       {/* How It Works */}
-      <section className="py-32 md:py-40 bg-stone-50">
+      <section className="py-32 md:py-40 bg-cream-100">
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-stone-900 text-center mb-20"
+            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
             How it works.
           </motion.h2>
@@ -207,10 +245,10 @@ export default function RestaurantsConstruction() {
                 transition={{ delay: i * 0.1 }}
                 className="flex flex-col md:flex-row gap-8 md:gap-16 items-start"
               >
-                <span className="text-7xl font-serif font-medium text-stone-200 leading-none shrink-0">{step.num}</span>
+                <span className="text-7xl font-serif font-medium text-cream-300 leading-none shrink-0">{step.num}</span>
                 <div className="pt-2 md:pt-4">
-                  <h3 className="text-2xl font-serif font-medium text-stone-900 mb-3">{step.title}</h3>
-                  <p className="text-lg text-stone-500 leading-relaxed">{step.desc}</p>
+                  <h3 className="text-2xl font-serif font-medium text-warm-900 mb-3">{step.title}</h3>
+                  <p className="text-lg text-warm-600 leading-relaxed">{step.desc}</p>
                 </div>
               </motion.div>
             ))}
@@ -219,13 +257,13 @@ export default function RestaurantsConstruction() {
       </section>
 
       {/* FAQ */}
-      <section className="py-32 md:py-40 bg-white">
+      <section className="py-32 md:py-40 bg-cream">
         <div className="max-w-3xl mx-auto px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-stone-900 text-center mb-20"
+            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
-            Questions.
+            Common questions from operators.
           </motion.h2>
           <div className="space-y-10">
             {faqs.map((faq, i) => (
@@ -233,10 +271,10 @@ export default function RestaurantsConstruction() {
                 key={i}
                 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
                 transition={{ delay: i * 0.08 }}
-                className="pb-10 border-b border-stone-100 last:border-0"
+                className="pb-10 border-b border-cream-200 last:border-0"
               >
-                <h3 className="text-lg font-medium text-stone-900 mb-3">{faq.q}</h3>
-                <p className="text-stone-500 leading-relaxed">{faq.a}</p>
+                <h3 className="text-lg font-medium text-warm-900 mb-3">{faq.q}</h3>
+                <p className="text-warm-600 leading-relaxed">{faq.a}</p>
               </motion.div>
             ))}
           </div>
