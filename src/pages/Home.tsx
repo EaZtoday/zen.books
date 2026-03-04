@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { HeroSection } from '../components/HeroSection';
 import { HowItWorksSection } from '../components/HowItWorksSection';
 import { StrategyCardsSection } from '../components/StrategyCardsSection';
+import { SmallBusinessSection } from '../components/SmallBusinessSection';
 import { WhySection } from '../components/WhySection';
 import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
@@ -18,6 +19,7 @@ export default function Home() {
     <>
       <HeroSection />
       <StrategyCardsSection />
+      <SmallBusinessSection />
       <HowItWorksSection />
       <WhySection />
       <BookingSection />

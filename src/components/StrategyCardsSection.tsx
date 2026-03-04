@@ -59,7 +59,7 @@ export function StrategyCardsSection() {
             >
               <Link
                 to={strategy.href}
-                className="block p-10 rounded-3xl border border-forest-200 hover:border-fern-light/40 transition-all group h-full"
+                className="block p-10 rounded-3xl border border-white/[0.08] bg-white/[0.03] backdrop-blur-sm hover:bg-white/[0.1] hover:border-white/20 hover:shadow-[0_8px_40px_rgba(255,255,255,0.06)] hover:backdrop-blur-xl transition-all duration-500 group h-full"
               >
                 <strategy.icon className="w-8 h-8 text-fern-light mb-6" />
                 <h3 className="text-2xl font-serif font-medium text-white mb-4">{strategy.title}</h3>

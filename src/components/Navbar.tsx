@@ -55,6 +55,10 @@ export default function Navbar() {
               </div>
             </div>
 
+            <Link to="/small-business-bookkeeping" className="text-[13px] font-medium text-warm-600 hover:text-warm-900 transition-colors">
+              Small Business
+            </Link>
+
             <Link to="/about" className="text-[13px] font-medium text-warm-600 hover:text-warm-900 transition-colors">
               About
             </Link>
@@ -93,6 +97,10 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
+            <Link to="/small-business-bookkeeping" onClick={() => setMobileOpen(false)}
+              className="block py-3 text-sm text-warm-600 hover:text-warm-900 transition-colors">
+              Small Business
+            </Link>
             <Link to="/about" onClick={() => setMobileOpen(false)}
               className="block py-3 text-sm text-warm-600 hover:text-warm-900 transition-colors">
               About
