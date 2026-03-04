@@ -125,7 +125,7 @@ export default function FixAndFlip() {
                 key={i}
                 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className="p-10 rounded-3xl border border-forest-200"
+                className="p-10 rounded-3xl border border-white/[0.08] bg-white/[0.03] backdrop-blur-sm hover:bg-white/[0.1] hover:border-white/20 hover:shadow-[0_8px_40px_rgba(255,255,255,0.06)] hover:backdrop-blur-xl transition-all duration-500 cursor-default"
               >
                 <h3 className="text-xl font-serif font-medium text-fern-light mb-4">{s.title}</h3>
                 <p className="text-forest-400 leading-relaxed text-lg">{s.desc}</p>

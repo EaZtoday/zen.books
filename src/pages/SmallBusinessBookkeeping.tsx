@@ -11,6 +11,13 @@ const pains = [
   "I need someone who actually understands QuickBooks.",
 ];
 
+const solutions = [
+  { title: 'Monthly Bookkeeping', desc: 'We categorize every transaction, reconcile your accounts, and keep your QuickBooks clean — every single month.' },
+  { title: 'Catch-Up & Cleanup', desc: 'Months or years behind? We untangle the mess, reconcile everything, and get you current without judgment.' },
+  { title: 'QuickBooks Setup', desc: 'Starting fresh or switching from spreadsheets? We build your QuickBooks file the right way from day one.' },
+  { title: 'Tax-Ready Books', desc: 'Your CPA gets clean, organized financials at year-end. No more scrambling, no more surprises.' },
+];
+
 const steps = [
   {
     number: '01',
@@ -93,6 +100,31 @@ export default function SmallBusinessBookkeeping() {
         </div>
       </section>
 
+      {/* How We Help */}
+      <section className="py-32 md:py-40 bg-forest">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-white text-center mb-20"
+          >
+            How we help small businesses.
+          </motion.h2>
+          <div className="grid gap-8 md:grid-cols-2">
+            {solutions.map((s, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+                className="p-10 rounded-3xl border border-white/[0.08] bg-white/[0.03] backdrop-blur-sm hover:bg-white/[0.1] hover:border-white/20 hover:shadow-[0_8px_40px_rgba(255,255,255,0.06)] hover:backdrop-blur-xl transition-all duration-500 cursor-default"
+              >
+                <h3 className="text-xl font-serif font-medium text-fern-light mb-4">{s.title}</h3>
+                <p className="text-forest-400 leading-relaxed text-lg">{s.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* How It Works */}
       <section className="py-32 md:py-40 bg-cream">
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
@@ -167,7 +199,7 @@ export default function SmallBusinessBookkeeping() {
               >
                 <Link
                   to={strategy.href}
-                  className="block p-10 rounded-3xl border border-forest-200 hover:border-fern-light/40 transition-all group h-full"
+                  className="block p-10 rounded-3xl border border-white/[0.08] bg-white/[0.03] backdrop-blur-sm hover:bg-white/[0.1] hover:border-white/20 hover:shadow-[0_8px_40px_rgba(255,255,255,0.06)] hover:backdrop-blur-xl transition-all duration-500 group h-full"
                 >
                   <strategy.icon className="w-8 h-8 text-fern-light mb-6" />
                   <h3 className="text-2xl font-serif font-medium text-white mb-4">{strategy.title}</h3>
