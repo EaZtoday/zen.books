@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import { BookingSection } from '../components/BookingSection';
+import { PainPointToast } from '../components/PainPointToast';
 
 const pains = [
   "Assignment fees, double closes, earnest money — my bookkeeper is lost.",
@@ -107,39 +108,6 @@ export default function Wholesale() {
             <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment. No judgment.</p>
           </motion.div>
         </div>
-      </section>
-
-      {/* Pain Points */}
-      <section className="py-32 md:py-40 bg-cream-100">
-        <div className="max-w-4xl mx-auto px-6">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
-          >
-            The pain of wholesaler bookkeeping.
-          </motion.h2>
-          <div className="space-y-8">
-            {pains.map((pain, i) => (
-              <motion.p
-                key={i}
-                initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                transition={{ delay: i * 0.08 }}
-                className="text-xl md:text-2xl text-warm-400 italic font-serif text-center py-6 border-b border-cream-300 last:border-0"
-              >
-                "{pain}"
-              </motion.p>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Impulse CTA */}
-      <section className="py-10 bg-cream text-center">
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
-          <a href="#book" className="inline-flex items-center gap-2 text-fern font-medium hover:gap-3 transition-all text-lg">
-            Sound familiar? Let's fix it <ArrowRight className="w-4 h-4" />
-          </a>
-        </motion.div>
       </section>
 
       {/* How We Help */}
@@ -292,6 +260,7 @@ export default function Wholesale() {
       </section>
 
       <BookingSection />
+      <PainPointToast painPoints={pains} />
     </>
   );
 }
