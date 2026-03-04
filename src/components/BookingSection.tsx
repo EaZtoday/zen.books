@@ -7,7 +7,7 @@ export function BookingSection() {
     name: '',
     email: '',
     phone: '',
-    businessType: '',
+    investorType: '',
     message: '',
   });
   const [submitted, setSubmitted] = useState(false);
@@ -32,7 +32,7 @@ export function BookingSection() {
             We got your request.
           </h2>
           <p className="text-lg text-warm-600 leading-relaxed">
-            We'll review your info and reach out within 24 hours to schedule your free Clarity Call. No pressure, no judgment.
+            We'll review your info and reach out within 24 hours to schedule your free Portfolio Review. No pressure, no judgment.
           </p>
         </div>
       </section>
@@ -59,7 +59,7 @@ export function BookingSection() {
               transition={{ delay: 0.1 }}
               className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-cream mb-6"
             >
-              Book your free<br />Clarity Call.
+              Book your free<br />Portfolio Review.
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -68,7 +68,7 @@ export function BookingSection() {
               transition={{ delay: 0.2 }}
               className="text-lg text-forest-400 leading-relaxed mb-10"
             >
-              Tell us about your situation. We'll reach out within 24 hours to schedule a no-pressure call.
+              Tell us about your portfolio. We'll reach out within 24 hours to schedule a no-pressure call.
             </motion.p>
 
             <motion.div
@@ -90,9 +90,9 @@ export function BookingSection() {
               transition={{ delay: 0.4 }}
               className="mt-10 pt-8 border-t border-forest-200"
             >
-              <p className="text-xs font-medium tracking-widest uppercase text-forest-300 mb-4">We work with</p>
+              <p className="text-xs font-medium tracking-widest uppercase text-forest-300 mb-4">We specialize in</p>
               <div className="flex flex-wrap gap-2">
-                {['Real Estate Investors', 'Therapists', 'Nonprofits', 'Restaurants', 'Construction'].map((label) => (
+                {['Buy & Hold', 'Fix & Flip', 'Wholesale', 'BRRRR', 'Multi-Family'].map((label) => (
                   <span key={label} className="text-xs bg-forest-100 text-forest-400 px-3 py-1.5 rounded-full">
                     {label}
                   </span>
@@ -129,25 +129,26 @@ export function BookingSection() {
             </div>
 
             <div>
-              <label htmlFor="businessType" className="block text-sm font-medium text-forest-500 mb-2">Business type</label>
-              <select id="businessType" name="businessType" required value={formData.businessType} onChange={handleChange}
+              <label htmlFor="investorType" className="block text-sm font-medium text-forest-500 mb-2">Investment strategy</label>
+              <select id="investorType" name="investorType" required value={formData.investorType} onChange={handleChange}
                 className="w-full px-4 py-3.5 rounded-xl bg-forest-100 border border-forest-200 text-cream focus:outline-none focus:ring-2 focus:ring-accent/40 transition-colors appearance-none">
                 <option value="" disabled className="text-forest-300">Select...</option>
-                <option value="real-estate" className="text-warm-900">Real Estate Investor</option>
-                <option value="therapist" className="text-warm-900">Therapist or Consultant</option>
-                <option value="nonprofit" className="text-warm-900">Nonprofit</option>
-                <option value="restaurant-construction" className="text-warm-900">Restaurant or Construction</option>
+                <option value="buy-and-hold" className="text-warm-900">Buy & Hold (Rentals)</option>
+                <option value="fix-and-flip" className="text-warm-900">Fix & Flip</option>
+                <option value="wholesale" className="text-warm-900">Wholesale</option>
+                <option value="brrrr" className="text-warm-900">BRRRR</option>
+                <option value="mixed" className="text-warm-900">Multiple Strategies</option>
                 <option value="other" className="text-warm-900">Other</option>
               </select>
             </div>
 
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-forest-500 mb-2">
-                Tell us about your situation <span className="text-forest-300">(optional)</span>
+                Tell us about your portfolio <span className="text-forest-300">(optional)</span>
               </label>
               <textarea id="message" name="message" rows={3} value={formData.message} onChange={handleChange}
                 className="w-full px-4 py-3.5 rounded-xl bg-forest-100 border border-forest-200 text-cream placeholder-forest-300 focus:outline-none focus:ring-2 focus:ring-accent/40 transition-colors resize-none"
-                placeholder="I'm about 2 years behind..." />
+                placeholder="I have 12 doors across 3 LLCs and I'm about 2 years behind..." />
             </div>
 
             <button type="submit"

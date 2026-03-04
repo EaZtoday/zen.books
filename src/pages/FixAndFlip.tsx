@@ -4,75 +4,75 @@ import { CheckCircle, ArrowRight } from 'lucide-react';
 import { BookingSection } from '../components/BookingSection';
 
 const pains = [
-  "I just want someone to tell me exactly how much money each door is making. That shouldn't be this hard.",
-  "My current bookkeeper puts a new roof under 'Repairs and Maintenance.'",
-  "I am years behind on my books and the thought of sending this to a CPA makes me want to vomit.",
-  "I have three LLCs and four bank accounts and it's all a mess.",
+  "I need to know my true profit on every flip — not a guess.",
+  "Rehab costs are scattered across 3 credit cards and a line of credit.",
+  "My CPA just sees a pile of transactions. I see 4 active projects.",
+  "I'm flipping 3 houses right now and I genuinely don't know if I'm making money.",
 ];
 
 const solutions = [
-  { title: 'Property-Aware Setup', desc: 'QuickBooks configured to track income and expenses by property, so you see exactly how each door performs.' },
-  { title: 'Entity Management', desc: 'One LLC or five — we keep intercompany transfers and equity accounts straight so nothing falls through the cracks.' },
-  { title: 'CapEx vs. Repairs', desc: 'Major renovations categorized correctly versus simple repairs. No more guessing at tax time.' },
-  { title: 'Lender-Ready Reports', desc: 'Your books stay current so you can hand a P&L to any lender instantly and look professional.' },
+  { title: 'Per-Project Tracking', desc: 'Every dollar allocated to the right flip — acquisition, rehab, holding costs, and sale proceeds tracked separately.' },
+  { title: 'True Profit Calculation', desc: 'Know your actual margin on every deal, not just the gross number. Holding costs, closing costs, and fees included.' },
+  { title: 'Rehab Budget vs. Actual', desc: 'Compare your projected rehab spend to actual costs in real time. No more surprises at closing.' },
+  { title: 'Draw & HML Tracking', desc: 'Hard money loans, draws, and interest payments tracked correctly so your books match reality.' },
 ];
 
 const packages = [
   {
-    name: 'Portfolio Cleanup',
-    subtitle: 'When you need a fresh start.',
+    name: 'Flip Cleanup',
+    subtitle: 'Untangle past projects.',
     features: [
-      'Categorize historical transactions by property',
-      'Reconcile mortgages and escrow accounts',
-      'Fix intercompany transfers between entities',
+      'Categorize historical transactions by project',
+      'Reconcile hard money and credit line accounts',
       'Separate personal from business transactions',
-      'CapEx vs. Repairs correctly classified',
+      'Calculate true profit per completed flip',
+      'Organize contractor payments (1099-ready)',
     ],
   },
   {
-    name: 'Monthly Portfolio Care',
-    subtitle: 'Ongoing peace of mind.',
+    name: 'Monthly Flip Care',
+    subtitle: 'Stay on top of active deals.',
     features: [
-      'Monthly categorization with property tags',
-      'Reconcile all bank and credit card accounts',
-      'Mortgage payment tracking (principal / interest / escrow)',
-      'Monthly P&L by property and portfolio-wide',
+      'Monthly categorization by active project',
+      'Reconcile all bank, credit card, and HML accounts',
+      'Rehab cost tracking vs. budget',
+      'Per-project P&L updated monthly',
       'Items flagged for your review via email',
     ],
     featured: true,
   },
   {
-    name: 'Premium Portfolio Support',
-    subtitle: 'Deeper insight for growing portfolios.',
+    name: 'Premium Flip Support',
+    subtitle: 'For high-volume flippers.',
     features: [
       'Everything in Monthly Care',
-      'Balance Sheet per entity',
-      'KPI tracking: NOI per property, expense ratios',
+      'Multi-entity tracking across flip LLCs',
+      'KPI dashboard: avg profit per flip, holding period, ROI',
       'Quarterly strategy calls to review numbers',
       'Direct coordination with your CPA',
-      '1099 prep for contractors',
+      '1099 prep for all contractors',
     ],
   },
 ];
 
 const steps = [
-  { num: '01', title: 'Portfolio Review', desc: 'We map out your entities, properties, and accounts to create a clear plan.' },
-  { num: '02', title: 'The Deep Clean', desc: 'We untangle commingled funds and allocate income and expenses to the right properties.' },
-  { num: '03', title: 'Automated Flow', desc: 'Bank feeds and rules set up so your QuickBooks stays clean with minimal manual work.' },
-  { num: '04', title: 'Monthly Clarity', desc: 'Clear reports showing exactly how your portfolio performed this month.' },
+  { num: '01', title: 'Deal Review', desc: 'We map out your active and completed flips, entities, and funding sources.' },
+  { num: '02', title: 'The Deep Clean', desc: 'We allocate every transaction to the right project and reconcile your accounts.' },
+  { num: '03', title: 'Project Setup', desc: 'QuickBooks configured so every new flip automatically tracks the right way.' },
+  { num: '04', title: 'Monthly Clarity', desc: 'Per-project P&L showing exactly where every dollar went on every deal.' },
 ];
 
 const faqs = [
-  { q: 'I have multiple LLCs. Can you handle that?', a: 'Yes. We specialize in multi-entity setups and keep intercompany transactions clean and separate.' },
-  { q: 'Do you work with my CPA?', a: 'Absolutely. We prepare the clean, year-end books they need to file your taxes efficiently.' },
-  { q: "I'm currently using Excel. Can we move to QuickBooks?", a: "Yes. We'll set up your QuickBooks Online file from scratch and import your data correctly." },
-  { q: 'How do we work together remotely?', a: 'We use secure cloud tools to access your QuickBooks. We serve investors across the U.S.' },
-  { q: 'My portfolio is too small to justify the cost.', a: 'We work with investors starting at 3 units. Clean books pay for themselves the first time you refinance or sell — no scrambling for financials.' },
-  { q: 'A bookkeeper won\'t understand real estate depreciation.', a: 'We specialize in investor bookkeeping: CapEx vs. repairs, 1031 exchanges, entity structure. Your CPA handles depreciation schedules — we make sure the underlying data is correct.' },
+  { q: 'I have multiple flips at once. Can you track them separately?', a: 'Yes. Every flip gets its own profit center in QuickBooks — acquisition, rehab, holding costs, and sale proceeds all tracked per project.' },
+  { q: 'I use hard money lenders. Can you track that?', a: 'Absolutely. We track draws, interest payments, and payoffs so your books reflect the true cost of capital on each deal.' },
+  { q: 'How do you handle contractor payments?', a: 'We categorize all contractor payments by project and prepare your 1099s at year-end.' },
+  { q: 'Can you show me my actual ROI per flip?', a: "Yes. We calculate true profit including all holding costs, closing costs, and financing fees — not just purchase price minus sale price." },
+  { q: 'I flip through multiple LLCs.', a: 'No problem. We handle multi-entity setups and keep intercompany transactions clean.' },
+  { q: "I'm behind on my books from last year's flips.", a: "That's exactly what our Cleanup package is for. We'll reconstruct your project-level P&L from historical transactions." },
 ];
 
-export default function RealEstate() {
-  useEffect(() => { document.title = 'Bookkeeping for Real Estate Investors — Zen Books'; }, []);
+export default function FixAndFlip() {
+  useEffect(() => { document.title = 'Bookkeeping for Fix & Flip Investors — Zen Books'; }, []);
   return (
     <>
       {/* Hero */}
@@ -83,30 +83,28 @@ export default function RealEstate() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
             className="text-sm font-medium tracking-widest uppercase text-fern mb-8"
           >
-            For Real Estate Investors
+            For Fix & Flip Investors
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight text-warm-900 leading-[1.05] mb-8"
           >
-            Clear books for<br />every property.
+            Know your profit<br />on every flip.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-warm-600 leading-relaxed mb-12 max-w-2xl mx-auto"
           >
-            We keep your QuickBooks clean for every entity, loan, and expense so you always know your true cash flow and returns.
+            Per-project cost tracking, rehab budgets, and true profit calculations — so you flip with confidence, not guesswork.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex flex-col items-center"
           >
-            <div className="flex flex-col items-center">
-              <a href="#book" className="inline-flex items-center justify-center gap-2 bg-fern text-white px-8 py-4 rounded-full text-base font-medium hover:bg-fern-dark transition-all">
-                Book Your Portfolio Review <ArrowRight className="w-4 h-4" />
-              </a>
-              <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment. No judgment.</p>
-            </div>
+            <a href="#book" className="inline-flex items-center justify-center gap-2 bg-fern text-white px-8 py-4 rounded-full text-base font-medium hover:bg-fern-dark transition-all">
+              Book Your Free Review <ArrowRight className="w-4 h-4" />
+            </a>
+            <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment. No judgment.</p>
           </motion.div>
         </div>
       </section>
@@ -118,7 +116,7 @@ export default function RealEstate() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
-            The pain of investor bookkeeping.
+            The pain of flipper bookkeeping.
           </motion.h2>
           <div className="space-y-8">
             {pains.map((pain, i) => (
@@ -151,7 +149,7 @@ export default function RealEstate() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-white text-center mb-20"
           >
-            How Zen Books helps investors.
+            How we help flippers.
           </motion.h2>
           <div className="grid gap-8 md:grid-cols-2">
             {solutions.map((s, i) => (
@@ -176,7 +174,7 @@ export default function RealEstate() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-sm font-medium tracking-widest uppercase text-fern mb-6"
           >
-            Why investors trust Zen Books
+            Why flippers trust Zen Books
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
@@ -187,9 +185,9 @@ export default function RealEstate() {
           </motion.h2>
           <div className="grid gap-8 md:grid-cols-3">
             {[
-              { stat: 'Property-level', label: 'P&L for every door in your portfolio' },
-              { stat: 'Multi-entity', label: 'LLC structures kept clean and separate' },
-              { stat: 'Lender-ready', label: 'Financials your bank will actually accept' },
+              { stat: 'Per-project', label: 'True profit on every flip including all costs' },
+              { stat: 'Rehab tracking', label: 'Budget vs. actual in real time' },
+              { stat: 'HML-ready', label: 'Draw schedules and payoffs tracked correctly' },
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -211,7 +209,7 @@ export default function RealEstate() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
-            Packages for investors.
+            Packages for flippers.
           </motion.h2>
           <div className="grid gap-8 md:grid-cols-3">
             {packages.map((pkg, i) => (
@@ -232,7 +230,7 @@ export default function RealEstate() {
                   ))}
                 </ul>
                 <a href="#book" className={`mt-10 text-center py-3.5 rounded-full font-medium transition-all ${pkg.featured ? 'bg-white text-warm-900 hover:bg-cream-100' : 'border border-cream-300 text-warm-900 hover:border-warm-400'}`}>
-                  Book a Portfolio Review
+                  Book a Free Review
                 </a>
               </motion.div>
             ))}
@@ -275,7 +273,7 @@ export default function RealEstate() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
-            Common questions from investors.
+            Questions from flippers.
           </motion.h2>
           <div className="space-y-10">
             {faqs.map((faq, i) => (

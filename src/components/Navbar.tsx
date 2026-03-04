@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const industries = [
-  { label: 'Real Estate Investors', href: '/real-estate-investors' },
-  { label: 'Therapists & Consultants', href: '/therapists-consultants' },
-  { label: 'Nonprofits', href: '/nonprofits' },
-  { label: 'Restaurants & Construction', href: '/restaurants-construction' },
+const strategies = [
+  { label: 'Buy & Hold', href: '/buy-and-hold' },
+  { label: 'Fix & Flip', href: '/fix-and-flip' },
+  { label: 'Wholesale', href: '/wholesale' },
 ];
 
 export default function Navbar() {
@@ -38,12 +37,12 @@ export default function Navbar() {
               onMouseLeave={() => setDropdownOpen(false)}
             >
               <button className="flex items-center gap-1 text-[13px] font-medium text-warm-600 hover:text-warm-900 transition-colors">
-                Industries
+                Strategies
                 <ChevronDown className="w-3.5 h-3.5" />
               </button>
-              <div className={`absolute left-1/2 -translate-x-1/2 top-full pt-3 w-52 transition-all duration-200 ${dropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
+              <div className={`absolute left-1/2 -translate-x-1/2 top-full pt-3 w-48 transition-all duration-200 ${dropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
                 <div className="bg-cream/90 backdrop-blur-xl rounded-2xl shadow-lg border border-cream-300/50 overflow-hidden py-2">
-                  {industries.map((item) => (
+                  {strategies.map((item) => (
                     <Link
                       key={item.label}
                       to={item.href}
@@ -86,8 +85,8 @@ export default function Navbar() {
               How It Works
             </a>
             <div className="py-3">
-              <p className="text-xs font-medium text-warm-400 uppercase tracking-wider mb-3">Industries</p>
-              {industries.map((item) => (
+              <p className="text-xs font-medium text-warm-400 uppercase tracking-wider mb-3">Strategies</p>
+              {strategies.map((item) => (
                 <Link key={item.label} to={item.href} onClick={() => setMobileOpen(false)}
                   className="block py-2.5 text-sm text-warm-600 hover:text-warm-900 transition-colors pl-3">
                   {item.label}

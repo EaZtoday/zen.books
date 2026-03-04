@@ -6,17 +6,17 @@ const steps = [
   {
     number: '01',
     title: 'The No-Judgment Review',
-    description: 'A quick call to look at your current setup. No shame, just a clear plan.',
+    description: "A quick call to look at your current setup — entities, properties, accounts. No shame, just a clear plan.",
   },
   {
     number: '02',
-    title: 'The Cleanup & Setup',
-    description: 'We organize the chaos, reconcile accounts, and build a QuickBooks system that works.',
+    title: 'The Deep Clean',
+    description: 'We untangle commingled funds, categorize by property, and build a QuickBooks system that actually works for investors.',
   },
   {
     number: '03',
-    title: 'Monthly Zen',
-    description: 'Clear reports, ongoing support. You stop worrying about tax time and start trusting your numbers.',
+    title: 'Monthly Clarity',
+    description: 'Per-property P&L, clean reconciliations, lender-ready reports. You stop worrying and start trusting your numbers.',
   },
 ];
 
@@ -79,7 +79,7 @@ export function HowItWorksSection() {
             href="#book"
             className="inline-flex items-center justify-center gap-2 bg-accent text-white px-8 py-4 rounded-full text-base font-medium hover:bg-accent-dark transition-all"
           >
-            Book a Clarity Call
+            Book Your Portfolio Review
             <ArrowRight className="w-4 h-4" />
           </a>
         </motion.div>

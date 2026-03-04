@@ -10,10 +10,9 @@ export default function Footer() {
             <span className="text-sm font-semibold text-warm-900">Zen Books</span>
             <div className="flex flex-wrap justify-center gap-6">
               <a href="/#how-it-works" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">How It Works</a>
-              <Link to="/real-estate-investors" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Real Estate</Link>
-              <Link to="/therapists-consultants" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Therapists</Link>
-              <Link to="/nonprofits" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Nonprofits</Link>
-              <Link to="/restaurants-construction" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Restaurants & Construction</Link>
+              <Link to="/buy-and-hold" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Buy & Hold</Link>
+              <Link to="/fix-and-flip" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Fix & Flip</Link>
+              <Link to="/wholesale" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Wholesale</Link>
               <Link to="/about" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">About</Link>
             </div>
           </div>

@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 
 export default function About() {
-  useEffect(() => { document.title = 'About Zen Books — Husband-and-Wife Bookkeeping Team | Scranton, PA'; }, []);
+  useEffect(() => { document.title = 'About Zen Books — Real Estate Investor Bookkeeping Team | Scranton, PA'; }, []);
   return (
     <>
       {/* Hero */}
@@ -26,7 +26,7 @@ export default function About() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-warm-600 leading-relaxed max-w-2xl mx-auto"
           >
-            A husband-and-wife bookkeeping team based in Scranton, Pennsylvania, bringing calm to small business owners across the U.S.
+            A husband-and-wife bookkeeping team based in Scranton, Pennsylvania, specializing in real estate investors across the U.S.
           </motion.p>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function About() {
               <p className="text-sm font-medium tracking-widest uppercase text-fern mb-4">The QuickBooks Expert</p>
               <h3 className="text-2xl font-serif font-medium text-warm-900 mb-4">Technical precision.</h3>
               <p className="text-warm-600 leading-relaxed text-lg">
-                The wizard who turns chaotic data into perfect rows and columns. She handles the cleanup, categorization, and complex reconciliations that make your books trustworthy.
+                The wizard who turns chaotic investor data into per-property P&Ls and lender-ready reports. She handles the cleanup, categorization, and complex multi-entity reconciliations.
               </p>
             </motion.div>
             <motion.div
@@ -80,7 +80,7 @@ export default function About() {
             transition={{ delay: 0.1 }}
             className="text-xl text-forest-400 leading-relaxed"
           >
-            We saw too many talented business owners treating their bookkeeping like a shameful secret — hiding from their numbers, dreading tax time, feeling embarrassed to ask for help. We built Zen Books to change that. A safe place where you hand over a messy file without fear of judgment and get back a clean, organized system.
+            We saw too many real estate investors treating their bookkeeping like a shameful secret — hiding from their numbers, dreading tax time, losing deals because they couldn't produce clean financials. We built Zen Books to change that. A safe place where you hand over a messy file without fear of judgment and get back clean, investor-grade books.
           </motion.p>
         </div>
       </section>
@@ -96,9 +96,9 @@ export default function About() {
           </motion.h2>
           <div className="grid gap-16 md:grid-cols-3 text-center">
             {[
-              { title: 'Zero Judgment, Ever.', desc: 'We don\'t care how messy your books are right now. We only care about getting them clean for your future.' },
-              { title: 'Plain English, No Jargon.', desc: 'We explain your reports simply so you actually understand what your business is doing.' },
-              { title: 'Reliable Consistency.', desc: 'Accurate reports on time, every time. You\'re never scrambling before a deadline.' },
+              { title: 'Zero Judgment, Ever.', desc: "We don't care how messy your books are right now. We only care about getting them clean for your next deal." },
+              { title: 'Plain English, No Jargon.', desc: 'We explain your reports simply so you actually understand what your portfolio is doing.' },
+              { title: 'Reliable Consistency.', desc: "Accurate reports on time, every time. You're never scrambling before a refinance or tax deadline." },
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -127,7 +127,7 @@ export default function About() {
             transition={{ delay: 0.1 }}
             className="text-lg text-warm-600 leading-relaxed mb-12"
           >
-            Whether you're years behind or just starting out, we're ready to help. Let's turn that stress into clarity.
+            Whether you're years behind or just closing your first deal, we're ready to help. Let's turn that stress into clarity.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
@@ -137,7 +137,7 @@ export default function About() {
               href="#book"
               className="inline-flex items-center justify-center gap-2 bg-fern text-white px-8 py-4 rounded-full text-base font-medium hover:bg-fern-dark transition-all"
             >
-              Book a Clarity Call
+              Book a Portfolio Review
               <ArrowRight className="w-4 h-4" />
             </a>
             <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment. No judgment.</p>

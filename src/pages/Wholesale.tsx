@@ -4,75 +4,75 @@ import { CheckCircle, ArrowRight } from 'lucide-react';
 import { BookingSection } from '../components/BookingSection';
 
 const pains = [
-  "Looking for help with QuickBooks nightmare for tracking nonprofit functions, programs, subprograms, restricted funds...",
-  "Our last volunteer treasurer just stopped returning emails. I have a shoebox of receipts and a board meeting in two weeks.",
-  "I just want someone to translate the financials into plain English so I can explain them to my board without sounding like an idiot.",
-  "I'm terrified we are going to fail our grant audit. The previous ED was paying for personal lunches out of the general fund.",
+  "Assignment fees, double closes, earnest money — my bookkeeper is lost.",
+  "I spend more on marketing than anything else and I can't tell what's working.",
+  "I did 40 deals last year and have no idea what my actual take-home was.",
+  "My books are just a mess of transfers between my acquisition LLC and my marketing LLC.",
 ];
 
 const solutions = [
-  { title: 'Fund Tracking', desc: 'Restricted and unrestricted funds separated properly in QuickBooks so you never accidentally spend grant money on the wrong thing.' },
-  { title: 'Board-Ready Reports', desc: 'Clean Statement of Activities and Statement of Financial Position formatted and delivered before every board meeting.' },
-  { title: 'Grant Compliance', desc: 'Grant spending tracked against budgets so you always know your burn rate and can report to funders accurately.' },
-  { title: 'Audit Preparation', desc: 'Organized, reconciled books with supporting schedules so your auditor gets clean files instead of a scavenger hunt.' },
+  { title: 'Deal-by-Deal Tracking', desc: 'Every assignment fee, double close, and earnest money deposit tracked per deal so you know your true profit on each one.' },
+  { title: 'Marketing ROI', desc: 'Know exactly what you spend on direct mail, PPC, cold calling, and driving for dollars — and which channel brings the best deals.' },
+  { title: 'Multi-Entity Clarity', desc: 'Acquisition LLC, marketing LLC, holding company — we keep the transfers clean and each entity\'s books separate.' },
+  { title: 'Disposition Tracking', desc: 'Track your buyer list deals, assignments, and double closes with the right revenue recognition for each type.' },
 ];
 
 const packages = [
   {
-    name: 'Nonprofit Cleanup',
-    subtitle: 'When your books need a fresh start.',
+    name: 'Deal Cleanup',
+    subtitle: 'Untangle past deals.',
     features: [
-      'Rebuild chart of accounts for nonprofit reporting',
-      'Set up fund tracking (restricted vs. unrestricted)',
-      'Categorize all historical transactions by program',
-      'Reconcile all bank and credit card accounts',
-      'Generate Statement of Activities and Financial Position',
+      'Categorize historical transactions by deal',
+      'Reconcile all bank and escrow accounts',
+      'Separate marketing spend by channel',
+      'Calculate true profit per completed deal',
+      'Clean up intercompany transfers',
     ],
   },
   {
-    name: 'Monthly Nonprofit Care',
-    subtitle: 'Board-ready and grant-compliant every month.',
+    name: 'Monthly Deal Care',
+    subtitle: 'Stay on top of your pipeline.',
     features: [
-      'Monthly categorization with program/fund tags',
-      'Reconciliation of all accounts',
-      'Grant budget vs. actuals tracking',
-      'Monthly financial statements by program',
-      'Functional expense allocation',
+      'Monthly categorization by active deal',
+      'Reconcile all bank and credit card accounts',
+      'Marketing spend tracking by channel',
+      'Per-deal P&L updated monthly',
+      'Items flagged for your review via email',
     ],
     featured: true,
   },
   {
-    name: 'Premium Nonprofit Support',
-    subtitle: 'For orgs with multiple grants or upcoming audits.',
+    name: 'Premium Wholesale Support',
+    subtitle: 'For high-volume operations.',
     features: [
       'Everything in Monthly Care',
-      'Formatted board financial packets',
-      'Grant burn-rate analysis',
-      'Annual audit preparation and support',
-      'Monthly calls with ED or Finance Director',
-      'Direct coordination with auditor and CPA',
+      'Multi-entity tracking across all LLCs',
+      'KPI dashboard: cost per deal, avg assignment fee, marketing ROI',
+      'Quarterly strategy calls to review numbers',
+      'Direct coordination with your CPA',
+      '1099 prep for all contractors',
     ],
   },
 ];
 
 const steps = [
-  { num: '01', title: 'Organization Review', desc: 'We map out your programs, funding sources, and reporting needs to create a clear plan.' },
-  { num: '02', title: 'The Cleanup', desc: 'We untangle funds, allocate expenses to the right programs, and reconcile every account.' },
-  { num: '03', title: 'Ongoing Care', desc: 'Monthly bookkeeping with fund tracking, so your books are always current and compliant.' },
-  { num: '04', title: 'Board & Audit Ready', desc: 'Clean reports delivered on time. Your board is confident and your auditor is happy.' },
+  { num: '01', title: 'Operation Review', desc: 'We map out your entities, deal flow, marketing channels, and funding sources.' },
+  { num: '02', title: 'The Deep Clean', desc: 'We allocate every transaction to the right deal and separate marketing spend by channel.' },
+  { num: '03', title: 'System Setup', desc: 'QuickBooks configured so every new deal and marketing expense tracks automatically.' },
+  { num: '04', title: 'Monthly Clarity', desc: 'Per-deal P&L and marketing ROI reports so you know exactly where the money goes.' },
 ];
 
 const faqs = [
-  { q: 'Do you understand nonprofit accounting?', a: 'Yes. We track restricted vs. unrestricted funds, functional expenses, and generate Statement of Activities and Statement of Financial Position.' },
-  { q: 'Can you prepare reports for our board?', a: 'Absolutely. We deliver formatted financial packets with P&L by program, balance sheet, and budget vs. actuals.' },
-  { q: 'We have an audit coming up. Can you help?', a: 'Yes. We prepare organized files with supporting schedules so your auditor has everything they need.' },
-  { q: 'Can you track multiple grants?', a: 'Yes. Each grant gets its own tracking so you always know your burn rate and remaining budget.' },
-  { q: 'We have a volunteer treasurer. Do we still need this?', a: 'Many of our clients started that way. We work alongside your treasurer or take over entirely — either way, your board gets accurate, on-time reports.' },
-  { q: 'We\'re a small charity. Bookkeeping feels like overhead.', a: 'Clean books mean faster audits, fewer findings, and more grant approvals. Most clients save more than our fee in avoided problems. Think of it as protecting your funding.' },
+  { q: 'I do both assignments and double closes. Can you track them differently?', a: 'Yes. Each deal type gets the right accounting treatment — assignment fees as income, double closes with proper acquisition and sale records.' },
+  { q: 'I spend a lot on marketing. Can you show me ROI by channel?', a: 'Absolutely. We break down your spend by direct mail, PPC, cold calling, driving for dollars, or any channel you use — and tie it to deals closed.' },
+  { q: 'I have separate LLCs for acquisitions and marketing.', a: 'We handle multi-entity setups and keep intercompany transactions clean between all your entities.' },
+  { q: 'I do 30+ deals a year. Is that too many to track?', a: 'Not at all. Our system scales with your volume. The more deals you do, the more valuable per-deal tracking becomes.' },
+  { q: 'Do you handle earnest money deposits?', a: 'Yes. We track EMDs in and out, including forfeited deposits and refunds, all tied to the right deal.' },
+  { q: "I'm behind on my books from last year.", a: "That's exactly what our Cleanup package is for. We'll reconstruct your deal-level P&L from historical transactions." },
 ];
 
-export default function Nonprofits() {
-  useEffect(() => { document.title = 'Bookkeeping for Nonprofits — Zen Books'; }, []);
+export default function Wholesale() {
+  useEffect(() => { document.title = 'Bookkeeping for Wholesale Real Estate — Zen Books'; }, []);
   return (
     <>
       {/* Hero */}
@@ -83,25 +83,26 @@ export default function Nonprofits() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
             className="text-sm font-medium tracking-widest uppercase text-fern mb-8"
           >
-            For Nonprofits
+            For Wholesalers
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight text-warm-900 leading-[1.05] mb-8"
           >
-            Focus on your mission.<br />We'll handle the math.
+            Know your profit<br />on every deal.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-warm-600 leading-relaxed mb-12 max-w-2xl mx-auto"
           >
-            Clean, transparent reporting for your board, your funders, and your auditor — so you can focus on the work that matters.
+            Deal-by-deal tracking, marketing ROI, and multi-entity clarity — so you scale your operation with real numbers.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.3 }}
+            className="flex flex-col items-center"
           >
             <a href="#book" className="inline-flex items-center justify-center gap-2 bg-fern text-white px-8 py-4 rounded-full text-base font-medium hover:bg-fern-dark transition-all">
-              Book an Organization Review <ArrowRight className="w-4 h-4" />
+              Book Your Free Review <ArrowRight className="w-4 h-4" />
             </a>
             <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment. No judgment.</p>
           </motion.div>
@@ -115,7 +116,7 @@ export default function Nonprofits() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
-            The pain of nonprofit bookkeeping.
+            The pain of wholesaler bookkeeping.
           </motion.h2>
           <div className="space-y-8">
             {pains.map((pain, i) => (
@@ -148,7 +149,7 @@ export default function Nonprofits() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-white text-center mb-20"
           >
-            How Zen Books helps nonprofits.
+            How we help wholesalers.
           </motion.h2>
           <div className="grid gap-8 md:grid-cols-2">
             {solutions.map((s, i) => (
@@ -173,20 +174,20 @@ export default function Nonprofits() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-sm font-medium tracking-widest uppercase text-fern mb-6"
           >
-            Why nonprofits trust Zen Books
+            Why wholesalers trust Zen Books
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-4xl font-serif font-medium text-warm-900 mb-16"
           >
-            Clean books mean more grants, not more overhead.
+            We've seen worse. We don't judge.
           </motion.h2>
           <div className="grid gap-8 md:grid-cols-3">
             {[
-              { stat: 'Fund tracking', label: 'Restricted vs. unrestricted — always separated correctly' },
-              { stat: 'Board-ready', label: 'Financial packets your board will actually understand' },
-              { stat: 'Audit-proof', label: 'Organized schedules your auditor needs on day one' },
+              { stat: 'Per-deal', label: 'True profit on every assignment and double close' },
+              { stat: 'Marketing ROI', label: 'Know which channel brings the best deals' },
+              { stat: 'Multi-entity', label: 'All your LLCs tracked clean and separate' },
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -208,7 +209,7 @@ export default function Nonprofits() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
-            Packages for nonprofits.
+            Packages for wholesalers.
           </motion.h2>
           <div className="grid gap-8 md:grid-cols-3">
             {packages.map((pkg, i) => (
@@ -228,8 +229,8 @@ export default function Nonprofits() {
                     </li>
                   ))}
                 </ul>
-                <a href="#book" className={`mt-10 text-center py-3.5 rounded-full font-medium transition-all ${pkg.featured ? 'bg-white text-warm-900 hover:bg-cream-100' : 'border border-cream-300 text-warm-900 hover:border-cream-400'}`}>
-                  Book an Organization Review
+                <a href="#book" className={`mt-10 text-center py-3.5 rounded-full font-medium transition-all ${pkg.featured ? 'bg-white text-warm-900 hover:bg-cream-100' : 'border border-cream-300 text-warm-900 hover:border-warm-400'}`}>
+                  Book a Free Review
                 </a>
               </motion.div>
             ))}
@@ -272,7 +273,7 @@ export default function Nonprofits() {
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
-            Common questions from nonprofit leaders.
+            Questions from wholesalers.
           </motion.h2>
           <div className="space-y-10">
             {faqs.map((faq, i) => (
