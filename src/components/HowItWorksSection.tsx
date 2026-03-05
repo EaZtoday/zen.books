@@ -1,76 +1,88 @@
 import React from 'react';
+import { motion } from 'motion/react';
+import { ArrowRight } from 'lucide-react';
 
-interface Step {
-  number: string;
-  title: string;
-  description: string;
-}
-
-const steps: Step[] = [
+const steps = [
   {
     number: '01',
     title: 'The No-Judgment Review',
-    description: 'We hop on a quick call to look at your current setup. No shame, just a clear plan.',
+    description: "A quick call to look at your current setup — entities, properties, accounts. No shame, just a clear plan.",
   },
   {
     number: '02',
-    title: 'The Cleanup & Setup',
-    description: 'We organize the chaos, reconcile the accounts, and build a QuickBooks system that actually works for you.',
+    title: 'The Deep Clean',
+    description: 'We untangle commingled funds, categorize by property, and build a QuickBooks system that actually works for investors.',
   },
   {
     number: '03',
-    title: 'Monthly Zen',
-    description: 'You get simple, clear reports and ongoing support. You stop worrying about tax time and start trusting your numbers.',
+    title: 'Monthly Clarity',
+    description: 'Per-property P&L, clean reconciliations, lender-ready reports. You stop worrying and start trusting your numbers.',
   },
 ];
 
 export function HowItWorksSection() {
   return (
-    <section id="how-it-works" className="py-20 md:py-28 bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section header */}
-        <div className="text-center mb-14">
-          <p className="text-sm font-medium tracking-wide uppercase text-emerald-700 mb-3">
+    <section id="how-it-works" className="py-32 md:py-40 bg-cream-100">
+      <div className="max-w-5xl mx-auto px-6 lg:px-8">
+        <div className="text-center mb-20">
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-sm font-medium tracking-widest uppercase text-warm-400 mb-4"
+          >
             Getting Started
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-stone-900 mb-4">
-            How It Works
-          </h2>
-          <p className="text-stone-500 max-w-xl mx-auto">
-            From messy to managed in three simple steps.
-          </p>
+          </motion.p>
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight text-warm-900"
+          >
+            Three steps to calm.
+          </motion.h2>
         </div>
-        
-        {/* Steps */}
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+        <div className="space-y-16 md:space-y-20">
           {steps.map((step, i) => (
-            <div key={i} className="relative text-center md:text-left">
-              {/* Step number */}
-              <div className="text-4xl font-bold text-emerald-100 mb-3">{step.number}</div>
-              
-              {/* Connector line (desktop only, between cards) - Adjusted logic for 3 items */}
-              {i < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-5 left-[calc(100%+0.5rem)] w-[calc(100%-1rem)] h-px bg-stone-200 -z-10" />
-              )}
-              
-              {/* Title */}
-              <h3 className="text-base font-bold text-stone-900 mb-2">{step.title}</h3>
-              
-              {/* Description */}
-              <p className="text-sm text-stone-500 leading-relaxed">{step.description}</p>
-            </div>
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1 }}
+              className="flex flex-col md:flex-row gap-8 md:gap-16 items-start"
+            >
+              <span className="text-7xl md:text-8xl font-serif font-medium text-cream-300 leading-none shrink-0">
+                {step.number}
+              </span>
+              <div className="pt-2 md:pt-4">
+                <h3 className="text-2xl md:text-3xl font-serif font-medium text-warm-900 mb-4">
+                  {step.title}
+                </h3>
+                <p className="text-lg text-warm-600 leading-relaxed max-w-xl">
+                  {step.description}
+                </p>
+              </div>
+            </motion.div>
           ))}
         </div>
-        
-        {/* Bottom CTA */}
-        <div className="text-center mt-14">
-          <a 
-            href="#book" 
-            className="inline-flex items-center justify-center bg-emerald-700 text-white px-6 py-3.5 rounded-lg text-sm font-semibold hover:bg-emerald-800 transition-all shadow-sm hover:shadow-md hover:-translate-y-px"
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mt-20"
+        >
+          <a
+            href="#book"
+            className="inline-flex items-center justify-center gap-2 bg-accent text-white px-8 py-4 rounded-full text-base font-medium hover:bg-accent-dark transition-all"
           >
-            Book a QuickBooks Clarity Call
+            Book Your Portfolio Review
+            <ArrowRight className="w-4 h-4" />
           </a>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

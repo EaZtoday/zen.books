@@ -1,20 +1,29 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HeroSection } from '../components/HeroSection';
-import { ServicesSection } from '../components/ServicesSection';
-import { PersonasSection } from '../components/PersonasSection';
-import { PainFixSection } from '../components/PainFixSection';
-import { WhyZenSection } from '../components/WhyZenSection';
 import { HowItWorksSection } from '../components/HowItWorksSection';
+import { StrategyCardsSection } from '../components/StrategyCardsSection';
+import { SmallBusinessSection } from '../components/SmallBusinessSection';
+import { WhySection } from '../components/WhySection';
+import { BookingSection } from '../components/BookingSection';
+import { PainPointToast } from '../components/PainPointToast';
+
+const homePainPoints = [
+  "I have no idea how much each property is actually making me.",
+  "My bookkeeper doesn't understand that a new roof isn't a 'repair.'",
+  "I'm years behind and the thought of tax season makes me sick.",
+];
 
 export default function Home() {
+  useEffect(() => { document.title = 'Zen Books — Bookkeeping for Real Estate Investors | Scranton, PA'; }, []);
   return (
-    <div className="flex flex-col min-h-screen">
+    <>
       <HeroSection />
-      <ServicesSection />
-      <PersonasSection />
-      <PainFixSection />
-      <WhyZenSection />
+      <StrategyCardsSection />
+      <SmallBusinessSection />
       <HowItWorksSection />
-    </div>
+      <WhySection />
+      <BookingSection />
+      <PainPointToast painPoints={homePainPoints} />
+    </>
   );
 }

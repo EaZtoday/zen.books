@@ -1,48 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
 
 /* ───────────────────────────────────────────────
-   Zen Books — Design System Tokens (Tailwind v4)
+   Zen Books — Fern Green & Coconut Cream (Premium Nature)
    ─────────────────────────────────────────────── */
 @theme {
-  /* Fonts */
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 
-  /* Brand colors */
-  --color-brand-primary: #047857;    /* emerald-700 */
-  --color-brand-primary-hover: #065f46; /* emerald-800 */
-  --color-brand-accent: #10b981;     /* emerald-500 */
-  --color-brand-surface: #ecfdf5;    /* emerald-50 */
-  --color-brand-surface-subtle: #f0fdf4; /* emerald-50/40 */
+  /* Fern Green */
+  --color-fern: #4F7942;
+  --color-fern-dark: #3E6234;
+  --color-fern-light: #6A9B58;
+  --color-fern-50: #EFF5EC;
+  --color-fern-100: #D4E8CC;
 
-  /* Neutrals & Backgrounds */
-  --color-surface-primary: #ffffff;
-  --color-surface-secondary: #F5F2ED; /* Warm beige/cream (Osome-like) */
-  --color-surface-tertiary: #EBE8E2; /* Slightly darker beige */
-  --color-border-default: #E6E2DC;   /* Beige border */
-  --color-border-subtle: rgba(230, 226, 220, 0.6);
+  /* Cognac Orange Accent */
+  --color-accent: #C8772B;
+  --color-accent-dark: #B5691F;
+  --color-accent-50: #FDF0E0;
 
-  /* Text */
-  --color-text-primary: #1c1917;     /* stone-900 */
-  --color-text-secondary: #57534e;   /* stone-600 */
-  --color-text-muted: #78716c;       /* stone-500 */
-  --color-text-on-dark: #f5f5f4;     /* stone-100 */
+  /* Coconut Cream Surfaces */
+  --color-cream: #FFFDF7;
+  --color-cream-100: #FBF5EB;
+  --color-cream-200: #F3EADB;
+  --color-cream-300: #E6DCCC;
 
-  /* Spacing scale (section-level) */
-  --spacing-section-y: 5rem;         /* py-20 */
-  --spacing-section-y-lg: 7rem;      /* py-28 */
-  --spacing-section-header-mb: 3.5rem; /* mb-14 */
+  /* Deep Forest (dark sections) */
+  --color-forest: #1A2B19;
+  --color-forest-100: #243523;
+  --color-forest-200: #2E4229;
+  --color-forest-300: #5A7553;
+  --color-forest-400: #8FA688;
+  --color-forest-500: #B5C5AD;
 
-  /* Container */
-  --container-max: 72rem;            /* max-w-6xl */
+  /* Warm Neutrals */
+  --color-warm-900: #2C2416;
+  --color-warm-600: #6B5D4F;
+  --color-warm-400: #A89A8A;
+  --color-warm-300: #C4B8A8;
 }
 
-/* Base resets */
 html {
   scroll-behavior: smooth;
-  background-color: var(--color-surface-secondary);
-  color: var(--color-text-primary);
+  background-color: #FFFDF7;
+  color: #2C2416;
 }
 
 body {
@@ -55,16 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
 }
 
-@keyframes floatShape {
-  0%, 100% { transform: translateY(0) translateX(0); }
-  50% { transform: translateY(-10px) translateX(6px); }
-}
-
-@keyframes pulseOutline {
-  0%, 92%, 100% {
-    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
-  }
-  96% {
-    box-shadow: 0 0 0 14px rgba(16, 185, 129, 0.18);
-  }
+::selection {
+  background-color: #D4E8CC;
+  color: #3E6234;
 }

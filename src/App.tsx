@@ -3,8 +3,10 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import RealEstate from './pages/RealEstate';
-import Therapists from './pages/Therapists';
+import BuyAndHold from './pages/BuyAndHold';
+import FixAndFlip from './pages/FixAndFlip';
+import Wholesale from './pages/Wholesale';
+import SmallBusinessBookkeeping from './pages/SmallBusinessBookkeeping';
 import About from './pages/About';
 import { useEffect } from 'react';
 
@@ -20,14 +22,16 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-800 font-sans selection:bg-emerald-100 selection:text-emerald-900">
+    <div className="min-h-screen bg-cream text-warm-900 font-sans">
       <ScrollToTop />
       <Navbar />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/real-estate-investors" element={<RealEstate />} />
-          <Route path="/therapists-consultants" element={<Therapists />} />
+          <Route path="/buy-and-hold" element={<BuyAndHold />} />
+          <Route path="/fix-and-flip" element={<FixAndFlip />} />
+          <Route path="/wholesale" element={<Wholesale />} />
+          <Route path="/small-business-bookkeeping" element={<SmallBusinessBookkeeping />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </main>
