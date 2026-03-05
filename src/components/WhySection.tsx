@@ -5,8 +5,8 @@ import { ShieldCheck, MessageCircle, BarChart3 } from 'lucide-react';
 const reasons = [
   {
     icon: BarChart3,
-    title: 'We Only Do Real Estate.',
-    description: 'Not a generalist bookkeeper who also "does" investors. We specialize in REI: CapEx vs. repairs, multi-entity structures, 1031 prep, lender-ready financials.',
+    title: 'We Specialize in Bookkeeping for Real Estate Investors.',
+    description: 'Not a generalist bookkeeper who also "does" investors. We live and breathe REI: CapEx vs. repairs, multi-entity structures, 1031 prep, lender-ready financials.',
   },
   {
     icon: ShieldCheck,
