@@ -48,8 +48,8 @@ const whyUs = [
   },
   {
     icon: MessageCircle,
-    title: 'Zero Judgment. Plain English.',
-    description: "We don't care how messy your books are right now. We explain everything simply so you actually understand your numbers.",
+    title: 'Clear Communication. Plain English.',
+    description: "No matter where your books stand today, we'll get them right. We explain everything simply so you actually understand your numbers.",
   },
 ];
 
@@ -91,7 +91,7 @@ export default function SmallBusinessBookkeeping() {
               Book a Free Call
               <ArrowRight className="w-4 h-4" />
             </a>
-            <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment. No judgment.</p>
+            <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment required.</p>
           </motion.div>
         </div>
       </section>

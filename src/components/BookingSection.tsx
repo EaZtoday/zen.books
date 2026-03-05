@@ -71,37 +71,6 @@ export function BookingSection() {
               Tell us about your portfolio. We'll reach out within 24 hours to schedule a no-pressure call.
             </motion.p>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-              className="space-y-4 text-forest-400 text-sm"
-            >
-              <p>No commitment required</p>
-              <p>Zero judgment — we've seen it all</p>
-              <p>We respond within 24 hours</p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4 }}
-              className="mt-10 pt-8 border-t border-forest-200"
-            >
-              <p className="text-xs font-medium tracking-widest uppercase text-forest-300 mb-4">We specialize in</p>
-              <div className="flex flex-wrap gap-2">
-                {['Buy & Hold', 'Fix & Flip', 'Wholesale', 'BRRRR', 'Multi-Family'].map((label) => (
-                  <span key={label} className="text-xs bg-forest-100 text-forest-400 px-3 py-1.5 rounded-full">
-                    {label}
-                  </span>
-                ))}
-              </div>
-              <p className="text-forest-400 mt-6 italic font-serif text-sm">
-                "We've seen worse. We don't judge."
-              </p>
-            </motion.div>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-5">

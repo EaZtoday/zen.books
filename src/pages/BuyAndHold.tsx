@@ -105,7 +105,7 @@ export default function BuyAndHold() {
             <a href="#book" className="inline-flex items-center justify-center gap-2 bg-fern text-white px-8 py-4 rounded-full text-base font-medium hover:bg-fern-dark transition-all">
               Book Your Portfolio Review <ArrowRight className="w-4 h-4" />
             </a>
-            <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment. No judgment.</p>
+            <p className="text-sm text-warm-400 mt-4">Free 30-minute call. No commitment required.</p>
           </motion.div>
         </div>
       </section>
@@ -149,7 +149,7 @@ export default function BuyAndHold() {
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-4xl font-serif font-medium text-warm-900 mb-16"
           >
-            We've seen worse. We don't judge.
+            Your books are in good hands.
           </motion.h2>
           <div className="grid gap-8 md:grid-cols-3">
             {[
