@@ -19,9 +19,9 @@ export default function Home() {
     <>
       <HeroSection />
       <StrategyCardsSection />
-      <SmallBusinessSection />
       <HowItWorksSection />
       <WhySection />
+      <SmallBusinessSection />
       <BookingSection />
       <PainPointToast painPoints={homePainPoints} />
     </>
