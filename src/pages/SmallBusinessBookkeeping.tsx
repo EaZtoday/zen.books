@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion } from 'motion/react';
-import { ArrowRight, Building2, Hammer, Repeat } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { ArrowRight, ShieldCheck, MessageCircle, Clock } from 'lucide-react';
 import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
 
@@ -36,24 +35,21 @@ const steps = [
   },
 ];
 
-const strategies = [
+const whyUs = [
   {
-    icon: Building2,
-    title: 'Buy & Hold',
-    description: 'Per-property P&L and multi-entity tracking for landlords.',
-    href: '/buy-and-hold',
+    icon: Clock,
+    title: 'Done For You, Every Month',
+    description: 'You run your business. We handle the books. No more late-night spreadsheet sessions.',
   },
   {
-    icon: Hammer,
-    title: 'Fix & Flip',
-    description: 'Per-project cost tracking and true profit on every flip.',
-    href: '/fix-and-flip',
+    icon: ShieldCheck,
+    title: 'QuickBooks Online Experts',
+    description: 'Your books live in QBO — configured correctly from day one. No spreadsheets. No guessing.',
   },
   {
-    icon: Repeat,
-    title: 'Wholesale',
-    description: 'Deal-by-deal tracking and marketing ROI for wholesalers.',
-    href: '/wholesale',
+    icon: MessageCircle,
+    title: 'Zero Judgment. Plain English.',
+    description: "We don't care how messy your books are right now. We explain everything simply so you actually understand your numbers.",
   },
 ];
 
@@ -164,64 +160,50 @@ export default function SmallBusinessBookkeeping() {
         </div>
       </section>
 
-      {/* Our Specialty — The Funnel */}
+      {/* Why Zen Books */}
       <section className="py-32 md:py-40 bg-forest">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-20">
             <motion.p
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
               className="text-sm font-medium tracking-widest uppercase text-accent mb-4"
             >
-              Our Specialty
+              Why Zen Books
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight text-white mb-6"
+              className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium tracking-tight text-white"
             >
-              We specialize in real estate investors.
+              Your books, handled.
             </motion.h2>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="text-lg text-forest-400 max-w-2xl mx-auto"
-            >
-              We serve all small businesses — and we go deepest with real estate investors. If that's you, we built something specific.
-            </motion.p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3 mb-16">
-            {strategies.map((strategy, i) => (
+          <div className="grid gap-16 md:grid-cols-3 text-center">
+            {whyUs.map((item, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
               >
-                <Link
-                  to={strategy.href}
-                  className="block p-10 rounded-3xl border border-white/[0.08] bg-white/[0.03] backdrop-blur-sm hover:bg-white/[0.1] hover:border-white/20 hover:shadow-[0_8px_40px_rgba(255,255,255,0.06)] hover:backdrop-blur-xl transition-all duration-500 group h-full"
-                >
-                  <strategy.icon className="w-8 h-8 text-fern-light mb-6" />
-                  <h3 className="text-2xl font-serif font-medium text-white mb-4">{strategy.title}</h3>
-                  <p className="text-forest-400 leading-relaxed text-lg mb-8">{strategy.description}</p>
-                  <span className="inline-flex items-center gap-2 text-fern-light font-medium group-hover:gap-3 transition-all">
-                    Learn more <ArrowRight className="w-4 h-4" />
-                  </span>
-                </Link>
+                <div className="w-14 h-14 bg-white/[0.06] rounded-2xl flex items-center justify-center mx-auto mb-6">
+                  <item.icon className="w-7 h-7 text-fern-light" />
+                </div>
+                <h3 className="text-xl font-serif font-medium text-white mb-4">{item.title}</h3>
+                <p className="text-forest-400 leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
           </div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="text-center"
+            className="text-center mt-16"
           >
-            <p className="text-forest-400 text-lg mb-6">Not a real estate investor? We still help.</p>
             <a
               href="#book"
-              className="inline-flex items-center justify-center gap-2 border border-forest-300 text-forest-500 px-8 py-4 rounded-full text-base font-medium hover:border-fern-light hover:text-fern-light transition-all"
+              className="inline-flex items-center justify-center gap-2 bg-fern text-white px-8 py-4 rounded-full text-base font-medium hover:bg-fern-dark transition-all"
             >
-              Book a Call — Any Business
+              Book a Free Call
               <ArrowRight className="w-4 h-4" />
             </a>
           </motion.div>
