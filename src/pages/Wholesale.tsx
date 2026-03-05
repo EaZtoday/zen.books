@@ -135,35 +135,28 @@ export default function Wholesale() {
         </div>
       </section>
 
-      {/* Social Proof */}
-      <section className="py-20 md:py-28 bg-cream">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <motion.p
-            initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="text-sm font-medium tracking-widest uppercase text-fern mb-6"
-          >
-            Why wholesalers trust Zen Books
-          </motion.p>
+      {/* How It Works */}
+      <section className="py-32 md:py-40 bg-cream-100">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="text-3xl md:text-4xl font-serif font-medium text-warm-900 mb-16"
+            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
           >
-            Your books are in good hands.
+            How it works.
           </motion.h2>
-          <div className="grid gap-8 md:grid-cols-3">
-            {[
-              { stat: 'Per-deal', label: 'True profit on every assignment and double close' },
-              { stat: 'Marketing ROI', label: 'Know which channel brings the best deals' },
-              { stat: 'Multi-entity', label: 'All your LLCs tracked clean and separate' },
-            ].map((item, i) => (
+          <div className="space-y-16">
+            {steps.map((step, i) => (
               <motion.div
                 key={i}
-                initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+                initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
+                className="flex flex-col md:flex-row gap-8 md:gap-16 items-start"
               >
-                <p className="text-2xl font-serif font-medium text-fern mb-2">{item.stat}</p>
-                <p className="text-warm-600 text-sm leading-relaxed">{item.label}</p>
+                <span className="text-7xl font-serif font-medium text-cream-300 leading-none shrink-0">{step.num}</span>
+                <div className="pt-2 md:pt-4">
+                  <h3 className="text-2xl font-serif font-medium text-warm-900 mb-3">{step.title}</h3>
+                  <p className="text-lg text-warm-600 leading-relaxed">{step.desc}</p>
+                </div>
               </motion.div>
             ))}
           </div>
@@ -200,34 +193,6 @@ export default function Wholesale() {
                 <a href="#book" className={`mt-10 text-center py-3.5 rounded-full font-medium transition-all ${pkg.featured ? 'bg-white text-warm-900 hover:bg-cream-100' : 'border border-cream-300 text-warm-900 hover:border-warm-400'}`}>
                   Book a Free Review
                 </a>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* How It Works */}
-      <section className="py-32 md:py-40 bg-cream-100">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-serif font-medium tracking-tight text-warm-900 text-center mb-20"
-          >
-            How it works.
-          </motion.h2>
-          <div className="space-y-16">
-            {steps.map((step, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-                className="flex flex-col md:flex-row gap-8 md:gap-16 items-start"
-              >
-                <span className="text-7xl font-serif font-medium text-cream-300 leading-none shrink-0">{step.num}</span>
-                <div className="pt-2 md:pt-4">
-                  <h3 className="text-2xl font-serif font-medium text-warm-900 mb-3">{step.title}</h3>
-                  <p className="text-lg text-warm-600 leading-relaxed">{step.desc}</p>
-                </div>
               </motion.div>
             ))}
           </div>
