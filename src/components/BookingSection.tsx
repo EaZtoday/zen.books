@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Send, Heart } from 'lucide-react';
 import { motion } from 'motion/react';
+import { trackEvent } from '../analytics';
 
 export function BookingSection() {
   const [formData, setFormData] = useState({
@@ -14,6 +15,7 @@ export function BookingSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    trackEvent('form_submit', 'booking', formData.investorType);
     setSubmitted(true);
   };
 

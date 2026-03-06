@@ -29,6 +29,14 @@ export default function Footer() {
             <Link to="/lehigh-valley-bookkeeping" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Lehigh Valley</Link>
           </div>
         </div>
+        <div className="mt-4 pt-4 border-t border-cream-200 flex flex-col md:flex-row justify-between items-center gap-4">
+          <span className="text-xs text-warm-400 font-medium">Resources</span>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="https://github.com/EaZtoday/awesome-seo" target="_blank" rel="noopener noreferrer" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">SEO Resources</a>
+            <a href="https://github.com/EaZtoday/awesome-content-marketing" target="_blank" rel="noopener noreferrer" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Content Marketing Resources</a>
+            <a href="https://github.com/EaZtoday/marketingskills" target="_blank" rel="noopener noreferrer" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Marketing Skills</a>
+          </div>
+        </div>
       </div>
     </footer>
   );

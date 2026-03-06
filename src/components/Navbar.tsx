@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { trackBookingClick } from '../analytics';
 
 const strategies = [
   { label: 'Buy & Hold', href: '/buy-and-hold' },
@@ -65,6 +66,7 @@ export default function Navbar() {
 
             <a
               href="#book"
+              onClick={() => trackBookingClick('navbar')}
               className="bg-fern text-white px-5 py-2 rounded-full text-[13px] font-medium hover:bg-fern-dark transition-all"
             >
               Book a Call
@@ -105,7 +107,7 @@ export default function Navbar() {
               className="block py-3 text-sm text-warm-600 hover:text-warm-900 transition-colors">
               About
             </Link>
-            <a href="#book" onClick={() => setMobileOpen(false)}
+            <a href="#book" onClick={() => { trackBookingClick('mobile-nav'); setMobileOpen(false); }}
               className="block mt-4 text-center bg-fern text-white px-5 py-3 rounded-full text-sm font-medium">
               Book a Call
             </a>
