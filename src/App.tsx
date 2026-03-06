@@ -8,6 +8,10 @@ import FixAndFlip from './pages/FixAndFlip';
 import Wholesale from './pages/Wholesale';
 import SmallBusinessBookkeeping from './pages/SmallBusinessBookkeeping';
 import About from './pages/About';
+import ScrantonBookkeeping from './pages/locations/ScrantonBookkeeping';
+import WilkesBarreNEPA from './pages/locations/WilkesBarreNEPA';
+import PoconosBookkeeping from './pages/locations/PoconosBookkeeping';
+import LehighValleyBookkeeping from './pages/locations/LehighValleyBookkeeping';
 import { useEffect } from 'react';
 
 function ScrollToTop() {
@@ -33,6 +37,10 @@ export default function App() {
           <Route path="/wholesale" element={<Wholesale />} />
           <Route path="/small-business-bookkeeping" element={<SmallBusinessBookkeeping />} />
           <Route path="/about" element={<About />} />
+          <Route path="/scranton-bookkeeping" element={<ScrantonBookkeeping />} />
+          <Route path="/wilkes-barre-nepa-bookkeeping" element={<WilkesBarreNEPA />} />
+          <Route path="/poconos-bookkeeping" element={<PoconosBookkeeping />} />
+          <Route path="/lehigh-valley-bookkeeping" element={<LehighValleyBookkeeping />} />
         </Routes>
       </main>
       <Footer />

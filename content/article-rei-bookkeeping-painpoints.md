@@ -1,3 +1,11 @@
+---
+title: "5 Bookkeeping Mistakes That Cost Real Estate Investors Thousands Every Year"
+description: "The 5 most common bookkeeping mistakes real estate investors make — per-property P&L, CapEx vs repairs, catch-up bookkeeping, multi-entity management, and marketing ROI tracking."
+keywords: ["real estate investor bookkeeping", "bookkeeping mistakes", "per-property P&L", "CapEx vs repairs", "catch-up bookkeeping", "multi-entity bookkeeping", "QuickBooks for landlords"]
+author: "Zen Books"
+date: "2025-01-15"
+---
+
 # 5 Bookkeeping Mistakes That Cost Real Estate Investors Thousands Every Year
 
 *And how to fix them before your next tax season.*

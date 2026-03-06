@@ -6,10 +6,13 @@
     <title>Zen Books — Bookkeeping for Real Estate Investors | Scranton, PA</title>
     <meta name="description" content="Judgment-free QuickBooks bookkeeping for real estate investors. Per-property P&L, multi-entity tracking, lender-ready reports. Buy & hold, fix & flip, wholesale. Scranton, PA." />
 
+    <link rel="canonical" href="https://zen.books/" />
+
     <!-- Open Graph -->
     <meta property="og:title" content="Zen Books — Bookkeeping for Real Estate Investors" />
     <meta property="og:description" content="QuickBooks bookkeeping built for real estate investors. Per-property P&L, multi-entity tracking, lender-ready reports." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zen.books/" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter -->
@@ -17,19 +20,39 @@
     <meta name="twitter:title" content="Zen Books — Bookkeeping for Real Estate Investors" />
     <meta name="twitter:description" content="QuickBooks bookkeeping built for real estate investors. Clean books every month, in plain English." />
 
-    <!-- Structured Data: LocalBusiness -->
+    <!-- Structured Data: ProfessionalService -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "Zen Books",
-      "description": "Judgment-free QuickBooks bookkeeping for real estate investors. Buy & hold, fix & flip, and wholesale.",
-      "areaServed": "US",
+      "url": "https://zen.books",
+      "description": "Judgment-free QuickBooks bookkeeping for real estate investors. Buy & hold, fix & flip, and wholesale. Serving Scranton, Wilkes-Barre, the Poconos, and the Lehigh Valley.",
+      "areaServed": [
+        { "@type": "City", "name": "Scranton, PA" },
+        { "@type": "AdministrativeArea", "name": "Lackawanna County, PA" },
+        { "@type": "City", "name": "Wilkes-Barre, PA" },
+        { "@type": "AdministrativeArea", "name": "Luzerne County, PA" },
+        { "@type": "AdministrativeArea", "name": "Monroe County, PA" },
+        { "@type": "AdministrativeArea", "name": "Pocono Mountains, PA" },
+        { "@type": "AdministrativeArea", "name": "Lehigh Valley, PA" }
+      ],
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Scranton",
         "addressRegion": "PA",
         "addressCountry": "US"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bookkeeping Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Catch-Up Bookkeeping" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Monthly Bookkeeping" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Multi-Entity Bookkeeping" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Per-Property P&L Reporting" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lender-Ready Financial Reports" } }
+        ]
       },
       "serviceType": ["Real Estate Investor Bookkeeping", "QuickBooks Online Setup", "Property-Level Financial Reporting", "Catch-Up Bookkeeping", "Multi-Entity Bookkeeping"],
       "priceRange": "$$"

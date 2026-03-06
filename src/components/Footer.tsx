@@ -20,6 +20,15 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Zen Books &middot; Scranton, PA
           </p>
         </div>
+        <div className="mt-6 pt-6 border-t border-cream-200 flex flex-col md:flex-row justify-between items-center gap-4">
+          <span className="text-xs text-warm-400 font-medium">Service Areas</span>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link to="/scranton-bookkeeping" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Scranton</Link>
+            <Link to="/wilkes-barre-nepa-bookkeeping" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Wilkes-Barre & NEPA</Link>
+            <Link to="/poconos-bookkeeping" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Poconos</Link>
+            <Link to="/lehigh-valley-bookkeeping" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Lehigh Valley</Link>
+          </div>
+        </div>
       </div>
     </footer>
   );
