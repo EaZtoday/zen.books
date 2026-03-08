@@ -35,18 +35,17 @@ export const scrantonData: LocationData = {
   region: 'Scranton, PA',
   heroTag: 'Scranton, PA — Our Home Base',
   heroHeadline: 'Investor bookkeeping,\nright here in Scranton.',
-  heroSubhead: 'We live here. We invest here. We understand Lackawanna County real estate inside and out — and we keep your books clean so you can focus on your next deal.',
+  heroSubhead: 'We understand Lackawanna County real estate inside and out — and we keep your books clean so you can focus on your next deal.',
   marketInsight: {
     title: 'The Scranton investor landscape.',
     paragraphs: [
       'Scranton has quietly become one of the best cash-flow markets in the Northeast. Affordable multi-family housing stock, a growing rental population anchored by the University of Scranton and Marywood University, and ongoing downtown revitalization have created real opportunity for buy-and-hold investors.',
       'Lackawanna County\'s property tax structure rewards investors who understand their numbers. With median home prices well below the national average, investors can achieve strong cap rates — but only if they track income and expenses at the property level. Too many local landlords rely on spreadsheets or shoeboxes and miss deductions that cost them thousands every year.',
-      'As a Scranton-based firm, we offer something most remote bookkeepers can\'t: the option to meet in person. Whether you prefer face-to-face portfolio reviews or fully remote service, we\'re flexible. We know the local market, the local tax quirks, and the local investor community.',
+      'We know the local market, the local tax quirks, and the local investor community — and we keep your books clean so you can focus on your next deal.',
     ],
     stats: [
       { label: 'Median home price', value: 'Below national avg' },
       { label: 'University rental demand', value: '2 major universities' },
-      { label: 'In-person meetings', value: 'Available locally' },
     ],
   },
   investorChallenges: {
@@ -68,7 +67,7 @@ export const scrantonData: LocationData = {
     ],
   },
   faqs: [
-    { q: 'Can we meet in person?', a: 'Yes! We\'re based in Scranton and happy to meet locally for portfolio reviews or onboarding. We also work fully remotely if you prefer.' },
+    { q: 'How do we get started?', a: 'Book a free Portfolio Review call. We\'ll look at your current setup, identify what needs fixing, and map out a plan to get your books clean.' },
     { q: 'Do you understand Lackawanna County tax assessments?', a: 'Absolutely. We\'re familiar with local property tax structures, reassessment cycles, and how they affect your operating expenses and cash flow projections.' },
     { q: 'I only have 2-3 rental properties. Is that too small?', a: 'Not at all. We work with investors starting at 3 units. Clean books pay for themselves the first time you refinance, sell, or file taxes.' },
     { q: 'Do you work with my CPA at tax time?', a: 'Yes. We prepare clean, year-end books and hand them directly to your CPA. Many local CPAs already know us.' },
@@ -101,12 +100,11 @@ export const wilkesBarreData: LocationData = {
     paragraphs: [
       'Luzerne County offers some of the most affordable entry points for real estate investors in the Northeast. Wilkes-Barre, Hazleton, and Pittston each have distinct micro-markets — from college-town rentals near King\'s College and Wilkes University to Hazleton\'s rapidly growing population attracting new investor interest.',
       'But affordability comes with bookkeeping complexity. Many NEPA properties sit in flood zones, adding insurance costs that need proper categorization. Multiple small municipalities mean different tax rates and assessment systems. And the region\'s coal heritage means some properties carry environmental remediation costs that need careful tracking.',
-      'We\'re based just 20 minutes up the road in Scranton and serve investors throughout the Wyoming Valley and greater NEPA region. Whether you own a few duplexes in the Heights or a portfolio scattered across Luzerne County, we keep your books clean and your numbers clear.',
+      'We serve investors throughout the Wyoming Valley and greater NEPA region. Whether you own a few duplexes in the Heights or a portfolio scattered across Luzerne County, we keep your books clean and your numbers clear.',
     ],
     stats: [
       { label: 'Entry price point', value: 'Among lowest in NE' },
       { label: 'College rental corridors', value: '2 universities' },
-      { label: 'Distance from our office', value: '~20 minutes' },
     ],
   },
   investorChallenges: {
@@ -130,7 +128,7 @@ export const wilkesBarreData: LocationData = {
   faqs: [
     { q: 'I have properties in both Wilkes-Barre and Scranton. Can you handle that?', a: 'Absolutely. We serve investors across all of NEPA. Properties in different counties just mean different tax tracking — which we handle automatically.' },
     { q: 'How do you handle flood insurance in the books?', a: 'We categorize flood insurance separately from standard property insurance so you can see the true cost impact on each property\'s P&L.' },
-    { q: 'Do you come to Wilkes-Barre for meetings?', a: 'We\'re based in Scranton, about 20 minutes away. We\'re happy to meet in person or work fully remotely — whatever you prefer.' },
+    { q: 'How do we get started?', a: 'Book a free Portfolio Review call. We\'ll look at your current setup and build a plan to get your books clean and organized.' },
     { q: 'I own properties in Hazleton. Is that too far?', a: 'Not at all. We serve investors throughout Luzerne County and beyond. Bookkeeping is done remotely through QuickBooks Online, so distance doesn\'t matter.' },
     { q: 'My properties are in a flood zone — does that complicate bookkeeping?', a: 'It adds a line item, not complexity. We track flood insurance premiums, any FEMA-related costs, and property improvements separately so your P&L stays accurate.' },
   ],
@@ -164,7 +162,7 @@ export const poconosData: LocationData = {
     paragraphs: [
       'The Pocono Mountains have become one of the hottest real estate investment markets in the Northeast. Monroe County alone has seen a 270% land turnover ratio and significant annual appreciation, driven by NYC and North Jersey investors buying vacation rentals, short-term rental properties, and conversion opportunities.',
       'But Poconos investing creates bookkeeping complexity that most general bookkeepers can\'t handle. Short-term rental income from Airbnb and VRBO needs reconciliation against platform fees, cleaning costs, and occupancy taxes. Seasonal cash flow swings make monthly P&L unpredictable. And many investors live in New York or New Jersey while owning properties in Pennsylvania — creating multi-state tax considerations.',
-      'We understand the Poconos market because we\'re just an hour north in Scranton. We work with investors who own one cabin or a portfolio of vacation properties, keeping books clean for both in-state and out-of-state owners. If you\'re managing STR properties in the Poconos, you need a bookkeeper who understands platform income, seasonal patterns, and PA tax requirements.',
+      'We work with investors who own one cabin or a portfolio of vacation properties, keeping books clean for both in-state and out-of-state owners. If you\'re managing STR properties in the Poconos, you need a bookkeeper who understands platform income, seasonal patterns, and PA tax requirements.',
     ],
     stats: [
       { label: 'Land turnover ratio', value: '270% in Monroe Co.' },
@@ -227,7 +225,7 @@ export const lehighValleyData: LocationData = {
     paragraphs: [
       'The Lehigh Valley is one of Pennsylvania\'s fastest-growing real estate markets. Proximity to both New York City and Philadelphia drives strong appreciation, while the ongoing transformation of former industrial sites — including the Bethlehem Steel campus — has created new investment corridors that attract both local and out-of-market capital.',
       'Allentown, Bethlehem, and Easton each offer distinct investor profiles. Allentown has significant fix-and-flip activity with higher deal volumes. Bethlehem attracts buy-and-hold investors drawn to stable rental demand. Easton is an emerging market with lower entry prices and strong upside potential. The common thread? Investors here need bookkeeping that can handle higher volume and faster deal cycles.',
-      'We serve Lehigh Valley investors remotely from our Scranton office, about an hour north on I-476. Our QuickBooks Online workflow means you get the same per-property P&L, multi-entity tracking, and lender-ready reports as our local clients — with zero travel time.',
+      'We serve Lehigh Valley investors with the same per-property P&L, multi-entity tracking, and lender-ready reports that our NEPA clients rely on. Clean books, clear numbers, no matter where your properties are.',
     ],
     stats: [
       { label: 'Market position', value: 'Fastest-growing in PA' },
@@ -254,7 +252,7 @@ export const lehighValleyData: LocationData = {
     ],
   },
   faqs: [
-    { q: 'I\'m in Allentown — is Scranton too far?', a: 'We work fully remotely through QuickBooks Online. Most of our Lehigh Valley clients never need an in-person meeting. Everything is handled through secure cloud access and video calls.' },
+    { q: 'I\'m in Allentown — can you still help?', a: 'Absolutely. We serve investors across the Lehigh Valley and beyond. Location doesn\'t matter — we\'ll keep your books clean wherever your properties are.' },
     { q: 'Do you work with fix-and-flip investors doing 10+ deals per year?', a: 'Yes. High-volume flippers are one of our specialties. We track each project individually so you know your true ROI on every deal.' },
     { q: 'Can you handle partnership deals?', a: 'Absolutely. We track capital contributions, distributions, preferred returns, and profit splits. Your partners get clear reporting and your accountant gets clean data at year-end.' },
     { q: 'I use hard money lenders. Can you track draw schedules?', a: 'Yes. We track each draw, interest accrual, and payoff against the corresponding project. Your lender relationship stays clean and documented.' },

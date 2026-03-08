@@ -5,9 +5,6 @@ import { MapPin } from 'lucide-react';
 import { HeroSection } from '../components/HeroSection';
 import { HowItWorksSection } from '../components/HowItWorksSection';
 import { StrategyCardsSection } from '../components/StrategyCardsSection';
-import { SmallBusinessSection } from '../components/SmallBusinessSection';
-import { WhySection } from '../components/WhySection';
-import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
 import SeoHead from '../components/SeoHead';
 
@@ -27,9 +24,7 @@ export default function Home() {
       />
       <HeroSection />
       <StrategyCardsSection />
-      <SmallBusinessSection />
       <HowItWorksSection />
-      <WhySection />
 
       {/* Areas We Serve */}
       <section className="py-20 md:py-28 bg-cream-100">
@@ -45,7 +40,7 @@ export default function Home() {
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-4xl font-serif font-medium text-warm-900 mb-6"
           >
-            Based in Scranton. Serving investors across NEPA and beyond.
+            Serving investors across NEPA and beyond.
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
@@ -77,7 +72,6 @@ export default function Home() {
         </div>
       </section>
 
-      <BookingSection />
       <PainPointToast painPoints={homePainPoints} />
     </>
   );
