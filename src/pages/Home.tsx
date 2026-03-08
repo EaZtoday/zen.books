@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { MapPin } from 'lucide-react';
@@ -9,6 +9,7 @@ import { SmallBusinessSection } from '../components/SmallBusinessSection';
 import { WhySection } from '../components/WhySection';
 import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
+import SeoHead from '../components/SeoHead';
 
 const homePainPoints = [
   "I have no idea how much each property is actually making me.",
@@ -17,9 +18,13 @@ const homePainPoints = [
 ];
 
 export default function Home() {
-  useEffect(() => { document.title = 'Zen Books — Bookkeeping for Real Estate Investors | Scranton, PA'; }, []);
   return (
     <>
+      <SeoHead
+        title="Zen Books — Bookkeeping for Real Estate Investors | Scranton, PA"
+        description="Judgment-free QuickBooks bookkeeping for real estate investors. Per-property P&L, multi-entity tracking, lender-ready reports. Buy & hold, fix & flip, wholesale. Scranton, PA."
+        path="/"
+      />
       <HeroSection />
       <StrategyCardsSection />
       <SmallBusinessSection />

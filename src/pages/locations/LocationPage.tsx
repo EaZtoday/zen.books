@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ArrowRight, CheckCircle, MapPin } from 'lucide-react';
 import { BookingSection } from '../../components/BookingSection';
 import { PainPointToast } from '../../components/PainPointToast';
 import { LocationSchema } from './LocationSchema';
+import SeoHead from '../../components/SeoHead';
 import type { LocationData } from './locationData';
 
 const painPoints = [
@@ -14,14 +15,13 @@ const painPoints = [
 ];
 
 export default function LocationPage({ data }: { data: LocationData }) {
-  useEffect(() => {
-    document.title = data.pageTitle;
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute('content', data.metaDescription);
-  }, [data]);
-
   return (
     <>
+      <SeoHead
+        title={data.pageTitle}
+        description={data.metaDescription}
+        path={`/${data.slug}`}
+      />
       <LocationSchema data={data} />
 
       {/* Hero */}

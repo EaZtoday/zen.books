@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
+import SeoHead from '../components/SeoHead';
+import ServiceSchema from '../components/ServiceSchema';
 
 const pains = [
   "I need to know my true profit on every flip — not a guess.",
@@ -73,9 +75,19 @@ const faqs = [
 ];
 
 export default function FixAndFlip() {
-  useEffect(() => { document.title = 'Bookkeeping for Fix & Flip Investors — Zen Books'; }, []);
   return (
     <>
+      <SeoHead
+        title="Bookkeeping for House Flipping & Real Estate Flips — Zen Books"
+        description="Bookkeeping for house flippers and real estate flips. Per-project cost tracking, rehab budgets, and true profit on every flip. QuickBooks bookkeeping by Zen Books, Scranton PA."
+        path="/fix-and-flip"
+      />
+      <ServiceSchema
+        serviceName="House Flipping & Real Estate Flip Bookkeeping"
+        serviceDescription="QuickBooks bookkeeping for house flippers and real estate flip investors. Per-project cost tracking, rehab budget vs. actual, hard money loan tracking, and true profit calculations on every flip."
+        path="/fix-and-flip"
+        faqs={faqs}
+      />
       {/* Hero */}
       <section className="min-h-screen flex items-center justify-center bg-cream relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-fern-50/50 via-cream to-cream" />

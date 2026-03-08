@@ -12,6 +12,7 @@ import ScrantonBookkeeping from './pages/locations/ScrantonBookkeeping';
 import WilkesBarreNEPA from './pages/locations/WilkesBarreNEPA';
 import PoconosBookkeeping from './pages/locations/PoconosBookkeeping';
 import LehighValleyBookkeeping from './pages/locations/LehighValleyBookkeeping';
+import NotFound from './pages/NotFound';
 import { useEffect } from 'react';
 
 function ScrollToTop() {
@@ -41,6 +42,7 @@ export default function App() {
           <Route path="/wilkes-barre-nepa-bookkeeping" element={<WilkesBarreNEPA />} />
           <Route path="/poconos-bookkeeping" element={<PoconosBookkeeping />} />
           <Route path="/lehigh-valley-bookkeeping" element={<LehighValleyBookkeeping />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
