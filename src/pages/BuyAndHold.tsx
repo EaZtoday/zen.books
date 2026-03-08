@@ -5,7 +5,6 @@ import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
 import SeoHead from '../components/SeoHead';
 import ServiceSchema from '../components/ServiceSchema';
-import ServiceSchema from '../components/ServiceSchema';
 
 const pains = [
   "I just want to know how much each door is actually making me.",
@@ -82,12 +81,6 @@ export default function BuyAndHold() {
         title="Bookkeeping for Buy & Hold Investors — Zen Books"
         description="Per-property P&L, multi-entity tracking, and lender-ready financials for buy and hold real estate investors. QuickBooks bookkeeping by Zen Books, Scranton PA."
         path="/buy-and-hold"
-      />
-      <ServiceSchema
-        serviceName="Buy & Hold Investor Bookkeeping"
-        serviceDescription="QuickBooks bookkeeping for buy and hold real estate investors. Per-property P&L, multi-entity tracking, CapEx classification, and lender-ready financial reports."
-        path="/buy-and-hold"
-        faqs={faqs}
       />
       <ServiceSchema
         serviceName="Buy & Hold Investor Bookkeeping"
