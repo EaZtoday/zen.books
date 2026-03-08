@@ -5,6 +5,7 @@ import { MapPin } from 'lucide-react';
 import { HeroSection } from '../components/HeroSection';
 import { HowItWorksSection } from '../components/HowItWorksSection';
 import { StrategyCardsSection } from '../components/StrategyCardsSection';
+import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
 import SeoHead from '../components/SeoHead';
 
@@ -72,6 +73,7 @@ export default function Home() {
         </div>
       </section>
 
+      <BookingSection />
       <PainPointToast painPoints={homePainPoints} />
     </>
   );
