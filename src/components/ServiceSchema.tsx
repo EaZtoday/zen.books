@@ -33,10 +33,16 @@ export default function ServiceSchema({ serviceName, serviceDescription, path, f
           addressCountry: 'US',
         },
       },
-      areaServed: {
-        '@type': 'State',
-        name: 'Pennsylvania',
-      },
+      areaServed: [
+        { '@type': 'City', name: 'Scranton, PA' },
+        { '@type': 'AdministrativeArea', name: 'Lackawanna County, PA' },
+        { '@type': 'City', name: 'Wilkes-Barre, PA' },
+        { '@type': 'AdministrativeArea', name: 'Luzerne County, PA' },
+        { '@type': 'AdministrativeArea', name: 'Monroe County, PA' },
+        { '@type': 'AdministrativeArea', name: 'Pocono Mountains, PA' },
+        { '@type': 'AdministrativeArea', name: 'Lehigh Valley, PA' },
+        { '@type': 'State', name: 'Pennsylvania' },
+      ],
       url: `https://zen.books${path}`,
     });
 
