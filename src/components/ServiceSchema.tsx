@@ -25,7 +25,7 @@ export default function ServiceSchema({ serviceName, serviceDescription, path, f
       provider: {
         '@type': 'ProfessionalService',
         name: 'Zen Books',
-        url: 'https://zen.books',
+        url: 'https://zenbooks4u.com',
         address: {
           '@type': 'PostalAddress',
           addressLocality: 'Scranton',
@@ -43,7 +43,7 @@ export default function ServiceSchema({ serviceName, serviceDescription, path, f
         { '@type': 'AdministrativeArea', name: 'Lehigh Valley, PA' },
         { '@type': 'State', name: 'Pennsylvania' },
       ],
-      url: `https://zen.books${path}`,
+      url: `https://zenbooks4u.com${path}`,
     });
 
     const faqScript = document.createElement('script');

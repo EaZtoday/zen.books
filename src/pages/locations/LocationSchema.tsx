@@ -11,7 +11,7 @@ export function LocationSchema({ data }: { data: LocationData }) {
       '@type': 'ProfessionalService',
       name: 'Zen Books',
       description: `Real estate investor bookkeeping serving ${data.region}`,
-      url: `https://zen.books/${data.slug}`,
+      url: `https://zenbooks4u.com/${data.slug}`,
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Scranton',

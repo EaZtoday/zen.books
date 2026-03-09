@@ -8,7 +8,7 @@ interface SeoHeadProps {
   noindex?: boolean;
 }
 
-const BASE_URL = 'https://zen.books';
+const BASE_URL = 'https://zenbooks4u.com';
 
 /**
  * Manages per-page SEO meta tags: title, description, canonical, Open Graph, Twitter Card.

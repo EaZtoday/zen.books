@@ -78,7 +78,7 @@ That's exactly what we built Zen Books to solve. We're a QuickBooks bookkeeping 
 
 **If any of these mistakes sound familiar, let's talk.** We'll do a free 30-minute review of your current setup — no judgment, no sales pitch. Just a clear look at where your books stand and what it would take to fix them.
 
-[Book a Free Call →](https://zen.books)
+[Book a Free Call →](https://zenbooks4u.com)
 
 ---
 
