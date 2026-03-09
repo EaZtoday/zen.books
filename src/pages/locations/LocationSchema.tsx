@@ -21,6 +21,12 @@ export function LocationSchema({ data }: { data: LocationData }) {
       areaServed: data.schema.areaServed,
       serviceType: [
         'Real Estate Investor Bookkeeping',
+        'Landlord Bookkeeping',
+        'Fix and Flip Bookkeeping',
+        'Real Estate Wholesaler Bookkeeping',
+        'Rental Property Bookkeeping',
+        'Airbnb Bookkeeping',
+        'Small Business Bookkeeping',
         'QuickBooks Online Setup',
         'Property-Level Financial Reporting',
         'Catch-Up Bookkeeping',

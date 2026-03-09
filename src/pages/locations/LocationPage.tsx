@@ -79,7 +79,7 @@ export default function LocationPage({ data }: { data: LocationData }) {
               </motion.p>
             ))}
           </div>
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className={`grid gap-8 ${data.marketInsight.stats.length === 4 ? 'md:grid-cols-4' : 'md:grid-cols-3'}`}>
             {data.marketInsight.stats.map((stat, i) => (
               <motion.div
                 key={i}
