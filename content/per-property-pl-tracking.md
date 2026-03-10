@@ -1,7 +1,7 @@
 ---
 title: "Per-Property P&L: How to Know What Each Door Is Actually Making You"
 description: "If you can't pull up a profit and loss statement for each rental property in under a minute, your books aren't working for you. Here's what per-property tracking actually looks like and why it changes everything."
-keywords: ["per property P&L rental", "rental property profit and loss", "per door tracking QuickBooks", "landlord bookkeeping", "real estate investor financial reporting"]
+keywords: ["rental property P&L tracking", "per property profit and loss", "per door tracking QuickBooks", "rental property financial reporting", "property level bookkeeping landlord"]
 author: "Pamella Zarnoff"
 date: "2026-02-01"
 slug: "per-property-pl-tracking"
@@ -91,13 +91,13 @@ This is where it gets detailed. Per-property expenses should include:
 
 **Insurance.** Same issue as taxes — often escrowed, needs to be allocated properly.
 
-**Capital expenditures.** Major improvements get capitalized and depreciated on their own depreciation schedule, tracked at the property level.
+**[Capital expenditures](/blog/capex-vs-repairs).** Major improvements get capitalized and depreciated on their own depreciation schedule, tracked at the property level. Getting this classification right matters — a lot.
 
 ---
 
 ## Multi-Entity Complications
 
-If you hold properties in multiple LLCs — which you probably should for asset protection — per-property tracking has an additional layer.
+If you hold properties in multiple LLCs — which you probably should for asset protection — per-property tracking has an additional layer. We cover this in depth in our guide to [multi-entity LLC bookkeeping](/blog/multi-entity-llc-bookkeeping).
 
 Each LLC needs its own QuickBooks file (or at minimum its own company within QBO). Intercompany transfers between entities need to be recorded as loans or equity contributions, not just expenses. And you need a way to see your whole portfolio's performance across all entities, not just each one in isolation.
 

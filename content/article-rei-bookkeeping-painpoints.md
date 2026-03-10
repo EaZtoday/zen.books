@@ -1,7 +1,7 @@
 ---
 title: "5 Bookkeeping Mistakes That Cost Real Estate Investors Thousands Every Year"
 description: "The 5 most common bookkeeping mistakes real estate investors make — per-property P&L, CapEx vs repairs, catch-up bookkeeping, multi-entity management, and marketing ROI tracking."
-keywords: ["real estate investor bookkeeping", "bookkeeping mistakes", "per-property P&L", "CapEx vs repairs", "catch-up bookkeeping", "multi-entity bookkeeping", "QuickBooks for landlords"]
+keywords: ["real estate bookkeeping mistakes", "bookkeeping mistakes landlords", "real estate investor bookkeeping errors", "rental property bookkeeping problems", "QuickBooks mistakes real estate"]
 author: "Pamella Zarnoff"
 date: "2025-01-15"
 slug: "5-bookkeeping-mistakes-real-estate-investors"
@@ -26,7 +26,7 @@ You know your portfolio is "doing okay" — but can you pull up a profit-and-los
 
 Without per-property tracking, you're flying blind. You don't know which rentals are cash-flowing and which ones are quietly bleeding you dry. That "good deal" you bought two years ago? It might be your worst performer — but you'd never know without the numbers broken out.
 
-**The fix:** Every property needs its own P&L. Income, expenses, mortgage, maintenance — all tracked separately. That's the only way to make real decisions about what to hold, what to sell, and where to invest next.
+**The fix:** Every property needs its own P&L. Income, expenses, mortgage, maintenance — all tracked separately. That's the only way to make real decisions about what to hold, what to sell, and where to invest next. We wrote a full guide on [per-property P&L tracking](/blog/per-property-pl-tracking) — start there.
 
 ---
 
@@ -36,7 +36,7 @@ This one is expensive. A general bookkeeper sees a $15,000 roof replacement and 
 
 The difference? Thousands of dollars in tax liability. And it goes both ways — sometimes expenses that *should* be deducted immediately get capitalized instead.
 
-**The fix:** Your bookkeeper needs to understand the difference between repairs (fixing what's broken) and improvements (adding value or extending useful life). If they don't speak real estate, they're costing you money every single quarter.
+**The fix:** Your bookkeeper needs to understand the difference between repairs (fixing what's broken) and improvements (adding value or extending useful life). If they don't speak real estate, they're costing you money every single quarter. We break down the exact rules in our guide to [CapEx vs. repairs classification](/blog/capex-vs-repairs).
 
 ---
 
@@ -56,7 +56,7 @@ You've got an acquisition LLC, a holding company, maybe a property management en
 
 Commingling funds between entities, missing intercompany transfers, or just dumping everything into one QuickBooks file defeats the entire purpose of having separate LLCs. And if the IRS or a lawsuit ever comes knocking, sloppy books can pierce that corporate veil faster than anything.
 
-**The fix:** Each entity needs its own clean set of books. Transfers between entities need to be recorded properly. It's not complicated — it just needs to be done right from the start.
+**The fix:** Each entity needs its own clean set of books. Transfers between entities need to be recorded properly. It's not complicated — it just needs to be done right from the start. Our guide to [multi-entity LLC bookkeeping](/blog/multi-entity-llc-bookkeeping) walks through the right way to structure this.
 
 ---
 
@@ -74,7 +74,7 @@ Most investors track their deal flow by gut feeling. "I think most of our deals 
 
 Every one of these mistakes has the same root cause: bookkeeping that wasn't built for real estate investors.
 
-A generic bookkeeper can categorize your expenses. But they don't understand per-property P&L, capital expenditure rules, multi-entity structures, or deal-by-deal tracking. And that gap between "general bookkeeping" and "investor-grade bookkeeping" is where the money leaks out.
+A generic bookkeeper can categorize your expenses. But they don't understand per-property P&L, capital expenditure rules, multi-entity structures, or [deal-by-deal flip tracking](/blog/fix-and-flip-accounting). And that gap between "general bookkeeping" and "investor-grade bookkeeping" is where the money leaks out.
 
 That's exactly what we built Zen Books to solve. We're a QuickBooks bookkeeping firm based in Scranton, PA — and we specialize in real estate investors running buy-and-hold portfolios, fix-and-flip projects, and wholesale operations.
 

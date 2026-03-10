@@ -1,7 +1,7 @@
 ---
 title: "Multi-Entity LLC Bookkeeping: Clean Books or a Paper Trail Nightmare"
 description: "Multiple LLCs are smart for asset protection. But if the bookkeeping doesn't match the legal structure, you might as well not have them. Here's how to keep multi-entity real estate books clean."
-keywords: ["multi entity LLC bookkeeping", "real estate LLC accounting", "multiple LLC real estate investor", "intercompany transfers bookkeeping", "real estate entity structure"]
+keywords: ["multi entity LLC bookkeeping", "real estate LLC accounting", "multiple LLC real estate investor", "intercompany transfers bookkeeping", "LLC bookkeeping real estate investor"]
 author: "Pamella Zarnoff"
 date: "2026-01-15"
 slug: "multi-entity-llc-bookkeeping"
@@ -81,6 +81,8 @@ The operating LLCs' books are the traditional rental property P&Ls — income, e
 The management company's books show management fee income from each operating LLC and operating expenses (staff, software, vehicles, marketing if applicable).
 
 All three need to reconcile with each other. When you see money moving between them, you should be able to trace every dollar.
+
+This kind of sophisticated entity structure is especially common among investors we serve in the [Philadelphia suburbs](/philadelphia-suburbs-bookkeeping), where portfolio sizes and lender requirements demand it.
 
 ---
 

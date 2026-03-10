@@ -106,6 +106,26 @@ const routes = [
     title: 'Fix-and-Flip Accounting: What Most Bookkeepers Get Wrong From Day One | Zen Books',
     description: "Flipping houses isn't rental property accounting. It's project-based, deal-by-deal, and if your bookkeeper treats it the same way, you have no idea what your flips are actually making.",
   },
+  {
+    path: '/blog/separate-bank-accounts-rental-property',
+    title: 'Do I Need a Separate Bank Account for Each Rental Property? | Zen Books',
+    description: "Yes — and here's why. Separate bank accounts for each rental property protect your LLCs, simplify your bookkeeping, and make tax season painless.",
+  },
+  {
+    path: '/blog/track-rehab-costs-quickbooks',
+    title: 'How to Track Rehab Costs for a Flip in QuickBooks | Zen Books',
+    description: "A step-by-step guide to setting up QuickBooks for fix-and-flip rehab cost tracking. Track by project, by trade, and know your actual profit on every deal.",
+  },
+  {
+    path: '/blog/1099-for-contractors-landlords',
+    title: '1099 for Contractors: What Every Landlord Needs to Know | Zen Books',
+    description: "When do landlords need to issue 1099s? Who qualifies? What are the deadlines? Here's the plain-English guide to 1099-NEC for rental property owners and flippers.",
+  },
+  {
+    path: '/blog/cash-vs-accrual-rental-property',
+    title: 'Cash vs. Accrual Accounting for Rental Properties: Which One Should You Use? | Zen Books',
+    description: "Most landlords should use cash basis accounting. But there are real reasons some investors switch to accrual. Here's how to decide.",
+  },
 ];
 
 function generatePage(template, route) {
