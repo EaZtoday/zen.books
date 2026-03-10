@@ -160,6 +160,14 @@ function generatePage(template, route) {
     `<meta name="twitter:description" content="${escapeHtml(route.description)}" />`
   );
 
+  // Add hreflang for English US
+  if (!html.includes('hreflang')) {
+    html = html.replace(
+      /<link rel="canonical"/,
+      `<link rel="alternate" hreflang="en-US" href="${url}" />\n    <link rel="canonical"`
+    );
+  }
+
   return html;
 }
 
