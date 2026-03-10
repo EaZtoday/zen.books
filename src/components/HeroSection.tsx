@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
+import { trackBookingClick } from '../analytics';
 
 export function HeroSection() {
   return (
@@ -44,6 +45,7 @@ export function HeroSection() {
         >
           <a
             href="#book"
+            onClick={() => trackBookingClick('hero')}
             className="inline-flex items-center justify-center gap-2 bg-fern text-white px-8 py-4 rounded-full text-base font-medium hover:bg-fern-dark transition-all"
           >
             Book Your Free Portfolio Review

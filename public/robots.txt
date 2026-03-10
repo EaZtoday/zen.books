@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zenbooks4u.com/sitemap.xml

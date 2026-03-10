@@ -1,8 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
+import SeoHead from '../components/SeoHead';
+import ServiceSchema from '../components/ServiceSchema';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const pains = [
   "I just want to know how much each door is actually making me.",
@@ -73,9 +76,20 @@ const faqs = [
 ];
 
 export default function BuyAndHold() {
-  useEffect(() => { document.title = 'Bookkeeping for Buy & Hold Investors — Zen Books'; }, []);
   return (
     <>
+      <SeoHead
+        title="Bookkeeping for Buy & Hold Investors — Zen Books"
+        description="Per-property P&L, multi-entity tracking, and lender-ready financials for buy and hold real estate investors. QuickBooks bookkeeping by Zen Books, Scranton PA."
+        path="/buy-and-hold"
+      />
+      <ServiceSchema
+        serviceName="Buy & Hold Investor Bookkeeping"
+        serviceDescription="QuickBooks bookkeeping for buy and hold real estate investors. Per-property P&L, multi-entity tracking, CapEx classification, and lender-ready financial reports."
+        path="/buy-and-hold"
+        faqs={faqs}
+      />
+      <BreadcrumbSchema items={[{ name: 'Buy & Hold', path: '/buy-and-hold' }]} />
       {/* Hero */}
       <section className="min-h-screen flex items-center justify-center bg-cream relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-fern-50/50 via-cream to-cream" />

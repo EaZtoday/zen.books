@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowRight, Building2, Hammer, Repeat } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
+import SeoHead from '../components/SeoHead';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const pains = [
   "I'm months behind and tax season is coming.",
@@ -58,9 +60,14 @@ const strategies = [
 ];
 
 export default function SmallBusinessBookkeeping() {
-  useEffect(() => { document.title = 'Small Business Bookkeeping — Done For You | Zen Books, Scranton PA'; }, []);
   return (
     <>
+      <SeoHead
+        title="Small Business Bookkeeping — Done For You | Zen Books, Scranton PA"
+        description="QuickBooks bookkeeping for small businesses in Scranton, PA. Monthly bookkeeping, catch-up cleanup, and tax-ready financials. Judgment-free, in plain English."
+        path="/small-business-bookkeeping"
+      />
+      <BreadcrumbSchema items={[{ name: 'Small Business Bookkeeping', path: '/small-business-bookkeeping' }]} />
       {/* Hero */}
       <section className="min-h-screen flex items-center justify-center bg-cream relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-cream-100/80 via-cream to-cream" />
