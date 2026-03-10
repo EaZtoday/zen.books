@@ -6,6 +6,7 @@ import { BookingSection } from '../../components/BookingSection';
 import { PainPointToast } from '../../components/PainPointToast';
 import { LocationSchema } from './LocationSchema';
 import SeoHead from '../../components/SeoHead';
+import BreadcrumbSchema from '../../components/BreadcrumbSchema';
 import type { LocationData } from './locationData';
 
 const painPoints = [
@@ -23,6 +24,7 @@ export default function LocationPage({ data }: { data: LocationData }) {
         path={`/${data.slug}`}
       />
       <LocationSchema data={data} />
+      <BreadcrumbSchema items={[{ name: data.region, path: `/${data.slug}` }]} />
 
       {/* Hero */}
       <section className="min-h-screen flex items-center justify-center bg-cream relative overflow-hidden">

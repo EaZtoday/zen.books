@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ArrowRight, Clock, Calendar } from 'lucide-react';
 import SeoHead from '../components/SeoHead';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import { getAllArticles, type Article } from '../lib/blog';
 import { BookingSection } from '../components/BookingSection';
 
@@ -29,6 +30,7 @@ export default function Blog() {
         description="Straight-talk bookkeeping advice for real estate investors. CapEx vs. repairs, per-property P&L, multi-entity LLCs, fix-and-flip tracking — written by Pamella Zarnoff, Zen Books."
         path="/blog"
       />
+      <BreadcrumbSchema items={[{ name: 'Blog', path: '/blog' }]} />
 
       {/* Hero */}
       <section className="min-h-[50vh] flex items-center justify-center bg-cream relative overflow-hidden pt-20">

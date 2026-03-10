@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { ArrowLeft, Clock, Calendar } from 'lucide-react';
 import SeoHead from '../components/SeoHead';
 import BlogSchema from '../components/BlogSchema';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import { getArticleBySlug, type Article } from '../lib/blog';
 import { BookingSection } from '../components/BookingSection';
 
@@ -40,6 +41,7 @@ export default function BlogPost() {
         ogType="article"
       />
       <BlogSchema article={article} />
+      <BreadcrumbSchema items={[{ name: 'Blog', path: '/blog' }, { name: article.title, path: `/blog/${article.slug}` }]} />
 
       {/* Header */}
       <section className="bg-cream pt-28 pb-12">

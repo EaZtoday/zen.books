@@ -14,7 +14,6 @@ export default function Footer() {
               <Link to="/fix-and-flip" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Fix & Flip</Link>
               <Link to="/wholesale" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Wholesale</Link>
               <Link to="/blog" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Blog</Link>
-              <Link to="/tools/rental-cash-flow-calculator" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">Calculator</Link>
               <Link to="/about" className="text-xs text-warm-400 hover:text-warm-600 transition-colors">About</Link>
             </div>
           </div>

@@ -119,11 +119,4 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Tools -->
-  <url>
-    <loc>https://zenbooks4u.com/tools/rental-cash-flow-calculator</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
 </urlset>

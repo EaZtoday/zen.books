@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import SeoHead from '../components/SeoHead';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 export default function About() {
   return (
@@ -11,6 +12,7 @@ export default function About() {
         description="Meet the Zen Books team. We specialize in QuickBooks bookkeeping for real estate investors in Scranton, Wilkes-Barre, the Poconos, and the Lehigh Valley."
         path="/about"
       />
+      <BreadcrumbSchema items={[{ name: 'About', path: '/about' }]} />
       {/* Hero */}
       <section className="min-h-screen flex items-center justify-center bg-cream relative">
         <div className="absolute inset-0 bg-gradient-to-b from-cream-100/80 via-cream to-cream" />

@@ -5,6 +5,7 @@ import { BookingSection } from '../components/BookingSection';
 import { PainPointToast } from '../components/PainPointToast';
 import SeoHead from '../components/SeoHead';
 import ServiceSchema from '../components/ServiceSchema';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const pains = [
   "I need to know my true profit on every flip — not a guess.",
@@ -88,6 +89,7 @@ export default function FixAndFlip() {
         path="/fix-and-flip"
         faqs={faqs}
       />
+      <BreadcrumbSchema items={[{ name: 'Fix & Flip', path: '/fix-and-flip' }]} />
       {/* Hero */}
       <section className="min-h-screen flex items-center justify-center bg-cream relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-fern-50/50 via-cream to-cream" />
