@@ -60,6 +60,14 @@ export default function Navbar() {
               Small Business
             </Link>
 
+            <Link to="/blog" className="text-[13px] font-medium text-warm-600 hover:text-warm-900 transition-colors">
+              Blog
+            </Link>
+
+            <Link to="/tools/rental-cash-flow-calculator" className="text-[13px] font-medium text-warm-600 hover:text-warm-900 transition-colors">
+              Calculator
+            </Link>
+
             <Link to="/about" className="text-[13px] font-medium text-warm-600 hover:text-warm-900 transition-colors">
               About
             </Link>
@@ -102,6 +110,14 @@ export default function Navbar() {
             <Link to="/small-business-bookkeeping" onClick={() => setMobileOpen(false)}
               className="block py-3 text-sm text-warm-600 hover:text-warm-900 transition-colors">
               Small Business
+            </Link>
+            <Link to="/blog" onClick={() => setMobileOpen(false)}
+              className="block py-3 text-sm text-warm-600 hover:text-warm-900 transition-colors">
+              Blog
+            </Link>
+            <Link to="/tools/rental-cash-flow-calculator" onClick={() => setMobileOpen(false)}
+              className="block py-3 text-sm text-warm-600 hover:text-warm-900 transition-colors">
+              Cash Flow Calculator
             </Link>
             <Link to="/about" onClick={() => setMobileOpen(false)}
               className="block py-3 text-sm text-warm-600 hover:text-warm-900 transition-colors">

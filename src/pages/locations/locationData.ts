@@ -94,6 +94,9 @@ export const scrantonData: LocationData = {
     { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
     { name: 'Poconos', slug: '/poconos-bookkeeping' },
     { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
+    { name: 'Reading', slug: '/reading-bookkeeping' },
+    { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
+    { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
   ],
 };
 
@@ -165,6 +168,9 @@ export const wilkesBarreData: LocationData = {
     { name: 'Scranton', slug: '/scranton-bookkeeping' },
     { name: 'Poconos', slug: '/poconos-bookkeeping' },
     { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
+    { name: 'Reading', slug: '/reading-bookkeeping' },
+    { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
+    { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
   ],
 };
 
@@ -239,6 +245,9 @@ export const poconosData: LocationData = {
     { name: 'Scranton', slug: '/scranton-bookkeeping' },
     { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
     { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
+    { name: 'Reading', slug: '/reading-bookkeeping' },
+    { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
+    { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
   ],
 };
 
@@ -310,6 +319,229 @@ export const lehighValleyData: LocationData = {
   otherLocations: [
     { name: 'Scranton', slug: '/scranton-bookkeeping' },
     { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
+    { name: 'Poconos', slug: '/poconos-bookkeeping' },
+    { name: 'Reading', slug: '/reading-bookkeeping' },
+    { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
+    { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
+  ],
+};
+
+// --- New location data: Reading, Harrisburg, Philadelphia Suburbs ---
+
+export const readingData: LocationData = {
+  slug: 'reading-bookkeeping',
+  pageTitle: 'Reading Bookkeeping for Real Estate Investors | Landlords, Flippers & Wholesalers — Zen Books',
+  metaDescription: 'Bookkeeping for real estate investors in Reading, PA and Berks County. Landlord, flipper, and wholesaler bookkeeping. Per-property P&L, multi-entity tracking, lender-ready reports.',
+  region: 'Reading & Berks County',
+  heroTag: 'Reading, PA — Berks County',
+  heroHeadline: 'Reading bookkeeping\nfor real estate investors.',
+  heroSubhead: 'Affordable housing stock, strong rental demand, and serious flip potential — Reading investors need books built for the way they actually operate. We deliver that from our Scranton office.',
+  marketInsight: {
+    title: 'The Reading investor landscape.',
+    paragraphs: [
+      'Reading has become one of Pennsylvania\'s most active markets for real estate investors. Berks County offers some of the most affordable multi-family housing in the mid-Atlantic corridor, with row homes and duplexes priced well below the state average. Areas like Centre Park, Pendora Park, Oakbrook, and West Reading are seeing strong investor activity — both from local landlords building cash-flow portfolios and out-of-market investors drawn to the yield.',
+      'The city\'s combination of affordable entry prices and steady tenant demand — driven by Reading Hospital, Albright College, and a growing manufacturing base — creates an ideal environment for buy-and-hold investors. Fix-and-flip activity is strong in neighborhoods undergoing revitalization. Wholesalers are finding deal flow throughout the city and surrounding boroughs like Wyomissing, Shillington, and Kenhorst.',
+      'We serve Reading investors from our Scranton office, about 90 minutes north on I-78/I-476. Everything runs through QuickBooks Online — landlords, flippers, and wholesalers across Berks County get per-property tracking, multi-entity management, and lender-ready reports without ever visiting our office.',
+    ],
+    stats: [
+      { label: 'Entry price point', value: 'Well below PA avg' },
+      { label: 'Rental demand drivers', value: 'Hospital & college' },
+      { label: 'Investor types served', value: 'Landlords, flippers, wholesalers' },
+    ],
+  },
+  investorChallenges: {
+    title: 'Challenges Reading investors face.',
+    items: [
+      { title: 'High-volume portfolio tracking', description: 'Reading\'s low entry prices let investors accumulate doors fast. 10, 20, 30+ units spread across the city and boroughs — each needs its own P&L so you know what\'s performing and what\'s dragging you down.' },
+      { title: 'Row home flip project tracking', description: 'Flipping row homes in Centre Park or Pendora? Each project needs its own P&L — acquisition, rehab draws, contractor 1099s, holding costs, and sale proceeds tracked from purchase to closing.' },
+      { title: 'Multi-entity complexity', description: 'As your Reading portfolio grows, so do your LLCs. Two entities become five. Intercompany transfers, capital contributions, and owner draws all need clean documentation.' },
+      { title: 'Code compliance & repair tracking', description: 'Reading\'s rental inspection program means landlords face regular compliance costs. These need proper categorization — some are deductible repairs, others may be capitalizable improvements.' },
+      { title: 'Out-of-market investor support', description: 'Buying Reading properties from Philly, NYC, or out of state? Your bookkeeper needs to handle everything remotely and coordinate with your local property manager.' },
+      { title: 'Wholesale deal accounting', description: 'Assignment fees, earnest money deposits, marketing spend — Reading wholesalers need clean books to know their true cost per deal and profit per transaction across Berks County.' },
+    ],
+  },
+  services: {
+    title: 'How we help Reading investors.',
+    items: [
+      { title: 'Landlord & Rental Property Bookkeeping', description: 'Per-property P&L for every door in your Reading portfolio — row homes, duplexes, and multi-units across the city and boroughs like Wyomissing and Shillington.' },
+      { title: 'Fix-and-Flip Project Tracking', description: 'Each flip gets its own P&L from acquisition through sale. Know your true profit on every Reading deal — not just your gross margin.' },
+      { title: 'Wholesale Deal Accounting', description: 'Track assignment fees, marketing costs, and earnest money across every wholesale transaction in Berks County.' },
+      { title: 'Multi-Entity Management', description: 'Multiple LLCs? We keep intercompany transfers clean and each entity\'s books separate and audit-ready.' },
+      { title: 'Catch-Up Bookkeeping', description: 'Behind on your books? We\'ll get you current — no judgment. Most Reading catch-ups take 2-4 weeks.' },
+      { title: 'Lender-Ready Reports', description: 'Clean financials ready when your lender asks — whether it\'s a local credit union, hard money lender, or conventional bank.' },
+    ],
+  },
+  faqs: [
+    { q: 'How much does bookkeeping cost for rental properties in Reading?', a: 'It depends on the size of your portfolio and how many entities you have. Book a free Portfolio Review and we\'ll give you a clear quote based on your actual setup.' },
+    { q: 'I\'m in Reading — is Scranton too far?', a: 'Not at all. We manage everything through QuickBooks Online. Many of our Berks County clients have never visited our office — but we\'re always available by phone, email, or video call.' },
+    { q: 'Do you work with high-volume landlords?', a: 'Absolutely. Whether you have 5 doors or 50, we set up per-property tracking that scales with your portfolio.' },
+    { q: 'Can you handle Reading\'s rental inspection costs?', a: 'Yes. We properly categorize inspection fees, compliance repairs, and code-related improvements so your P&L is accurate and your deductions are maximized.' },
+    { q: 'Do you work with fix-and-flip investors?', a: 'Yes. We track each project individually — acquisition costs, rehab draws, contractor 1099s, holding costs, and sale proceeds. You\'ll know your true ROI on every flip.' },
+    { q: 'Do you work with my CPA at tax time?', a: 'Yes. We prepare clean year-end books and hand them directly to your CPA. If they have questions, we\'re happy to coordinate.' },
+  ],
+  schema: {
+    locality: 'Reading',
+    region: 'PA',
+    areaServed: [
+      { '@type': 'City', name: 'Reading, PA' },
+      { '@type': 'City', name: 'Wyomissing, PA' },
+      { '@type': 'City', name: 'Shillington, PA' },
+      { '@type': 'City', name: 'West Reading, PA' },
+      { '@type': 'AdministrativeArea', name: 'Berks County, PA' },
+    ],
+  },
+  otherLocations: [
+    { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
+    { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
+    { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
+    { name: 'Poconos', slug: '/poconos-bookkeeping' },
+  ],
+};
+
+export const harrisburgData: LocationData = {
+  slug: 'harrisburg-bookkeeping',
+  pageTitle: 'Harrisburg Bookkeeping for Real Estate Investors | Landlords, Flippers & Wholesalers — Zen Books',
+  metaDescription: 'Bookkeeping for real estate investors in Harrisburg, PA and the Capital Region. Landlord, flipper, and wholesaler bookkeeping. Per-property P&L, multi-entity tracking.',
+  region: 'Harrisburg & Capital Region',
+  heroTag: 'Harrisburg, PA — Capital Region',
+  heroHeadline: 'Harrisburg bookkeeping\nfor real estate investors.',
+  heroSubhead: 'Pennsylvania\'s capital region offers strong cash flow, affordable entry prices, and serious investor activity. Your books need to keep up.',
+  marketInsight: {
+    title: 'The Harrisburg investor landscape.',
+    paragraphs: [
+      'Harrisburg and the surrounding Capital Region — including Camp Hill, Mechanicsburg, Carlisle, and Hershey — offer a compelling mix for real estate investors. The city itself provides affordable multi-family housing with strong rental demand driven by state government employment, HACC Community College, and a revitalizing downtown. Areas like Midtown, Allison Hill, and Uptown Harrisburg are seeing significant investor attention.',
+      'The suburbs offer a different play entirely. Camp Hill and Mechanicsburg attract landlords targeting higher-end single-family and small multi-family rentals with stable, long-term tenants. Carlisle, home to Dickinson College and the U.S. Army War College, provides unique rental opportunities. Fix-and-flip activity is strong throughout Dauphin and Cumberland Counties, with investors renovating both city row homes and suburban properties.',
+      'We serve Harrisburg-area investors from our Scranton office, about two hours east on I-81. Everything runs through QuickBooks Online — landlords, flippers, and wholesalers across the Capital Region get the same per-property tracking and multi-entity management our NEPA clients rely on.',
+    ],
+    stats: [
+      { label: 'Rental demand', value: 'State govt & college' },
+      { label: 'Market diversity', value: 'Urban + suburban' },
+      { label: 'Counties served', value: 'Dauphin & Cumberland' },
+    ],
+  },
+  investorChallenges: {
+    title: 'Challenges Harrisburg investors face.',
+    items: [
+      { title: 'City vs. suburban portfolio mix', description: 'Owning a row home in Allison Hill and a single-family in Mechanicsburg? Different price points, different tenants, different expense profiles. Per-property tracking shows you how each market performs.' },
+      { title: 'Fix-and-flip project tracking', description: 'Flipping row homes in Midtown or single-families in Camp Hill? Each project needs its own P&L — acquisition costs, rehab draws, contractor 1099s, holding costs, and sale proceeds tracked separately.' },
+      { title: 'Multi-entity complexity', description: 'Separate LLCs for city and suburban properties? A holding company on top? Each entity needs its own clean books with proper intercompany loan documentation.' },
+      { title: 'Government & college tenant cycles', description: 'State government hiring cycles and college calendars create predictable but unique vacancy patterns. Your books should reflect seasonal income fluctuations and budget for turnover costs.' },
+      { title: 'Wholesale deal volume', description: 'Wholesalers working the Harrisburg market are moving deals across city and suburban neighborhoods. Assignment fees, marketing spend, and deal flow need clean tracking.' },
+      { title: 'Rapid appreciation tracking', description: 'Harrisburg\'s revitalization means your property values are changing. Clean books help you make hold-vs-sell decisions with real data, not gut feeling.' },
+    ],
+  },
+  services: {
+    title: 'How we help Harrisburg investors.',
+    items: [
+      { title: 'Landlord & Rental Property Bookkeeping', description: 'Per-property P&L for every door in your Capital Region portfolio — city row homes, suburban single-families, and multi-units across Dauphin and Cumberland Counties.' },
+      { title: 'Fix-and-Flip Project Tracking', description: 'Each flip gets its own P&L from acquisition through sale. Know your true profit on every Harrisburg deal.' },
+      { title: 'Wholesale Deal Accounting', description: 'Track assignment fees, marketing costs, and earnest money across every wholesale transaction in the Capital Region.' },
+      { title: 'Multi-Entity Management', description: 'Multiple LLCs? We keep intercompany transfers clean and each entity\'s books separate — city properties in one LLC, suburban in another.' },
+      { title: 'Catch-Up Bookkeeping', description: 'Behind on your books? We\'ll get you current — no judgment, no timeline pressure.' },
+      { title: 'Lender-Ready Reports', description: 'Clean financials ready for refinancing, DSCR loans, or portfolio lending — when your lender asks, you\'re ready.' },
+    ],
+  },
+  faqs: [
+    { q: 'How much does bookkeeping cost for rental properties in Harrisburg?', a: 'It depends on the size of your portfolio and how many entities you have. Book a free Portfolio Review and we\'ll give you a clear quote based on your actual setup.' },
+    { q: 'I\'m in Harrisburg — is Scranton too far?', a: 'Not at all. We\'re about two hours east on I-81 and we manage everything through QuickBooks Online. Many of our Capital Region clients work with us entirely remotely.' },
+    { q: 'Do you understand the Harrisburg market?', a: 'Yes. We serve investors across Pennsylvania and understand the capital region\'s unique mix of government-driven rental demand, college town dynamics, and suburban portfolio management.' },
+    { q: 'Do you work with fix-and-flip investors?', a: 'Yes. We track each project individually with full P&L from acquisition through sale.' },
+    { q: 'Can you handle multiple LLCs?', a: 'Absolutely. Whether you have 2 entities or 8, each gets its own clean set of books with proper intercompany documentation.' },
+    { q: 'Do you work with my CPA at tax time?', a: 'Yes. We prepare clean year-end books and coordinate directly with your CPA.' },
+  ],
+  schema: {
+    locality: 'Harrisburg',
+    region: 'PA',
+    areaServed: [
+      { '@type': 'City', name: 'Harrisburg, PA' },
+      { '@type': 'City', name: 'Camp Hill, PA' },
+      { '@type': 'City', name: 'Mechanicsburg, PA' },
+      { '@type': 'City', name: 'Carlisle, PA' },
+      { '@type': 'AdministrativeArea', name: 'Dauphin County, PA' },
+      { '@type': 'AdministrativeArea', name: 'Cumberland County, PA' },
+    ],
+  },
+  otherLocations: [
+    { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Reading', slug: '/reading-bookkeeping' },
+    { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
+    { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
+    { name: 'Poconos', slug: '/poconos-bookkeeping' },
+  ],
+};
+
+export const phillySuburbsData: LocationData = {
+  slug: 'philadelphia-suburbs-bookkeeping',
+  pageTitle: 'Philadelphia Suburbs Bookkeeping for Real Estate Investors | Landlords, Flippers & Wholesalers — Zen Books',
+  metaDescription: 'Bookkeeping for real estate investors in the Philadelphia suburbs — Bucks, Montgomery, Delaware, and Chester Counties. Per-property P&L, multi-entity tracking, lender-ready reports.',
+  region: 'Philadelphia Suburbs',
+  heroTag: 'Bucks, Montgomery, Delaware & Chester Counties',
+  heroHeadline: 'Philly suburbs\ninvestor bookkeeping.',
+  heroSubhead: 'Higher price points, competitive deal flow, and sophisticated portfolios — suburban Philadelphia investors need bookkeeping that matches the complexity of the market.',
+  marketInsight: {
+    title: 'The Philadelphia suburbs opportunity.',
+    paragraphs: [
+      'The Philadelphia suburbs — spanning Bucks, Montgomery, Delaware, and Chester Counties — represent one of the most diverse and active real estate investment markets in Pennsylvania. From Doylestown to King of Prussia to Media to West Chester, each submarket has its own investor profile, price points, and opportunity set. Bucks County attracts both cash-flow landlords and value-add investors. Montgomery County\'s Main Line corridor commands premium rents. Delaware County offers fix-and-flip potential in revitalizing boroughs. Chester County blends rural and suburban investment plays.',
+      'This market draws sophisticated investors — many managing $1M+ portfolios across multiple entities, doing high-volume flips, or scaling rapidly from first property to ten. The bookkeeping requirements here go beyond basic categorization. You need per-property tracking across different municipalities, multi-entity management, construction draw documentation, and financials that satisfy demanding lenders.',
+      'We serve Philadelphia suburb investors from our Scranton office, about 90 minutes north. Everything runs through QuickBooks Online. Whether you\'re a landlord in Bucks County, a flipper working Montgomery County, or a wholesaler across the four-county region — you get per-property P&L, multi-entity management, and lender-ready reports.',
+    ],
+    stats: [
+      { label: 'Counties served', value: '4 — Bucks, Montco, Delco, Chester' },
+      { label: 'Market profile', value: 'Premium rents & appreciation' },
+      { label: 'Investor sophistication', value: 'Multi-entity, high-volume' },
+    ],
+  },
+  investorChallenges: {
+    title: 'Challenges Philly suburb investors face.',
+    items: [
+      { title: 'Multi-county portfolio complexity', description: 'Properties in Bucks, Montgomery, and Delaware Counties — each with different tax rates, municipal requirements, and market dynamics. Per-property tracking across county lines is essential.' },
+      { title: 'High-value flip project tracking', description: 'Flipping a $400K property in Doylestown is a different game than a $150K flip in Reading. Higher stakes mean more detailed cost tracking — every rehab draw, change order, and holding cost matters.' },
+      { title: 'Sophisticated entity structures', description: 'Series LLCs, holding companies, management entities, and investor partnerships. The suburban Philly investor community runs complex structures that require precise multi-entity bookkeeping.' },
+      { title: 'Premium lender requirements', description: 'Working with institutional lenders, private equity, or portfolio lenders who demand GAAP-compliant or near-GAAP financials? Your books need to be bulletproof.' },
+      { title: 'Scale and deal volume', description: 'Running 15+ flips per year or managing 40+ rental units across four counties? Your bookkeeping system needs to handle volume without falling behind.' },
+      { title: 'Transfer tax & settlement tracking', description: 'Pennsylvania realty transfer taxes, multi-party settlements, and 1031 exchange documentation all need proper accounting treatment specific to each county.' },
+    ],
+  },
+  services: {
+    title: 'How we help Philly suburb investors.',
+    items: [
+      { title: 'Multi-County Portfolio Tracking', description: 'Per-property P&L across Bucks, Montgomery, Delaware, and Chester Counties. Know what each door earns regardless of where it sits.' },
+      { title: 'Fix-and-Flip Project Tracking', description: 'Every flip gets its own P&L from acquisition through sale. Detailed rehab cost breakdowns by trade, holding cost accrual, and final ROI calculation.' },
+      { title: 'Multi-Entity Management', description: 'Series LLCs, holding companies, management entities — each gets its own clean books with proper intercompany documentation.' },
+      { title: 'Partnership & Syndication Accounting', description: 'Capital contributions, preferred returns, profit splits, and K-1 preparation support. Your partners get transparency.' },
+      { title: 'Catch-Up Bookkeeping', description: 'Behind on your books? We\'ll get you current — even for large, complex portfolios across multiple entities.' },
+      { title: 'Lender-Ready Reports', description: 'Financials that satisfy institutional lenders, hard money shops, and portfolio lenders — detailed, accurate, and ready when you need them.' },
+    ],
+  },
+  faqs: [
+    { q: 'How much does bookkeeping cost for rental properties in the Philly suburbs?', a: 'It depends on the size of your portfolio, deal volume, entity structure, and complexity. Book a free Portfolio Review and we\'ll give you a clear quote based on your actual setup.' },
+    { q: 'I\'m in Montgomery County — is Scranton too far?', a: 'Not at all. We\'re about 90 minutes north and we manage everything through QuickBooks Online. Many of our suburban Philadelphia clients work with us entirely remotely.' },
+    { q: 'Do you handle high-volume flip operations?', a: 'Yes. Whether you\'re doing 5 or 25 flips per year, each project gets its own P&L and we track them alongside your rental portfolio.' },
+    { q: 'Can you handle Series LLCs?', a: 'Absolutely. We set up each series with its own books while maintaining the parent entity\'s records. Clean, defensible, audit-ready.' },
+    { q: 'Do you work with investors who have institutional lending relationships?', a: 'Yes. We produce financials that meet the documentation standards of institutional lenders, portfolio lenders, and private equity.' },
+    { q: 'Can you coordinate with my CPA on multi-state filing?', a: 'Yes. We prepare clean year-end books organized by entity and coordinate directly with your CPA. If they need state-specific breakdowns, we provide them.' },
+  ],
+  schema: {
+    locality: 'King of Prussia',
+    region: 'PA',
+    areaServed: [
+      { '@type': 'City', name: 'Doylestown, PA' },
+      { '@type': 'City', name: 'King of Prussia, PA' },
+      { '@type': 'City', name: 'Media, PA' },
+      { '@type': 'City', name: 'West Chester, PA' },
+      { '@type': 'City', name: 'Norristown, PA' },
+      { '@type': 'AdministrativeArea', name: 'Bucks County, PA' },
+      { '@type': 'AdministrativeArea', name: 'Montgomery County, PA' },
+      { '@type': 'AdministrativeArea', name: 'Delaware County, PA' },
+      { '@type': 'AdministrativeArea', name: 'Chester County, PA' },
+    ],
+  },
+  otherLocations: [
+    { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
+    { name: 'Reading', slug: '/reading-bookkeeping' },
+    { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
     { name: 'Poconos', slug: '/poconos-bookkeeping' },
   ],
 };

@@ -60,6 +60,9 @@ export default function Home() {
               { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
               { name: 'Poconos', slug: '/poconos-bookkeeping' },
               { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
+              { name: 'Reading', slug: '/reading-bookkeeping' },
+              { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
+              { name: 'Philly Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
             ].map((loc) => (
               <Link
                 key={loc.slug}

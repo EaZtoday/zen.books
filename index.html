@@ -47,7 +47,15 @@
         { "@type": "AdministrativeArea", "name": "Luzerne County, PA" },
         { "@type": "AdministrativeArea", "name": "Monroe County, PA" },
         { "@type": "AdministrativeArea", "name": "Pocono Mountains, PA" },
-        { "@type": "AdministrativeArea", "name": "Lehigh Valley, PA" }
+        { "@type": "AdministrativeArea", "name": "Lehigh Valley, PA" },
+        { "@type": "AdministrativeArea", "name": "Berks County, PA" },
+        { "@type": "City", "name": "Reading, PA" },
+        { "@type": "AdministrativeArea", "name": "Dauphin County, PA" },
+        { "@type": "City", "name": "Harrisburg, PA" },
+        { "@type": "AdministrativeArea", "name": "Bucks County, PA" },
+        { "@type": "AdministrativeArea", "name": "Montgomery County, PA" },
+        { "@type": "AdministrativeArea", "name": "Delaware County, PA" },
+        { "@type": "AdministrativeArea", "name": "Chester County, PA" }
       ],
       "address": {
         "@type": "PostalAddress",
@@ -68,6 +76,45 @@
       },
       "serviceType": ["Real Estate Investor Bookkeeping", "Landlord Bookkeeping", "Fix and Flip Bookkeeping", "Real Estate Wholesaler Bookkeeping", "Rental Property Bookkeeping", "Airbnb Bookkeeping", "Small Business Bookkeeping", "QuickBooks Online Setup", "Property-Level Financial Reporting", "Catch-Up Bookkeeping", "Multi-Entity Bookkeeping"],
       "priceRange": "$$"
+    }
+    </script>
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Zen Books",
+      "url": "https://zenbooks4u.com",
+      "description": "QuickBooks bookkeeping for real estate investors. Per-property P&L, multi-entity tracking, lender-ready reports.",
+      "founder": {
+        "@type": "Person",
+        "name": "Pamella Zarnoff",
+        "jobTitle": "Founder"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Scranton",
+        "addressRegion": "PA",
+        "addressCountry": "US"
+      },
+      "sameAs": []
+    }
+    </script>
+
+    <!-- Structured Data: WebSite with SearchAction -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Zen Books",
+      "url": "https://zenbooks4u.com",
+      "description": "Bookkeeping for real estate investors — buy & hold, fix & flip, wholesale. Scranton, PA.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://zenbooks4u.com/blog?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
     </script>
   </head>
