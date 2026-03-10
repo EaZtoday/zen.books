@@ -12,6 +12,12 @@ import ScrantonBookkeeping from './pages/locations/ScrantonBookkeeping';
 import WilkesBarreNEPA from './pages/locations/WilkesBarreNEPA';
 import PoconosBookkeeping from './pages/locations/PoconosBookkeeping';
 import LehighValleyBookkeeping from './pages/locations/LehighValleyBookkeeping';
+import ReadingBookkeeping from './pages/locations/ReadingBookkeeping';
+import HarrisburgBookkeeping from './pages/locations/HarrisburgBookkeeping';
+import PhillySuburbsBookkeeping from './pages/locations/PhillySuburbsBookkeeping';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
+import CashFlowCalculator from './pages/tools/CashFlowCalculator';
 import NotFound from './pages/NotFound';
 import { useEffect } from 'react';
 
@@ -42,6 +48,12 @@ export default function App() {
           <Route path="/wilkes-barre-nepa-bookkeeping" element={<WilkesBarreNEPA />} />
           <Route path="/poconos-bookkeeping" element={<PoconosBookkeeping />} />
           <Route path="/lehigh-valley-bookkeeping" element={<LehighValleyBookkeeping />} />
+          <Route path="/reading-bookkeeping" element={<ReadingBookkeeping />} />
+          <Route path="/harrisburg-bookkeeping" element={<HarrisburgBookkeeping />} />
+          <Route path="/philadelphia-suburbs-bookkeeping" element={<PhillySuburbsBookkeeping />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/tools/rental-cash-flow-calculator" element={<CashFlowCalculator />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
