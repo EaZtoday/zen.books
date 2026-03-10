@@ -29,7 +29,7 @@ function parseFrontmatter(raw: string): { data: Record<string, any>; content: st
     const val = line.slice(idx + 1).trim();
     if (val.startsWith('[')) {
       try {
-        data[key] = JSON.parse(val.replace(/"/g, '"').replace(/"/g, '"'));
+        data[key] = JSON.parse(val.replace(/\u201c/g, '"').replace(/\u201d/g, '"'));
       } catch {
         data[key] = [];
       }

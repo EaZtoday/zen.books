@@ -10,6 +10,7 @@ import { BookingSection } from '../components/BookingSection';
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return dateStr;
   return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 }
 

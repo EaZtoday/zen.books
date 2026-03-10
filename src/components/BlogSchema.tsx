@@ -21,10 +21,6 @@ export default function BlogSchema({ article }: { article: ArticleMeta }) {
         '@type': 'Organization',
         name: 'Zen Books',
         url: 'https://zenbooks4u.com',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://zenbooks4u.com/logo.png',
-        },
       },
       datePublished: article.date,
       dateModified: article.date,

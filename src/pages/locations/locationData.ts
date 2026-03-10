@@ -392,6 +392,7 @@ export const readingData: LocationData = {
   },
   otherLocations: [
     { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
     { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
     { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
     { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
@@ -464,6 +465,7 @@ export const harrisburgData: LocationData = {
   },
   otherLocations: [
     { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
     { name: 'Reading', slug: '/reading-bookkeeping' },
     { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
     { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
@@ -539,6 +541,7 @@ export const phillySuburbsData: LocationData = {
   },
   otherLocations: [
     { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
     { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
     { name: 'Reading', slug: '/reading-bookkeeping' },
     { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
