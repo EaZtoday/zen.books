@@ -64,6 +64,7 @@ export default function SeoHead({
     setMeta('property', 'og:url', url);
     setMeta('property', 'og:type', ogType);
     setMeta('property', 'og:locale', 'en_US');
+    setMeta('property', 'og:site_name', 'Zen Books');
 
     // Twitter Card
     setMeta('name', 'twitter:card', 'summary_large_image');

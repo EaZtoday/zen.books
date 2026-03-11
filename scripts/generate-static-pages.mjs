@@ -106,6 +106,56 @@ const routes = [
     title: 'Fix-and-Flip Accounting: What Most Bookkeepers Get Wrong From Day One | Zen Books',
     description: "Flipping houses isn't rental property accounting. It's project-based, deal-by-deal, and if your bookkeeper treats it the same way, you have no idea what your flips are actually making.",
   },
+  {
+    path: '/blog/separate-bank-accounts-rental-property',
+    title: 'Do I Need a Separate Bank Account for Each Rental Property? | Zen Books',
+    description: "Yes — and here's why. Separate bank accounts for each rental property protect your LLCs, simplify your bookkeeping, and make tax season painless.",
+  },
+  {
+    path: '/blog/track-rehab-costs-quickbooks',
+    title: 'How to Track Rehab Costs for a Flip in QuickBooks | Zen Books',
+    description: "A step-by-step guide to setting up QuickBooks for fix-and-flip rehab cost tracking. Track by project, by trade, and know your actual profit on every deal.",
+  },
+  {
+    path: '/blog/1099-for-contractors-landlords',
+    title: '1099 for Contractors: What Every Landlord Needs to Know | Zen Books',
+    description: "When do landlords need to issue 1099s? Who qualifies? What are the deadlines? Here's the plain-English guide to 1099-NEC for rental property owners and flippers.",
+  },
+  {
+    path: '/blog/cash-vs-accrual-rental-property',
+    title: 'Cash vs. Accrual Accounting for Rental Properties: Which One Should You Use? | Zen Books',
+    description: "Most landlords should use cash basis accounting. But there are real reasons some investors switch to accrual. Here's how to decide.",
+  },
+  {
+    path: '/blog/security-deposit-accounting-landlords',
+    title: 'Security Deposit Accounting for Landlords: How to Record It Without Messing Up Your Books | Zen Books',
+    description: "Security deposits aren't income. They're liabilities. Here's how to record, hold, and refund security deposits correctly in QuickBooks so your books stay clean.",
+  },
+  {
+    path: '/blog/quickbooks-setup-rental-property',
+    title: 'QuickBooks Setup for Landlords: The Simple Version | Zen Books',
+    description: "A practical, no-theory guide to setting up QuickBooks Online for rental property bookkeeping. Chart of accounts, classes, properties, and bank connections — step by step.",
+  },
+  {
+    path: '/blog/hard-money-loan-accounting-quickbooks',
+    title: 'Hard Money Loan Tracking for Flips: How to Record Draws, Interest, and Points in QuickBooks | Zen Books',
+    description: "Hard money loans have moving parts — draws, points, interest accrual, payoff at closing. Here's how to track all of it in QuickBooks so your flip P&L is accurate.",
+  },
+  {
+    path: '/blog/how-to-calculate-house-flip-profit',
+    title: 'How to Calculate True House Flip Profit (Not the Number You Tell Your Friends) | Zen Books',
+    description: "Most flippers overestimate their profit by $10K or more because they leave out half the costs. Here's the complete formula for calculating what a flip actually made you.",
+  },
+  {
+    path: '/blog/holding-costs-house-flip',
+    title: 'Holding Costs That Kill Flip Margins: Track Them or Lose Money on Every Deal | Zen Books',
+    description: "Hard money interest, insurance, taxes, and utilities add up fast on a flip. Here's what holding costs actually look like, how to track them, and how to stop the bleed.",
+  },
+  {
+    path: '/blog/real-estate-dealer-vs-investor-irs',
+    title: 'Real Estate Dealer vs. Investor: Why the IRS Classification Matters for Flippers | Zen Books',
+    description: "The IRS treats real estate dealers and investors differently — and it can cost you thousands in self-employment tax. Here's what the classification means and why your books matter.",
+  },
 ];
 
 function generatePage(template, route) {
@@ -159,6 +209,14 @@ function generatePage(template, route) {
     /<meta name="twitter:description" content=".*?" \/>/,
     `<meta name="twitter:description" content="${escapeHtml(route.description)}" />`
   );
+
+  // Add hreflang for English US
+  if (!html.includes('hreflang')) {
+    html = html.replace(
+      /<link rel="canonical"/,
+      `<link rel="alternate" hreflang="en-US" href="${url}" />\n    <link rel="canonical"`
+    );
+  }
 
   return html;
 }

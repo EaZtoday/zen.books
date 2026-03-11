@@ -1,7 +1,7 @@
 ---
 title: "Fix-and-Flip Accounting: What Most Bookkeepers Get Wrong From Day One"
 description: "Flipping houses isn't rental property accounting. It's project-based, deal-by-deal, and if your bookkeeper treats it the same way, you have no idea what your flips are actually making."
-keywords: ["fix and flip accounting", "house flipping bookkeeping", "flip project tracking QuickBooks", "rehab cost tracking", "real estate flip profit calculation"]
+keywords: ["fix and flip accounting", "house flipping bookkeeping", "flip project tracking QuickBooks", "rehab cost tracking", "house flip profit and loss"]
 author: "Pamella Zarnoff"
 date: "2026-01-01"
 slug: "fix-and-flip-accounting"
@@ -138,6 +138,10 @@ When your fix-and-flip accounting is set up correctly, here's what you should be
 **Historical:** Average acquisition cost, average rehab cost, average hold time, average gross margin, average net profit per deal — broken down by market area, deal source, or property type.
 
 That's a real business with real data. That's how you scale intelligently instead of just doing more deals and hoping more volume fixes the math.
+
+That's what we build for every flip client. See how our [fix-and-flip bookkeeping](/fix-and-flip) service gives you this level of detail on every deal.
+
+We work with flippers across Pennsylvania's hottest markets — from [high-volume flip operations in the Lehigh Valley](/lehigh-valley-bookkeeping) to [row home flippers in Reading](/reading-bookkeeping) and [Delaware Water Gap flips in the Poconos](/poconos-bookkeeping). Every market has its own economics, and your books need to reflect that.
 
 ---
 

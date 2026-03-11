@@ -1,3 +1,14 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /assets/*.js$
+
+# Sitemaps
 Sitemap: https://zenbooks4u.com/sitemap.xml
+
+# Crawl-delay for well-behaved bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

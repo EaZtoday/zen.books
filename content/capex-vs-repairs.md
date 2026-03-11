@@ -1,7 +1,7 @@
 ---
 title: "CapEx vs. Repairs: The Classification Mistake That's Inflating Your Tax Bill"
 description: "Most real estate investors are misclassifying their biggest expenses. Here's how to tell the difference between a capital expenditure and a repair — and why it matters more than you think."
-keywords: ["capex vs repairs real estate", "capital expenditure rental property", "repair vs improvement IRS", "rental property tax deductions", "bookkeeping for landlords"]
+keywords: ["capex vs repairs real estate", "capital expenditure rental property", "repair vs improvement IRS", "capitalize or expense rental property", "rental property tax classification"]
 author: "Pamella Zarnoff"
 date: "2026-02-15"
 slug: "capex-vs-repairs"
@@ -62,7 +62,7 @@ But these safe harbors don't mean "all repairs under $2,500 are automatically de
 
 ## Why This Matters for Your Books (Not Just Your Taxes)
 
-Here's what most investors miss: CapEx vs. repair classification doesn't just affect your tax return. It affects your **per-property P&L, your cash flow calculations, and your real ROI**.
+Here's what most investors miss: CapEx vs. repair classification doesn't just affect your tax return. It affects your **[per-property P&L](/blog/per-property-pl-tracking)**, your cash flow calculations, and your real ROI.
 
 When you expense a $12,000 HVAC replacement in the year you spend the money, your property shows a terrible year financially — even if it was actually a great investment decision. When you capitalize it properly and depreciate it over 5-7 years, your annual P&L reflects the true ongoing cost more accurately.
 
@@ -71,6 +71,8 @@ This matters when:
 - You're showing financials to a lender for a refinance or DSCR loan
 - You're bringing in a partner or investor
 - You're trying to understand your actual portfolio performance
+
+If you're a buy-and-hold investor juggling multiple doors, proper CapEx classification is even more critical — it directly affects every property's bottom line. That's exactly what we handle in our [buy-and-hold bookkeeping service](/buy-and-hold).
 
 Your books need to tell the real story, not just check a tax box.
 
