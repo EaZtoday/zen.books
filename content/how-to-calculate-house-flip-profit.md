@@ -10,6 +10,12 @@ category: "Real Estate Bookkeeping"
 
 # How to Calculate True House Flip Profit (Not the Number You Tell Your Friends)
 
+*You did the math on a napkin. Sale price minus purchase minus rehab equals profit. Except it doesn't — not even close.*
+
+---
+
+> **The short version:** True flip profit = Sale Price minus ALL costs: acquisition (purchase + closing + points), rehab (contractor + materials + permits), holding (interest + taxes + insurance + utilities), and selling (commissions + closing + concessions). Most flippers leave out 8-15% of actual costs. On a $200K sale, that's $16K-$30K in phantom profit. See the [full formula broken down below](#the-formula-most-flippers-use-and-why-its-wrong).
+
 You bought a house for $120K, put $40K into the rehab, and sold it for $210K. Quick math says you made $50K. That's the number you tell people at the REIA meeting.
 
 The actual number, after closing costs on both sides, five months of hard money interest, insurance, utilities, property taxes, the dumpster rental you forgot about, and the agent's commission? Closer to $28K. Maybe less.
@@ -34,7 +40,7 @@ Every line item in that formula has sub-items. Let's break them down.
 
 ## Acquisition Costs (What It Actually Cost to Buy)
 
-The purchase price is just the starting point. Add:
+**The purchase price is just the starting point.** Add:
 
 - **Purchase price** — the contract number
 - **Closing costs** — title insurance, title search, recording fees, transfer taxes
@@ -48,7 +54,7 @@ On a typical NEPA flip, acquisition costs run 3-5% above the purchase price. On 
 
 ## Rehab Costs (The Obvious Ones and the Ones You Forget)
 
-Your contractor's invoice is the big number. But rehab costs include everything you spent to get the house ready to sell:
+**Your contractor's invoice is the big number, but it's not the only number.** Rehab costs include everything you spent to get the house ready to sell:
 
 - **General contractor or trade subs** — the main rehab bill
 - **Materials you purchased directly** — every Home Depot and supply house run
@@ -119,6 +125,8 @@ Let's run the numbers on a real deal:
 | **True Net Profit** | | **$10,850** |
 
 The bar napkin said $50K. The real number is $10,850.
+
+> **Key takeaway:** The bar napkin said $50K. The real number is $10,850. That's a real return — but it's a very different number than what most flippers would tell their friends.
 
 That's not a bad deal — it's a 5.2% return in 5 months. But it's a very different number than $50K. And if you're making business decisions based on the $50K number, you're going to scale yourself into a cash flow problem.
 

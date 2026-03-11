@@ -18,9 +18,11 @@ This guide gives you the exact setup. No theory. Just the accounts, the structur
 
 ---
 
+> **The short version:** Set up QBO Plus (minimum), turn on Class tracking so each property gets its own P&L, build a landlord-specific chart of accounts, connect your bank feeds, and record your mortgage splits correctly every month. Follow the six steps below and you'll have [per-property financials](/blog/per-property-pl-tracking) from day one.
+
 ## Which QBO Plan You Need
 
-**QuickBooks Online Plus** is the minimum for landlords. You need the "Class" tracking feature, which isn't available on Simple Start or Essentials.
+**QuickBooks Online Plus is the minimum for landlords.** You need the "Class" tracking feature, which isn't available on Simple Start or Essentials.
 
 If you have more than 10 properties or multiple LLCs, **QBO Advanced** gives you better reporting and custom fields. But Plus works fine for most landlords getting started.
 
@@ -30,9 +32,9 @@ Do not use QuickBooks Self-Employed. It's designed for freelancers and gig worke
 
 ## Step 1: Turn On Class Tracking
 
-Go to Settings → Account and Settings → Advanced → Categories.
+**Class tracking is how you'll tag every transaction to a specific property.** Go to Settings → Account and Settings → Advanced → Categories.
 
-Turn on "Track classes." This is how you'll tag every transaction to a specific property. Each property gets its own class. When you run a P&L by Class, you see each door's performance separately.
+Turn on "Track classes." Each property gets its own class. When you run a P&L by Class, you see each door's performance separately.
 
 Name your classes by property address:
 - 427 Oak St
@@ -45,7 +47,7 @@ For multi-family properties, decide whether you want to track by building or by 
 
 ## Step 2: Set Up Your Chart of Accounts
 
-Delete or hide the default accounts you don't need (advertising, meals & entertainment, etc.). Here's what a landlord's chart of accounts should look like:
+**Delete or hide the default accounts you don't need** (advertising, meals & entertainment, etc.). Here's what a landlord's chart of accounts should look like:
 
 **Income Accounts:**
 - Rental Income
@@ -75,7 +77,11 @@ Delete or hide the default accounts you don't need (advertising, meals & enterta
 - CapEx - Appliances
 - CapEx - Other Improvements
 
-Keep the CapEx accounts separate from Repairs. This is one of the most expensive mistakes in [rental property bookkeeping](/blog/capex-vs-repairs) — lumping everything together. When your CPA asks "what was a repair and what was an improvement?" you want a clean answer.
+Keep the CapEx accounts separate from Repairs. This is one of the most expensive mistakes in [rental property bookkeeping](/blog/capex-vs-repairs) — lumping everything together.
+
+When your CPA asks "what was a repair and what was an improvement?" you want a clean answer.
+
+> **Key takeaway:** The default QuickBooks chart of accounts is built for generic businesses, not landlords. Set up separate CapEx accounts from day one so your CPA gets clean numbers at year-end.
 
 **Balance Sheet Accounts:**
 - Mortgage Loan (liability)
@@ -86,9 +92,11 @@ Keep the CapEx accounts separate from Repairs. This is one of the most expensive
 
 ## Step 3: Connect Your Bank Accounts
 
-Connect every bank account and credit card that touches your rental properties. QBO's bank feed pulls in transactions automatically.
+**Connect every bank account and credit card that touches your rental properties.** QBO's bank feed pulls in transactions automatically.
 
 If you have [separate bank accounts per LLC](/blog/separate-bank-accounts-rental-property) (you should), connect each one. If you're running everything through one account for now, that's fine — you'll use class tags to separate property-level activity.
+
+### Set up bank rules
 
 Once connected, set up bank rules. QBO can auto-categorize recurring transactions:
 - Monthly mortgage payment → split between Interest Expense and Mortgage Principal
@@ -101,7 +109,7 @@ Bank rules save hours every month once they're dialed in.
 
 ## Step 4: Record Your Property Assets
 
-Each property needs to exist on your balance sheet. Create fixed asset accounts for each property:
+**Each property needs to exist on your balance sheet.** Create fixed asset accounts for each property:
 
 - 427 Oak St - Building
 - 427 Oak St - Land
@@ -109,15 +117,15 @@ Each property needs to exist on your balance sheet. Create fixed asset accounts 
 
 Separate land from building because land doesn't depreciate. Your CPA needs this split.
 
-If you already own the properties, you'll need an opening balance entry. Use your original purchase price and closing statement to set the cost basis. If you're not sure how to do this, have your bookkeeper or CPA help — getting the opening balances right matters for depreciation schedules.
+If you already own the properties, you'll need an opening balance entry. Use your original purchase price and closing statement to set the cost basis.
+
+If you're not sure how to do this, have your bookkeeper or CPA help — getting the opening balances right matters for depreciation schedules.
 
 ---
 
 ## Step 5: Set Up the Mortgage Split
 
-This is the one thing most DIY landlords get wrong.
-
-Your mortgage payment is not one expense. It's two things:
+**This is the one thing most DIY landlords get wrong.** Your mortgage payment is not one expense. It's two things:
 1. **Interest** — an expense, shows on the P&L, tax-deductible
 2. **Principal** — a loan payback, shows on the balance sheet, not deductible
 
@@ -130,13 +138,17 @@ In QBO, record each mortgage payment as a split transaction:
 
 Tag both sides to the correct property class.
 
+> **Key takeaway:** If you record your mortgage payment as a single expense, your P&L is wrong — you're overstating expenses by including principal paydown, which isn't deductible. Split every payment into interest and principal.
+
+### What about escrow?
+
 If your mortgage includes escrow for taxes and insurance, the split gets more detailed. The escrow portion goes to an escrow asset account, and you record the actual tax/insurance expense when those bills are paid from escrow.
 
 ---
 
 ## Step 6: Monthly Routine
 
-Once the setup is done, here's what landlord bookkeeping looks like every month:
+**Once the setup is done, landlord bookkeeping takes 1-2 hours per month.** Here's what it looks like:
 
 1. **Review bank feed** — categorize new transactions, assign classes
 2. **Record mortgage splits** — interest vs. principal
@@ -150,7 +162,9 @@ Total time: 1-2 hours per month for a portfolio under 10 doors. More if you're d
 
 ## What "Done Right" Looks Like
 
-When your QBO is set up correctly, you can pull a [per-property P&L](/blog/per-property-pl-tracking) in under 60 seconds. You can see which doors are carrying the portfolio and which ones need attention. Your CPA gets clean books at year-end. Your lender gets the financials they need for a refi or DSCR loan.
+**When your QBO is set up correctly, you can pull a [per-property P&L](/blog/per-property-pl-tracking) in under 60 seconds.** You can see which doors are carrying the portfolio and which ones need attention.
+
+Your CPA gets clean books at year-end. Your lender gets the financials they need for a refi or DSCR loan.
 
 That's the whole point. Not QuickBooks mastery — financial clarity.
 
@@ -158,7 +172,7 @@ That's the whole point. Not QuickBooks mastery — financial clarity.
 
 ## Don't Want to Set This Up Yourself?
 
-We set up QuickBooks for [buy-and-hold investors](/buy-and-hold) every week. If you'd rather hand this off and start with clean books from day one, that's exactly what we do.
+**We set up QuickBooks for [buy-and-hold investors](/buy-and-hold) every week.** If you'd rather hand this off and start with clean books from day one, that's exactly what we do.
 
 **Want us to build your QuickBooks setup?**
 

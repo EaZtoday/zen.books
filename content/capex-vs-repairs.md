@@ -14,19 +14,21 @@ category: "Real Estate Bookkeeping"
 
 ---
 
+> **The short version:** If you're classifying major property work as "repairs" when it should be capitalized — or vice versa — you're either overpaying on taxes or misrepresenting your financials. The IRS has specific tests to determine the difference, and getting it wrong costs real money. Here's how to [track it properly at the property level](/blog/per-property-pl-tracking).
+
 Let me tell you what I see all the time.
 
-A landlord spends $18,000 replacing the roof on a rental property. Their general bookkeeper throws it under "Repairs & Maintenance" on the P&L. Tax season comes, they hand the books to their CPA. The CPA catches it — or worse, doesn't — and suddenly either your books are wrong, your tax return is wrong, or you're leaving deductions on the table.
+A landlord spends $18,000 replacing the roof on a rental property. Their general bookkeeper throws it under "Repairs & Maintenance" on the P&L. Tax season comes, they hand the books to their CPA.
 
-That $18,000 roof wasn't a repair. It was a capital expenditure.
+The CPA catches it — or worse, doesn't — and suddenly either your books are wrong, your tax return is wrong, or you're leaving deductions on the table.
 
-Here's what you need to know.
+That $18,000 roof wasn't a repair. It was a capital expenditure. Here's what you need to know.
 
 ---
 
 ## What's the Actual Difference?
 
-The IRS uses a framework called the "Repair Regulations" (yes, they made it official). The core distinction:
+**The IRS uses a framework called the "Repair Regulations" to draw the line.** The core distinction:
 
 **Repairs** restore something to its original working condition. You fix a broken window. You patch a leaking pipe. You repaint a unit between tenants. These get deducted in the year you spend the money.
 
@@ -38,21 +40,31 @@ That sounds simple. It's not.
 
 ## Where It Gets Complicated
 
-Here's where most general bookkeepers (and a lot of investors) get tripped up.
+**Most general bookkeepers — and a lot of investors — get tripped up by the IRS's three-part test.**
 
-**The "betterment" test.** If the work makes the property materially better than it was before — not just back to its previous condition — it's CapEx. Replacing a broken water heater with the same model? Probably a repair. Replacing it with a tankless unit that's superior to what was there? Probably CapEx.
+### The Betterment Test
 
-**The "restoration" test.** If the work restores a major component to like-new condition, it's CapEx. A partial roof patch might be a repair. Tearing off the entire roof and starting over is restoration — CapEx.
+If the work makes the property materially better than it was before — not just back to its previous condition — it's CapEx. Replacing a broken water heater with the same model? Probably a repair. Replacing it with a tankless unit that's superior to what was there? Probably CapEx.
 
-**The "adaptation" test.** If you're changing how part of the property is used — converting a basement to a rentable unit, for instance — that's CapEx.
+### The Restoration Test
+
+If the work restores a major component to like-new condition, it's CapEx. A partial roof patch might be a repair. Tearing off the entire roof and starting over is restoration — CapEx.
+
+### The Adaptation Test
+
+If you're changing how part of the property is used — converting a basement to a rentable unit, for instance — that's CapEx.
 
 And here's the kicker: **the cost alone doesn't determine the classification.** A $500 repair is still a repair. But a $500 component replacement on a system that costs thousands could be CapEx if it extends the useful life of that system.
+
+> **Key takeaway:** It's not about how much you spent — it's about what the work actually did. The IRS cares whether the property was made better, restored to like-new, or adapted to a new use.
 
 ---
 
 ## The Safe Harbor Rules
 
-The IRS did give small landlords some relief. There's a **De Minimis Safe Harbor** that lets you deduct items costing $2,500 or less per invoice (or $5,000 if you have audited financial statements). Elect this on your tax return and you can expense low-cost items without having to analyze every receipt.
+**The IRS did give small landlords some relief through two safe harbor provisions.**
+
+There's a **De Minimis Safe Harbor** that lets you deduct items costing $2,500 or less per invoice (or $5,000 if you have audited financial statements). Elect this on your tax return and you can expense low-cost items without having to analyze every receipt.
 
 There's also a **Small Taxpayer Safe Harbor** for rental properties worth under $1 million — you can expense routine maintenance up to the lesser of $10,000 or 2% of the property's unadjusted basis.
 
@@ -62,9 +74,13 @@ But these safe harbors don't mean "all repairs under $2,500 are automatically de
 
 ## Why This Matters for Your Books (Not Just Your Taxes)
 
-Here's what most investors miss: CapEx vs. repair classification doesn't just affect your tax return. It affects your **[per-property P&L](/blog/per-property-pl-tracking)**, your cash flow calculations, and your real ROI.
+**CapEx vs. repair classification doesn't just affect your tax return — it affects your entire financial picture.** It changes your **[per-property P&L](/blog/per-property-pl-tracking)**, your cash flow calculations, and your real ROI.
+
+### The P&L Distortion Problem
 
 When you expense a $12,000 HVAC replacement in the year you spend the money, your property shows a terrible year financially — even if it was actually a great investment decision. When you capitalize it properly and depreciate it over 5-7 years, your annual P&L reflects the true ongoing cost more accurately.
+
+### When It Matters Most
 
 This matters when:
 - You're evaluating whether to hold or sell a property
@@ -72,17 +88,20 @@ This matters when:
 - You're bringing in a partner or investor
 - You're trying to understand your actual portfolio performance
 
-If you're a buy-and-hold investor juggling multiple doors, proper CapEx classification is even more critical — it directly affects every property's bottom line. That's exactly what we handle in our [buy-and-hold bookkeeping service](/buy-and-hold).
+If you're a buy-and-hold investor juggling multiple doors, proper CapEx classification directly affects every property's bottom line. That's exactly what we handle in our [buy-and-hold bookkeeping service](/buy-and-hold).
 
 Your books need to tell the real story, not just check a tax box.
+
+> **The takeaway:** Misclassifying CapEx doesn't just affect your taxes. It distorts your property's financial performance and can mislead lenders, partners, and your own investment decisions.
 
 ---
 
 ## Common Misclassifications We See
 
-When we do catch-up bookkeeping for real estate investors, these are the most common mistakes:
+**When we do catch-up bookkeeping for real estate investors, the same mistakes come up again and again.**
 
-**Miscategorized as repairs (should be CapEx):**
+### Miscategorized as Repairs (Should Be CapEx)
+
 - Full roof replacement
 - New HVAC system installation
 - Complete electrical panel upgrade
@@ -90,7 +109,8 @@ When we do catch-up bookkeeping for real estate investors, these are the most co
 - New windows throughout the property
 - Foundation work
 
-**Miscategorized as CapEx (should be repairs):**
+### Miscategorized as CapEx (Should Be Repairs)
+
 - Patching a section of roof (not replacing the whole thing)
 - Fixing a specific plumbing issue
 - Painting between tenants
@@ -101,7 +121,7 @@ When we do catch-up bookkeeping for real estate investors, these are the most co
 
 ## The Fix
 
-You need a bookkeeper who understands the IRS repair regulations — not one who just categorizes things however they "feel right."
+**You need a bookkeeper who understands the IRS repair regulations — not one who just categorizes things however they "feel right."**
 
 Every significant expense on your rental properties should get a quick analysis: Does this restore the property to its prior condition? Or does it improve, upgrade, or extend the life of a major component?
 

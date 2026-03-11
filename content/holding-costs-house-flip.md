@@ -16,6 +16,8 @@ None of that feels like a big deal in isolation. But it's month four, and those 
 
 That $9,000 comes directly off your profit. If you're not tracking holding costs per deal, you don't know what your flips actually make — and you definitely don't know which deals are bleeding you dry. This article breaks down every holding cost, shows you what they really add up to, and tells you how to track them in your books.
 
+> **The short version:** Holding costs — hard money interest, insurance, taxes, utilities — run $2,000-3,000/month on a typical flip. The difference between a 4-month hold and a 6-month hold is $5,000+ straight off your profit. If these costs aren't tracked inside each flip's project in QuickBooks, your [deal P&L](/blog/fix-and-flip-accounting) overstates profit on every deal.
+
 ---
 
 ## What Are Holding Costs?
@@ -78,6 +80,8 @@ Here's a realistic example for a $180K flip in the Lehigh Valley:
 | **Total** | **$2,675** | **$10,700** | **$16,050** |
 
 The difference between a 4-month flip and a 6-month flip is $5,350 in holding costs. That's money that comes straight off your profit for no additional value — the same rehab, the same sale price, just two more months of ownership.
+
+> **The takeaway:** A 4-month flip and a 6-month flip have the same rehab cost but wildly different holding costs. Time is the variable you can control. Tighten your timelines and you'll see it directly in your profit.
 
 Now multiply that across three or four active flips. Every week of delay across your portfolio is costing you thousands.
 

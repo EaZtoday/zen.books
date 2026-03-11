@@ -14,6 +14,8 @@ category: "Real Estate Bookkeeping"
 
 ---
 
+> **The short version:** If you own fewer than 20 doors and file on Schedule E, use cash basis. It's simpler, your CPA expects it, and it gives you tax timing flexibility. Only consider accrual if lenders or partners require GAAP financials. Whichever you choose, set it up correctly from the start — switching later requires [IRS Form 3115](https://www.irs.gov/forms-pubs/about-form-3115) and it's not trivial.
+
 Cash or accrual? I get asked this by almost every new client. Sometimes by the investor, sometimes by their CPA, and sometimes by a lender who's requesting financial statements prepared a specific way.
 
 Here's the honest answer: if you own fewer than 20 rental doors and file your taxes on Schedule E, cash basis accounting is almost certainly the right choice. But there are real scenarios where accrual makes more sense. Let me walk you through both.
@@ -21,6 +23,8 @@ Here's the honest answer: if you own fewer than 20 rental doors and file your ta
 ---
 
 ## The 30-Second Version
+
+**Here's the core difference in one sentence: cash basis tracks when money moves, accrual basis tracks when money is earned or owed.**
 
 **Cash basis** means you record income when money hits your bank account and expenses when money leaves. Rent is income when the tenant pays. A repair is an expense when you write the check.
 
@@ -46,7 +50,7 @@ Both are legitimate accounting methods recognized by the IRS. The question is wh
 
 ## Why Cash Basis Works for Most Landlords
 
-Cash basis accounting is simpler, and for most rental property owners, simpler is better. Here's why:
+**Cash basis accounting is simpler, and for most rental property owners, simpler is better.** Here's why:
 
 **It matches how you think about money.** When you check your bank account and see a deposit, that's income. When you see a debit, that's an expense. Cash basis mirrors the bank account, which makes it intuitive.
 
@@ -60,23 +64,33 @@ Cash basis accounting is simpler, and for most rental property owners, simpler i
 
 ## When Accrual Makes Sense
 
-There are real reasons some investors switch to accrual. Here's when it starts to matter:
+**There are real reasons some investors switch to accrual — and it's not about being "more professional."** Here's when it starts to matter:
 
-**Large portfolios (20+ doors).** At scale, accrual gives you a more accurate picture of your financial position at any point in time. You can see what's owed to you and what you owe, not just what's hit the bank.
+### Large Portfolios (20+ Doors)
 
-**Lender requirements.** Some commercial lenders and portfolio lenders require GAAP-compliant financial statements. GAAP generally means accrual basis. If your lender wants accrual financials, you don't have a choice.
+At scale, accrual gives you a more accurate picture of your financial position at any point in time. You can see what's owed to you and what you owe, not just what's hit the bank.
 
-**Partners and investors.** If you have equity partners or outside investors, they often expect accrual-basis reporting. It shows a more complete picture of the business — including receivables (rent owed) and payables (bills due).
+### Lender Requirements
 
-**Significant accounts receivable.** If you have a lot of tenants who pay late — and the late payments are material amounts — accrual gives you a more accurate picture of your actual earned income versus what you've collected. If you're tracking [per-property P&L](/blog/per-property-pl-tracking), the method matters — accrual will show you a different picture of each property's performance.
+Some commercial lenders and portfolio lenders require GAAP-compliant financial statements. GAAP generally means accrual basis. If your lender wants accrual financials, you don't have a choice.
 
-**You're growing into institutional territory.** If you're building toward a fund structure, preparing for a sale of your portfolio, or bringing on institutional capital, accrual-basis books make the transition smoother.
+### Partners and Investors
+
+If you have equity partners or outside investors, they often expect accrual-basis reporting. It shows a more complete picture of the business — including receivables (rent owed) and payables (bills due).
+
+### Significant Accounts Receivable
+
+If you have a lot of tenants who pay late — and the late payments are material amounts — accrual gives you a more accurate picture of your actual earned income versus what you've collected. If you're tracking [per-property P&L](/blog/per-property-pl-tracking), the method matters — accrual will show you a different picture of each property's performance.
+
+### Growing Into Institutional Territory
+
+If you're building toward a fund structure, preparing for a sale of your portfolio, or bringing on institutional capital, accrual-basis books make the transition smoother.
 
 ---
 
 ## What Changes Practically
 
-Let's walk through a real example so you can see the difference.
+**The best way to understand the difference is to see it in a real scenario.**
 
 **Scenario:** Your tenant at 427 Oak Street owes $1,500 rent for December. They don't pay until January 3rd.
 
@@ -87,6 +101,8 @@ Let's walk through a real example so you can see the difference.
 
 - **Cash basis:** The full $2,400 is a December expense.
 - **Accrual basis:** Only $200 (one month) is a December expense. The remaining $2,200 sits on your balance sheet as a prepaid asset and gets expensed $200/month over the next 11 months.
+
+> **Key takeaway:** The accounting method you choose changes how each property's numbers look at year-end. A tenant who pays late shifts income between years on cash basis. On accrual, that income stays where it was earned. If you're tracking [per-property P&L](/blog/per-property-pl-tracking), make sure your method is consistent across all properties.
 
 **Security deposits** are another area where the method matters. Under both methods, security deposits received aren't income — they're liabilities (you owe them back). But how refunds and forfeitures are handled can differ depending on your method and state law.
 

@@ -18,6 +18,8 @@ This isn't a hypothetical. It happens. And the difference between dealer and inv
 
 After reading this, you'll understand what the classification means, how the IRS decides, and what your bookkeeping needs to show to protect you.
 
+> **The short version:** The IRS classifies frequent flippers as "dealers" — which means ordinary income tax plus 15.3% self-employment tax on every dollar of profit. No capital gains treatment. No 1031 exchanges. The classification depends on frequency, intent, and holding period. Your books and entity structure are key factors — clean [deal-level P&Ls](/blog/fix-and-flip-accounting) and separate entities for flips vs. rentals protect you.
+
 ---
 
 ## Investor vs. Dealer: The Short Version
@@ -36,21 +38,29 @@ On a $50K flip profit, the difference between investor and dealer classification
 
 ## How the IRS Decides
 
-There's no single rule. The IRS uses a multi-factor test, and courts have upheld various combinations of these factors over the years:
+**There's no single rule — the IRS uses a multi-factor test,** and courts have upheld various combinations of these factors over the years.
+
+### Frequency and holding period
 
 **Frequency and volume of sales.** If you flip 10 houses a year, that looks like a business. If you sell one rental property you've held for 8 years, that looks like an investment.
 
 **How long you hold the property.** Buying, rehabbing, and selling within 4 months screams dealer. Holding a rental for 5 years and then selling looks like an investor.
 
+### Intent and income mix
+
 **Intent at the time of purchase.** Did you buy it to flip, or did you buy it to hold? The IRS looks at your actions, not just your words. If you bought it, immediately started a rehab, and listed it 3 months later — the intent is clear.
 
 **How much of your income comes from sales.** If flip profits are your primary income source, the IRS is more likely to classify you as a dealer.
+
+### Business activity and improvements
 
 **Whether you're in the "business" of selling real estate.** Do you have a business entity for flipping? Do you market yourself as a flipper? Do you have a website, business cards, or marketing spend focused on acquiring properties to resell? All of these point toward dealer status.
 
 **Improvements made to the property.** Extensive improvements before resale suggest dealer activity. A buy-and-hold investor who sells "as-is" looks more like an investor.
 
 No single factor is determinative. The IRS looks at the totality — and it's a judgment call, which means gray areas are common.
+
+> **Key takeaway:** The IRS doesn't use a bright-line test. They look at the full picture — how many deals you do, how long you hold, how you market yourself, and what your books say. Gray areas are common, which is exactly why your documentation matters.
 
 ---
 
@@ -92,6 +102,8 @@ Regardless of how you and your CPA handle the tax classification, your bookkeepi
 4. **Track [holding costs](/blog/holding-costs-house-flip) per deal** — interest, taxes, insurance, utilities
 5. **Maintain [1099 records](/blog/1099-for-contractors-landlords) for all contractors** — this is non-negotiable for any entity doing significant construction work
 6. **Keep records that support your CPA's tax position** — whatever strategy they recommend, the books need to back it up
+
+> **Key takeaway:** Your books need to tell a story that supports your CPA's tax position. Separate entities for flips vs. rentals, [separate bank accounts](/blog/separate-bank-accounts-rental-property), and clean deal-level P&Ls per flip — that's the foundation.
 
 The worst position to be in is having your CPA take an aggressive tax position (investor treatment for flip income) while your books tell a different story (no entity separation, everything lumped together). That's how audits turn into penalties.
 
