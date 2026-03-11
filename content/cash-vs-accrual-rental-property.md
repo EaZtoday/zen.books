@@ -50,7 +50,7 @@ Both are legitimate accounting methods recognized by the IRS. The question is wh
 
 ## Why Cash Basis Works for Most Landlords
 
-Cash basis accounting is simpler, and for most rental property owners, simpler is better. Here's why:
+**Cash basis accounting is simpler, and for most rental property owners, simpler is better.** Here's why:
 
 **It matches how you think about money.** When you check your bank account and see a deposit, that's income. When you see a debit, that's an expense. Cash basis mirrors the bank account, which makes it intuitive.
 
@@ -64,23 +64,33 @@ Cash basis accounting is simpler, and for most rental property owners, simpler i
 
 ## When Accrual Makes Sense
 
-There are real reasons some investors switch to accrual. Here's when it starts to matter:
+**There are real reasons some investors switch to accrual — and it's not about being "more professional."** Here's when it starts to matter:
 
-**Large portfolios (20+ doors).** At scale, accrual gives you a more accurate picture of your financial position at any point in time. You can see what's owed to you and what you owe, not just what's hit the bank.
+### Large Portfolios (20+ Doors)
 
-**Lender requirements.** Some commercial lenders and portfolio lenders require GAAP-compliant financial statements. GAAP generally means accrual basis. If your lender wants accrual financials, you don't have a choice.
+At scale, accrual gives you a more accurate picture of your financial position at any point in time. You can see what's owed to you and what you owe, not just what's hit the bank.
 
-**Partners and investors.** If you have equity partners or outside investors, they often expect accrual-basis reporting. It shows a more complete picture of the business — including receivables (rent owed) and payables (bills due).
+### Lender Requirements
 
-**Significant accounts receivable.** If you have a lot of tenants who pay late — and the late payments are material amounts — accrual gives you a more accurate picture of your actual earned income versus what you've collected. If you're tracking [per-property P&L](/blog/per-property-pl-tracking), the method matters — accrual will show you a different picture of each property's performance.
+Some commercial lenders and portfolio lenders require GAAP-compliant financial statements. GAAP generally means accrual basis. If your lender wants accrual financials, you don't have a choice.
 
-**You're growing into institutional territory.** If you're building toward a fund structure, preparing for a sale of your portfolio, or bringing on institutional capital, accrual-basis books make the transition smoother.
+### Partners and Investors
+
+If you have equity partners or outside investors, they often expect accrual-basis reporting. It shows a more complete picture of the business — including receivables (rent owed) and payables (bills due).
+
+### Significant Accounts Receivable
+
+If you have a lot of tenants who pay late — and the late payments are material amounts — accrual gives you a more accurate picture of your actual earned income versus what you've collected. If you're tracking [per-property P&L](/blog/per-property-pl-tracking), the method matters — accrual will show you a different picture of each property's performance.
+
+### Growing Into Institutional Territory
+
+If you're building toward a fund structure, preparing for a sale of your portfolio, or bringing on institutional capital, accrual-basis books make the transition smoother.
 
 ---
 
 ## What Changes Practically
 
-Let's walk through a real example so you can see the difference.
+**The best way to understand the difference is to see it in a real scenario.**
 
 **Scenario:** Your tenant at 427 Oak Street owes $1,500 rent for December. They don't pay until January 3rd.
 

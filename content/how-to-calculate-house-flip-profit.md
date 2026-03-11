@@ -10,13 +10,17 @@ category: "Real Estate Bookkeeping"
 
 # How to Calculate True House Flip Profit (Not the Number You Tell Your Friends)
 
+*You did the math on a napkin. Sale price minus purchase minus rehab equals profit. Except it doesn't — not even close.*
+
+---
+
+> **The short version:** True flip profit = Sale Price minus ALL costs: acquisition (purchase + closing + points), rehab (contractor + materials + permits), holding (interest + taxes + insurance + utilities), and selling (commissions + closing + concessions). Most flippers leave out 8-15% of actual costs. On a $200K sale, that's $16K-$30K in phantom profit. See the [full formula broken down below](#the-formula-most-flippers-use-and-why-its-wrong).
+
 You bought a house for $120K, put $40K into the rehab, and sold it for $210K. Quick math says you made $50K. That's the number you tell people at the REIA meeting.
 
 The actual number, after closing costs on both sides, five months of hard money interest, insurance, utilities, property taxes, the dumpster rental you forgot about, and the agent's commission? Closer to $28K. Maybe less.
 
 The gap between "what you think you made" and "what you actually made" is where flippers get into trouble. This article gives you the complete formula so your deal analysis reflects reality, not bar napkin math.
-
-> **The short version:** True flip profit = Sale Price minus ALL costs: acquisition (purchase + closing + points), rehab (contractor + materials + permits), holding (interest + taxes + insurance + utilities), and selling (commissions + closing + concessions). Most flippers leave out 8-15% of actual costs. On a $200K sale, that's $16K-$30K in phantom profit.
 
 ---
 
@@ -36,7 +40,7 @@ Every line item in that formula has sub-items. Let's break them down.
 
 ## Acquisition Costs (What It Actually Cost to Buy)
 
-The purchase price is just the starting point. Add:
+**The purchase price is just the starting point.** Add:
 
 - **Purchase price** — the contract number
 - **Closing costs** — title insurance, title search, recording fees, transfer taxes
@@ -50,7 +54,7 @@ On a typical NEPA flip, acquisition costs run 3-5% above the purchase price. On 
 
 ## Rehab Costs (The Obvious Ones and the Ones You Forget)
 
-Your contractor's invoice is the big number. But rehab costs include everything you spent to get the house ready to sell:
+**Your contractor's invoice is the big number, but it's not the only number.** Rehab costs include everything you spent to get the house ready to sell:
 
 - **General contractor or trade subs** — the main rehab bill
 - **Materials you purchased directly** — every Home Depot and supply house run

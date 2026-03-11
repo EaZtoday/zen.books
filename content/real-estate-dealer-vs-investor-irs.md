@@ -38,21 +38,29 @@ On a $50K flip profit, the difference between investor and dealer classification
 
 ## How the IRS Decides
 
-There's no single rule. The IRS uses a multi-factor test, and courts have upheld various combinations of these factors over the years:
+**There's no single rule — the IRS uses a multi-factor test,** and courts have upheld various combinations of these factors over the years.
+
+### Frequency and holding period
 
 **Frequency and volume of sales.** If you flip 10 houses a year, that looks like a business. If you sell one rental property you've held for 8 years, that looks like an investment.
 
 **How long you hold the property.** Buying, rehabbing, and selling within 4 months screams dealer. Holding a rental for 5 years and then selling looks like an investor.
 
+### Intent and income mix
+
 **Intent at the time of purchase.** Did you buy it to flip, or did you buy it to hold? The IRS looks at your actions, not just your words. If you bought it, immediately started a rehab, and listed it 3 months later — the intent is clear.
 
 **How much of your income comes from sales.** If flip profits are your primary income source, the IRS is more likely to classify you as a dealer.
+
+### Business activity and improvements
 
 **Whether you're in the "business" of selling real estate.** Do you have a business entity for flipping? Do you market yourself as a flipper? Do you have a website, business cards, or marketing spend focused on acquiring properties to resell? All of these point toward dealer status.
 
 **Improvements made to the property.** Extensive improvements before resale suggest dealer activity. A buy-and-hold investor who sells "as-is" looks more like an investor.
 
 No single factor is determinative. The IRS looks at the totality — and it's a judgment call, which means gray areas are common.
+
+> **Key takeaway:** The IRS doesn't use a bright-line test. They look at the full picture — how many deals you do, how long you hold, how you market yourself, and what your books say. Gray areas are common, which is exactly why your documentation matters.
 
 ---
 
