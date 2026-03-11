@@ -126,6 +126,36 @@ const routes = [
     title: 'Cash vs. Accrual Accounting for Rental Properties: Which One Should You Use? | Zen Books',
     description: "Most landlords should use cash basis accounting. But there are real reasons some investors switch to accrual. Here's how to decide.",
   },
+  {
+    path: '/blog/security-deposit-accounting-landlords',
+    title: 'Security Deposit Accounting for Landlords: How to Record It Without Messing Up Your Books | Zen Books',
+    description: "Security deposits aren't income. They're liabilities. Here's how to record, hold, and refund security deposits correctly in QuickBooks so your books stay clean.",
+  },
+  {
+    path: '/blog/quickbooks-setup-rental-property',
+    title: 'QuickBooks Setup for Landlords: The Simple Version | Zen Books',
+    description: "A practical, no-theory guide to setting up QuickBooks Online for rental property bookkeeping. Chart of accounts, classes, properties, and bank connections — step by step.",
+  },
+  {
+    path: '/blog/hard-money-loan-accounting-quickbooks',
+    title: 'Hard Money Loan Tracking for Flips: How to Record Draws, Interest, and Points in QuickBooks | Zen Books',
+    description: "Hard money loans have moving parts — draws, points, interest accrual, payoff at closing. Here's how to track all of it in QuickBooks so your flip P&L is accurate.",
+  },
+  {
+    path: '/blog/how-to-calculate-house-flip-profit',
+    title: 'How to Calculate True House Flip Profit (Not the Number You Tell Your Friends) | Zen Books',
+    description: "Most flippers overestimate their profit by $10K or more because they leave out half the costs. Here's the complete formula for calculating what a flip actually made you.",
+  },
+  {
+    path: '/blog/holding-costs-house-flip',
+    title: 'Holding Costs That Kill Flip Margins: Track Them or Lose Money on Every Deal | Zen Books',
+    description: "Hard money interest, insurance, taxes, and utilities add up fast on a flip. Here's what holding costs actually look like, how to track them, and how to stop the bleed.",
+  },
+  {
+    path: '/blog/real-estate-dealer-vs-investor-irs',
+    title: 'Real Estate Dealer vs. Investor: Why the IRS Classification Matters for Flippers | Zen Books',
+    description: "The IRS treats real estate dealers and investors differently — and it can cost you thousands in self-employment tax. Here's what the classification means and why your books matter.",
+  },
 ];
 
 function generatePage(template, route) {
