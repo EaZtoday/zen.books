@@ -18,6 +18,8 @@ This isn't a hypothetical. It happens. And the difference between dealer and inv
 
 After reading this, you'll understand what the classification means, how the IRS decides, and what your bookkeeping needs to show to protect you.
 
+> **The short version:** The IRS classifies frequent flippers as "dealers" — which means ordinary income tax plus 15.3% self-employment tax on every dollar of profit. No capital gains treatment. No 1031 exchanges. The classification depends on frequency, intent, and holding period. Your books and entity structure are key factors — clean [deal-level P&Ls](/blog/fix-and-flip-accounting) and separate entities for flips vs. rentals protect you.
+
 ---
 
 ## Investor vs. Dealer: The Short Version
@@ -92,6 +94,8 @@ Regardless of how you and your CPA handle the tax classification, your bookkeepi
 4. **Track [holding costs](/blog/holding-costs-house-flip) per deal** — interest, taxes, insurance, utilities
 5. **Maintain [1099 records](/blog/1099-for-contractors-landlords) for all contractors** — this is non-negotiable for any entity doing significant construction work
 6. **Keep records that support your CPA's tax position** — whatever strategy they recommend, the books need to back it up
+
+> **Key takeaway:** Your books need to tell a story that supports your CPA's tax position. Separate entities for flips vs. rentals, [separate bank accounts](/blog/separate-bank-accounts-rental-property), and clean deal-level P&Ls per flip — that's the foundation.
 
 The worst position to be in is having your CPA take an aggressive tax position (investor treatment for flip income) while your books tell a different story (no entity separation, everything lumped together). That's how audits turn into penalties.
 

@@ -93,16 +93,24 @@ export default function BlogPost() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15 }}
-            className="prose prose-warm prose-lg max-w-none
+            className="blog-content prose prose-warm prose-lg max-w-none
               prose-headings:font-serif prose-headings:font-medium prose-headings:text-warm-900
-              prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4
-              prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
-              prose-p:text-warm-600 prose-p:leading-relaxed
+              prose-h2:text-3xl prose-h2:mt-16 prose-h2:mb-6 prose-h2:pb-3 prose-h2:border-b prose-h2:border-cream-200
+              prose-h3:text-xl prose-h3:mt-10 prose-h3:mb-4
+              prose-p:text-warm-600 prose-p:leading-relaxed prose-p:mb-5
               prose-strong:text-warm-900 prose-strong:font-semibold
-              prose-a:text-fern prose-a:no-underline hover:prose-a:underline
-              prose-hr:border-cream-200
-              prose-ul:text-warm-600 prose-li:my-1
-              prose-blockquote:border-fern prose-blockquote:text-warm-600"
+              prose-a:text-fern prose-a:no-underline hover:prose-a:underline prose-a:font-medium
+              prose-hr:border-cream-200 prose-hr:my-12
+              prose-ul:text-warm-600 prose-ul:my-6 prose-ul:space-y-2
+              prose-ol:text-warm-600 prose-ol:my-6 prose-ol:space-y-2
+              prose-li:my-2 prose-li:leading-relaxed
+              prose-blockquote:border-l-4 prose-blockquote:border-fern prose-blockquote:bg-fern-50 prose-blockquote:rounded-r-lg prose-blockquote:px-6 prose-blockquote:py-5 prose-blockquote:my-8 prose-blockquote:not-italic prose-blockquote:text-warm-900
+              prose-table:my-8 prose-table:rounded-lg prose-table:overflow-hidden
+              prose-thead:bg-fern prose-thead:text-white
+              prose-th:px-4 prose-th:py-3 prose-th:text-left prose-th:font-semibold prose-th:text-sm
+              prose-td:px-4 prose-td:py-3 prose-td:border-b prose-td:border-cream-200
+              prose-em:text-warm-600
+              prose-img:rounded-lg prose-img:shadow-md prose-img:my-8"
             dangerouslySetInnerHTML={{ __html: article.html }}
           />
         </div>

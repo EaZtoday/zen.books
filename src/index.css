@@ -61,3 +61,145 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #D4E8CC;
   color: #3E6234;
 }
+
+/* ───────────────────────────────────────────────
+   Blog Content — CRO-Optimized Typography & Formatting
+   ─────────────────────────────────────────────── */
+
+/* Table row striping */
+.blog-content tbody tr:nth-child(even) {
+  background-color: #FBF5EB;
+}
+.blog-content tbody tr:hover {
+  background-color: #F3EADB;
+}
+
+/* Table container — horizontal scroll on mobile */
+.blog-content table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #E6DCCC;
+  border-radius: 0.5rem;
+}
+.blog-content thead {
+  position: sticky;
+  top: 0;
+}
+.blog-content thead th {
+  white-space: nowrap;
+}
+
+/* Blockquote as callout box — key takeaways */
+.blog-content blockquote {
+  font-style: normal;
+  font-size: 1rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.blog-content blockquote p {
+  color: #2C2416;
+  margin-bottom: 0.25rem;
+}
+.blog-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* CTA links (the "Book a Free Call" buttons) — make them look like buttons */
+.blog-content a[href="https://zenbooks4u.com"] {
+  display: inline-block;
+  background-color: #4F7942;
+  color: white !important;
+  padding: 0.875rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none !important;
+  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0 2px 8px rgba(79, 121, 66, 0.25);
+}
+.blog-content a[href="https://zenbooks4u.com"]:hover {
+  background-color: #3E6234;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 121, 66, 0.35);
+}
+
+/* Bold paragraph starters — visual scanning anchors */
+.blog-content p > strong:first-child {
+  color: #2C2416;
+  font-size: 1.05em;
+}
+
+/* Horizontal rules — elegant section dividers */
+.blog-content hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #E6DCCC, transparent);
+}
+
+/* First paragraph after H1 — larger intro text */
+.blog-content > h1 + p,
+.blog-content > h1 + p + hr + p {
+  font-size: 1.15rem;
+  color: #6B5D4F;
+}
+
+/* List items with bold lead — make the bold part pop */
+.blog-content li > strong:first-child {
+  display: inline;
+  color: #2C2416;
+}
+
+/* Numbered steps — visual progress indicators */
+.blog-content ol {
+  counter-reset: step-counter;
+  list-style: none;
+  padding-left: 0;
+}
+.blog-content ol > li {
+  counter-increment: step-counter;
+  padding-left: 2.5rem;
+  position: relative;
+}
+.blog-content ol > li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: #4F7942;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .blog-content {
+    font-size: 1rem;
+  }
+  .blog-content h2 {
+    font-size: 1.5rem;
+  }
+  .blog-content h3 {
+    font-size: 1.2rem;
+  }
+  .blog-content blockquote {
+    padding: 1rem 1.25rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .blog-content table {
+    font-size: 0.875rem;
+  }
+  .blog-content a[href="https://zenbooks4u.com"] {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+  }
+}

@@ -14,6 +14,8 @@ category: "Real Estate Bookkeeping"
 
 ---
 
+> **The short version:** If you own fewer than 20 doors and file on Schedule E, use cash basis. It's simpler, your CPA expects it, and it gives you tax timing flexibility. Only consider accrual if lenders or partners require GAAP financials. Whichever you choose, set it up correctly from the start — switching later requires [IRS Form 3115](https://www.irs.gov/forms-pubs/about-form-3115) and it's not trivial.
+
 Cash or accrual? I get asked this by almost every new client. Sometimes by the investor, sometimes by their CPA, and sometimes by a lender who's requesting financial statements prepared a specific way.
 
 Here's the honest answer: if you own fewer than 20 rental doors and file your taxes on Schedule E, cash basis accounting is almost certainly the right choice. But there are real scenarios where accrual makes more sense. Let me walk you through both.
@@ -21,6 +23,8 @@ Here's the honest answer: if you own fewer than 20 rental doors and file your ta
 ---
 
 ## The 30-Second Version
+
+**Here's the core difference in one sentence: cash basis tracks when money moves, accrual basis tracks when money is earned or owed.**
 
 **Cash basis** means you record income when money hits your bank account and expenses when money leaves. Rent is income when the tenant pays. A repair is an expense when you write the check.
 
@@ -87,6 +91,8 @@ Let's walk through a real example so you can see the difference.
 
 - **Cash basis:** The full $2,400 is a December expense.
 - **Accrual basis:** Only $200 (one month) is a December expense. The remaining $2,200 sits on your balance sheet as a prepaid asset and gets expensed $200/month over the next 11 months.
+
+> **Key takeaway:** The accounting method you choose changes how each property's numbers look at year-end. A tenant who pays late shifts income between years on cash basis. On accrual, that income stays where it was earned. If you're tracking [per-property P&L](/blog/per-property-pl-tracking), make sure your method is consistent across all properties.
 
 **Security deposits** are another area where the method matters. Under both methods, security deposits received aren't income — they're liabilities (you owe them back). But how refunds and forfeitures are handled can differ depending on your method and state law.
 

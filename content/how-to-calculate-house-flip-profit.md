@@ -16,6 +16,8 @@ The actual number, after closing costs on both sides, five months of hard money 
 
 The gap between "what you think you made" and "what you actually made" is where flippers get into trouble. This article gives you the complete formula so your deal analysis reflects reality, not bar napkin math.
 
+> **The short version:** True flip profit = Sale Price minus ALL costs: acquisition (purchase + closing + points), rehab (contractor + materials + permits), holding (interest + taxes + insurance + utilities), and selling (commissions + closing + concessions). Most flippers leave out 8-15% of actual costs. On a $200K sale, that's $16K-$30K in phantom profit.
+
 ---
 
 ## The Formula Most Flippers Use (And Why It's Wrong)
@@ -119,6 +121,8 @@ Let's run the numbers on a real deal:
 | **True Net Profit** | | **$10,850** |
 
 The bar napkin said $50K. The real number is $10,850.
+
+> **Key takeaway:** The bar napkin said $50K. The real number is $10,850. That's a real return — but it's a very different number than what most flippers would tell their friends.
 
 That's not a bad deal — it's a 5.2% return in 5 months. But it's a very different number than $50K. And if you're making business decisions based on the $50K number, you're going to scale yourself into a cash flow problem.
 
