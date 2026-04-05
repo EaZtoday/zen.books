@@ -19,11 +19,11 @@ export async function contactHandler(req: Request, res: Response) {
       return res.status(400).json({ error: 'Name, email, and investment strategy are required.' });
     }
 
-    const notificationEmail = process.env.NOTIFICATION_EMAIL || 'hello@zenbooks4u.com';
+    const notificationEmail = process.env.NOTIFICATION_EMAIL || 'zenbooks4u@gmail.com';
 
     // Send notification to business owner
     await resend.emails.send({
-      from: 'Zen Books <hello@zenbooks4u.com>',
+      from: 'Zen Books <onboarding@resend.dev>',
       to: notificationEmail,
       subject: `New Lead: ${name} — ${investorType}`,
       html: `
@@ -38,7 +38,7 @@ export async function contactHandler(req: Request, res: Response) {
 
     // Send confirmation to the lead
     await resend.emails.send({
-      from: 'Zen Books <hello@zenbooks4u.com>',
+      from: 'Zen Books <onboarding@resend.dev>',
       to: email,
       subject: 'We received your request — Zen Books',
       html: `
