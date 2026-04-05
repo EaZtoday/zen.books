@@ -1,8 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 interface ContactForm {
   name: string;
   email: string;
@@ -15,6 +13,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
+
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    console.error('RESEND_API_KEY is not set. Available env vars:', Object.keys(process.env).filter(k => k.startsWith('RESEND') || k.startsWith('NOTIFICATION')));
+    return res.status(500).json({ error: 'Email service is not configured. Please contact us directly at zenbooks4u@gmail.com' });
+  }
+
+  const resend = new Resend(apiKey);
 
   try {
     const { name, email, phone, investorType, message } = req.body as ContactForm;
