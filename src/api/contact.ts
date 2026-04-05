@@ -23,7 +23,7 @@ export async function contactHandler(req: Request, res: Response) {
 
     // Send notification to business owner
     await resend.emails.send({
-      from: 'Zen Books <notifications@zenbooks4u.com>',
+      from: 'Zen Books <hello@zenbooks4u.com>',
       to: notificationEmail,
       subject: `New Lead: ${name} — ${investorType}`,
       html: `

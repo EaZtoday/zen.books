@@ -1,7 +1,7 @@
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { contactHandler } from './src/api/contact.js';
+import { contactHandler } from './src/api/contact.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
