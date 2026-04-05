@@ -78,7 +78,7 @@ export default function Navbar() {
           </div>
 
           <button
-            className="md:hidden p-2 text-warm-600"
+            className="md:hidden p-3 min-h-11 min-w-11 flex items-center justify-center text-warm-600"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
