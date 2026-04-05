@@ -107,7 +107,7 @@ export function BookingSection() {
 
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-forest-500 mb-2">Email</label>
-              <input type="email" id="email" name="email" required value={formData.email} onChange={handleChange}
+              <input type="text" id="email" name="email" required value={formData.email} onChange={handleChange}
                 className="w-full px-4 py-3.5 rounded-xl bg-forest-100 border border-forest-200 text-cream placeholder-forest-300 focus:outline-none focus:ring-2 focus:ring-accent/40 transition-colors"
                 placeholder="jane@example.com" />
             </div>
