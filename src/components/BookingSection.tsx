@@ -12,11 +12,33 @@ export function BookingSection() {
     message: '',
   });
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    trackEvent('form_submit', 'booking', formData.investorType);
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setError('');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        const data = await response.json();
+        throw new Error(data.error || 'Something went wrong');
+      }
+
+      trackEvent('form_submit', 'booking', formData.investorType);
+      setSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to submit. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -122,10 +144,14 @@ export function BookingSection() {
                 placeholder="I have 12 doors across 3 LLCs and I'm about 2 years behind..." />
             </div>
 
-            <button type="submit"
-              className="w-full mt-4 inline-flex items-center justify-center gap-2 bg-accent text-white px-8 py-4 rounded-full text-base font-medium hover:bg-accent-dark transition-all">
-              Request Your Free Call
-              <Send className="w-4 h-4" />
+            {error && (
+              <p className="text-sm text-red-400 text-center">{error}</p>
+            )}
+
+            <button type="submit" disabled={isSubmitting}
+              className="w-full mt-4 inline-flex items-center justify-center gap-2 bg-accent text-white px-8 py-4 rounded-full text-base font-medium hover:bg-accent-dark transition-all disabled:opacity-60 disabled:cursor-not-allowed">
+              {isSubmitting ? 'Sending...' : 'Request Your Free Call'}
+              {!isSubmitting && <Send className="w-4 h-4" />}
             </button>
 
             <p className="text-xs text-forest-300 text-center mt-3">
