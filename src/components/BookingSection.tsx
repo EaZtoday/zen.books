@@ -28,8 +28,12 @@ export function BookingSection() {
       });
 
       if (!response.ok) {
-        const data = await response.json();
-        throw new Error(data.error || 'Something went wrong');
+        let message = 'Something went wrong. Please try again or email us at zenbooks4u@gmail.com';
+        try {
+          const data = await response.json();
+          if (data.error) message = data.error;
+        } catch {}
+        throw new Error(message);
       }
 
       trackEvent('form_submit', 'booking', formData.investorType);
