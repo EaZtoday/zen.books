@@ -116,7 +116,7 @@ export function BookingSection() {
               <label htmlFor="phone" className="block text-sm font-medium text-forest-500 mb-2">
                 Phone <span className="text-forest-300">(optional)</span>
               </label>
-              <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange}
+              <input type="text" id="phone" name="phone" inputMode="tel" value={formData.phone} onChange={handleChange}
                 className="w-full px-4 py-3.5 rounded-xl bg-forest-100 border border-forest-200 text-cream placeholder-forest-300 focus:outline-none focus:ring-2 focus:ring-accent/40 transition-colors"
                 placeholder="(555) 123-4567" />
             </div>
