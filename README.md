@@ -1,20 +1,66 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Zen Books
 
-# Run and deploy your AI Studio app
+Judgment-free QuickBooks bookkeeping for real estate investors, therapists, and small business owners.
 
-This contains everything you need to run your app locally.
+## Getting Started
 
-View your app in AI Studio: https://ai.studio/apps/356d8171-af96-4b7b-9550-ff9a989cd55c
+### Prerequisites
+- Node.js 18+
+- npm
 
-## Run Locally
+### Installation
 
-**Prerequisites:**  Node.js
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The app will be available at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Project Structure
+
+- `/src` - React components and pages
+- `/content` - Markdown blog content
+- `/public` - Static assets
+- `/scripts` - Build utilities
+- `/docs` - Documentation and reference materials
+
+## Tech Stack
+
+- **Framework:** React 18 with TypeScript
+- **Build:** Vite
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
+
+## Features
+
+- Multi-page site for different service niches (Real Estate Investors, Therapists, Consultants)
+- Blog system with SEO optimization
+- Hyper-local location pages
+- Structured data (Schema markup) for search engines
+- GA4 analytics integration
+- Responsive design
+
+## Development
+
+The site is optimized for quick local development with:
+- Fast module replacement (HMR)
+- TypeScript strict mode
+- Tailwind CSS with JIT compilation
+
+## License
+
+All rights reserved.
