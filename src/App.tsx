@@ -17,6 +17,9 @@ const LehighValleyBookkeeping = React.lazy(() => import('./pages/locations/Lehig
 const ReadingBookkeeping = React.lazy(() => import('./pages/locations/ReadingBookkeeping'));
 const HarrisburgBookkeeping = React.lazy(() => import('./pages/locations/HarrisburgBookkeeping'));
 const PhillySuburbsBookkeeping = React.lazy(() => import('./pages/locations/PhillySuburbsBookkeeping'));
+const ArchbaldBookkeeping = React.lazy(() => import('./pages/locations/ArchbaldBookkeeping'));
+const CarbondaleBookkeeping = React.lazy(() => import('./pages/locations/CarbondaleBookkeeping'));
+const PittstonBookkeeping = React.lazy(() => import('./pages/locations/PittstonBookkeeping'));
 const Blog = React.lazy(() => import('./pages/Blog'));
 const BlogPost = React.lazy(() => import('./pages/BlogPost'));
 const NotFound = React.lazy(() => import('./pages/NotFound'));
@@ -60,6 +63,9 @@ export default function App() {
             <Route path="/reading-bookkeeping" element={<ReadingBookkeeping />} />
             <Route path="/harrisburg-bookkeeping" element={<HarrisburgBookkeeping />} />
             <Route path="/philadelphia-suburbs-bookkeeping" element={<PhillySuburbsBookkeeping />} />
+            <Route path="/archbald-bookkeeping" element={<ArchbaldBookkeeping />} />
+            <Route path="/carbondale-bookkeeping" element={<CarbondaleBookkeeping />} />
+            <Route path="/pittston-bookkeeping" element={<PittstonBookkeeping />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="*" element={<NotFound />} />

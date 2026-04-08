@@ -92,11 +92,11 @@ export const scrantonData: LocationData = {
   },
   otherLocations: [
     { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
+    { name: 'Archbald', slug: '/archbald-bookkeeping' },
+    { name: 'Carbondale', slug: '/carbondale-bookkeeping' },
+    { name: 'Pittston', slug: '/pittston-bookkeeping' },
     { name: 'Poconos', slug: '/poconos-bookkeeping' },
     { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
-    { name: 'Reading', slug: '/reading-bookkeeping' },
-    { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
-    { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
   ],
 };
 
@@ -166,11 +166,11 @@ export const wilkesBarreData: LocationData = {
   },
   otherLocations: [
     { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Archbald', slug: '/archbald-bookkeeping' },
+    { name: 'Carbondale', slug: '/carbondale-bookkeeping' },
+    { name: 'Pittston', slug: '/pittston-bookkeeping' },
     { name: 'Poconos', slug: '/poconos-bookkeeping' },
     { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
-    { name: 'Reading', slug: '/reading-bookkeeping' },
-    { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
-    { name: 'Philadelphia Suburbs', slug: '/philadelphia-suburbs-bookkeeping' },
   ],
 };
 
@@ -546,5 +546,271 @@ export const phillySuburbsData: LocationData = {
     { name: 'Reading', slug: '/reading-bookkeeping' },
     { name: 'Harrisburg', slug: '/harrisburg-bookkeeping' },
     { name: 'Poconos', slug: '/poconos-bookkeeping' },
+  ],
+};
+
+export const archbaldData: LocationData = {
+  slug: 'archbald-bookkeeping',
+  pageTitle: 'Archbald PA Bookkeeping for Real Estate Investors | Fix & Flip, Landlords — Zen Books',
+  metaDescription: 'Bookkeeping for real estate investors in Archbald, PA. Fix-and-flip project tracking, per-property P&L, lender-ready reports. Serving Lackawanna County investors in QuickBooks Online.',
+  region: 'Archbald, PA',
+  heroTag: 'Archbald, PA — Lackawanna County',
+  heroHeadline: 'Archbald bookkeeping\nfor real estate investors.',
+  heroSubhead: "Affordable housing stock. Coal-era bones. Strong cash flow. Archbald investors are moving fast — and your books need to keep up. We track every flip, every door, every dollar in QuickBooks Online.",
+  marketInsight: {
+    title: 'The Archbald investor opportunity.',
+    paragraphs: [
+      "Archbald has become a quiet favorite among NEPA real estate investors. Affordable entry points — often well below $100k for single-families and small multi-units — combined with strong rental demand from Scranton commuters make it one of Lackawanna County's most attractive markets for both fix-and-flip and buy-and-hold investors.",
+      "The housing stock here is predominantly pre-WWII construction: solid bones, coal-era build quality, and the kind of character that renovated properties command a premium on. Investors working the Archbald market are typically acquiring distressed properties, executing cosmetic-to-full rehabs, and either selling to owner-occupants or holding as rentals. Either way, the financials need to be clean.",
+      "Interstate 84 runs right through the borough, making Archbald accessible to investor buyers from the Poconos, New York, and New Jersey — which supports ARV on renovated properties and keeps the resale market moving. We're based in Scranton, five miles down I-81 — same market, same knowledge, clean books.",
+    ],
+    stats: [
+      { label: 'Typical single-family entry', value: 'Under $100k' },
+      { label: 'Miles from Scranton office', value: '~5 miles' },
+      { label: 'I-84 access to NY/NJ buyers', value: 'Direct' },
+    ],
+  },
+  investorChallenges: {
+    title: 'Challenges Archbald investors face.',
+    items: [
+      {
+        title: 'CapEx vs. repair confusion on older homes',
+        description: "Coal-era construction means you're often replacing systems — roofs, electrical, plumbing, heating. Deciding what's a capitalizable improvement versus a deductible repair is one of the most common mistakes flippers and landlords make. We categorize these correctly from day one.",
+      },
+      {
+        title: 'Fix-and-flip project-level tracking',
+        description: "Each Archbald flip is its own business. Acquisition, rehab draws, contractor 1099s, holding costs, and sale proceeds need to live in their own P&L — not blended with your rental income. We track each project from contract to close.",
+      },
+      {
+        title: 'Multi-property cash flow visibility',
+        description: "Archbald landlords often accumulate properties fast — the low entry point makes it tempting to keep acquiring. But without per-property P&Ls, you can't tell which doors are performing and which are dragging down your returns.",
+      },
+      {
+        title: 'Environmental and coal-heritage costs',
+        description: "Some Archbald properties carry legacy costs tied to the coal era — subsidence concerns, remediation, structural repairs from mining impact. These costs have specific tax treatment and need to be categorized properly, not lumped into general repairs.",
+      },
+      {
+        title: 'Lender documentation for refinancing',
+        description: "Growing portfolios in Lackawanna County need clean financials for DSCR loans, portfolio loans, and local bank refinancing. Messy books or QuickBooks you haven't touched in months will slow your next acquisition.",
+      },
+      {
+        title: 'Contractor and vendor 1099 tracking',
+        description: "Active flippers in Archbald are running multiple contractors simultaneously. We track every vendor payment through QuickBooks Online so your 1099s are ready at year-end — no scrambling, no penalties.",
+      },
+    ],
+  },
+  services: {
+    title: 'How we help Archbald investors.',
+    items: [
+      { title: 'Fix-and-Flip Project Bookkeeping', description: "Every Archbald flip gets its own project ledger — acquisition through sale. Know your true profit on every deal, not just your gut feeling." },
+      { title: 'Per-Property Rental Tracking', description: "Income, expenses, and net cash flow by door. Whether you have 2 rentals or 20 in Lackawanna County, we track each one individually in QuickBooks Online." },
+      { title: 'CapEx vs. Repair Categorization', description: "We correctly classify every improvement and repair on your older Archbald properties — maximizing your deductions without triggering audit flags." },
+      { title: 'Contractor 1099 Preparation', description: "We track all vendor payments through the year so your 1099-NECs are ready in January. No scrambling, no missed contractors." },
+      { title: 'Lender-Ready Financial Reports', description: "Clean QuickBooks reports for your next DSCR loan, portfolio refinance, or local bank line of credit. Ready when your lender calls." },
+      { title: 'Catch-Up Bookkeeping', description: "Behind on the books? No judgment. We'll clean up whatever you've been avoiding and get you current — whether it's six months or three years." },
+    ],
+  },
+  faqs: [
+    { q: 'How much does bookkeeping cost for a fix-and-flip investor in Archbald?', a: "It depends on your deal volume and portfolio size. Book a free Portfolio Review and we'll give you a clear monthly quote based on your actual setup — no surprises, no hourly billing." },
+    { q: 'Can you help with both my rentals and my flips in Archbald?', a: "Absolutely. We handle both under the same engagement — rental bookkeeping and flip project tracking in QuickBooks Online. One team, one system, clean books across your whole operation." },
+    { q: 'Do I need a separate QuickBooks company for my flips vs. rentals?', a: "It depends on your entity structure. In many cases, one well-organized QuickBooks file handles both. We'll set it up correctly from the start — or clean up what you already have." },
+    { q: "I'm just starting out with my first Archbald flip. Is it too early for a bookkeeper?", a: "No — the best time to start is before your first deal closes. Setting up project tracking from the beginning means you'll know your actual ROI when you sell, not a guess." },
+    { q: 'My books are a mess from the last two years. Can you fix them?', a: "Yes. Catch-up bookkeeping is one of the most common things we do. We'll untangle what you have, categorize everything correctly, and get you current without judgment." },
+  ],
+  schema: {
+    locality: 'Archbald',
+    region: 'PA',
+    areaServed: [
+      { '@type': 'City', name: 'Archbald, PA' },
+      { '@type': 'AdministrativeArea', name: 'Lackawanna County, PA' },
+      { '@type': 'City', name: 'Jessup, PA' },
+      { '@type': 'City', name: 'Olyphant, PA' },
+      { '@type': 'City', name: 'Blakely, PA' },
+    ],
+  },
+  otherLocations: [
+    { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
+    { name: 'Carbondale', slug: '/carbondale-bookkeeping' },
+    { name: 'Pittston', slug: '/pittston-bookkeeping' },
+    { name: 'Poconos', slug: '/poconos-bookkeeping' },
+    { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
+  ],
+};
+
+export const carbondaleData: LocationData = {
+  slug: 'carbondale-bookkeeping',
+  pageTitle: 'Carbondale PA Bookkeeping for Real Estate Investors | Fix & Flip, Landlords — Zen Books',
+  metaDescription: 'Bookkeeping for real estate investors in Carbondale, PA. Victorian-era flip tracking, per-property P&L, clean QuickBooks for Lackawanna County investors. Free portfolio review.',
+  region: 'Carbondale, PA',
+  heroTag: "Carbondale, PA — First Electric City",
+  heroHeadline: 'Carbondale bookkeeping\nfor real estate investors.',
+  heroSubhead: "Carbondale's Victorian bones attract investors who know what a good rehab looks like. We keep your books as solid as the properties you're renovating — clear, clean, and current in QuickBooks Online.",
+  marketInsight: {
+    title: 'The Carbondale investor landscape.',
+    paragraphs: [
+      "Carbondale is experiencing a quiet renaissance. The city's stock of late 1800s and early 1900s Victorian and Edwardian architecture — built during the coal boom that gave Carbondale its claim as America's First Electric City — is now attracting a new wave of fix-and-flip investors who recognize what renovated historic housing stock commands in today's NEPA market.",
+      "Route 6 gives Carbondale strong connectivity to Scranton, the Poconos, and New York State — which matters for investor buyers and ARV. Proximity to Elk Mountain and the Upper Delaware region is also beginning to generate interest from short-term rental investors, particularly for larger historic properties with character that commands a premium on Airbnb.",
+      "We're based in Scranton, about 15 minutes south on Route 6. We work with Carbondale investors running everything from single-property flips to growing landlord portfolios. The Lackawanna River valley is moving — your books should move with it.",
+    ],
+    stats: [
+      { label: 'Historic housing stock', value: 'Pre-1920 majority' },
+      { label: 'Drive to Scranton office', value: '~15 minutes' },
+      { label: 'Route 6 access to Poconos', value: 'Direct' },
+    ],
+  },
+  investorChallenges: {
+    title: 'Challenges Carbondale investors face.',
+    items: [
+      {
+        title: 'Historic renovation cost tracking',
+        description: "Renovating Victorian-era homes involves complex categorization — structural work, historic preservation, cosmetic updates, and system replacements all have different tax treatment. We get it right so your CPA isn't sorting through a mess at year-end.",
+      },
+      {
+        title: 'CapEx vs. repair on century-old properties',
+        description: "Replacing a 100-year-old boiler or repointing original brick? These decisions — capitalizable improvement vs. deductible repair — directly affect your tax liability. We make the right call on every line item.",
+      },
+      {
+        title: 'STR and long-term rental income mixing',
+        description: "Some Carbondale investors are running short-term rentals alongside traditional long-term rentals. These have different income types, expense categories, and tax treatment. We track them separately so your books — and your CPA — are never confused.",
+      },
+      {
+        title: 'Lackawanna River flood exposure',
+        description: "Properties near the Lackawanna River may carry flood insurance requirements and periodic remediation costs. These need proper categorization — not lumped in with standard operating expenses.",
+      },
+      {
+        title: 'Environmental and coal heritage costs',
+        description: "Like much of the Coal Region, some Carbondale properties carry legacy environmental considerations. Remediation costs, subsidence insurance, and structural repairs from mining impact have specific accounting treatment.",
+      },
+      {
+        title: 'Project tracking across multiple simultaneous flips',
+        description: "Active Carbondale investors are often running 2-4 projects at once. Without per-project books, you're flying blind on which deals are profitable and which are eating your cash flow.",
+      },
+    ],
+  },
+  services: {
+    title: 'How we help Carbondale investors.',
+    items: [
+      { title: 'Fix-and-Flip Project Bookkeeping', description: "Each Carbondale flip gets its own P&L — acquisition through sale. Track rehab draws, contractor payments, holding costs, and sale proceeds by project." },
+      { title: 'Historic Renovation Cost Categorization', description: "We correctly classify structural work, preservation costs, and system replacements on your historic Carbondale properties — right treatment, right deductions." },
+      { title: 'STR & Rental Income Separation', description: "Short-term rental income and traditional rental income tracked separately in QuickBooks Online. Clean books for your CPA, clean data for your decisions." },
+      { title: 'Per-Property Landlord Bookkeeping', description: "Every door in your Carbondale portfolio tracked individually — income, expenses, net cash flow. Know which properties are pulling their weight." },
+      { title: 'Flood and Environmental Cost Tracking', description: "Flood insurance, remediation costs, and coal-era structural expenses properly categorized per property — not buried in a generic expense line." },
+      { title: 'Lender-Ready Reports', description: "Clean QuickBooks financials ready for DSCR loans, portfolio refinancing, or local Lackawanna County bank relationships." },
+    ],
+  },
+  faqs: [
+    { q: "I'm flipping a Victorian in Carbondale — do I need a bookkeeper?", a: "If you want to know your actual profit when you sell — and not just hope the numbers work out — yes. We set up project-level tracking before your rehab starts so every dollar in and out is captured." },
+    { q: 'Can you handle historic renovation bookkeeping in Carbondale?', a: "Yes. Victorian-era renovation involves a mix of capitalizable improvements, deductible repairs, and preservation costs. We categorize all of it correctly so your CPA has clean records at year-end." },
+    { q: 'Do you work with investors who have both rentals and flips in Carbondale?', a: "Absolutely. We handle both under one engagement in QuickBooks Online — your rental portfolio and your flip projects tracked separately, in the same system, with one monthly report." },
+    { q: "I'm interested in Carbondale short-term rentals. Can you handle Airbnb bookkeeping?", a: "Yes. STR bookkeeping has specific income reconciliation needs — Airbnb payouts, platform fees, cleaning costs, and occupancy tracking. We handle it all in QuickBooks Online." },
+    { q: 'How soon can I get my books cleaned up before tax season?', a: "We take catch-up projects year-round. Book a free Portfolio Review and we'll scope the cleanup and give you a realistic timeline. Most catch-ups complete in 2-4 weeks depending on volume." },
+  ],
+  schema: {
+    locality: 'Carbondale',
+    region: 'PA',
+    areaServed: [
+      { '@type': 'City', name: 'Carbondale, PA' },
+      { '@type': 'AdministrativeArea', name: 'Lackawanna County, PA' },
+      { '@type': 'City', name: 'Mayfield, PA' },
+      { '@type': 'AdministrativeArea', name: 'Wayne County, PA' },
+    ],
+  },
+  otherLocations: [
+    { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Archbald', slug: '/archbald-bookkeeping' },
+    { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
+    { name: 'Pittston', slug: '/pittston-bookkeeping' },
+    { name: 'Poconos', slug: '/poconos-bookkeeping' },
+    { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
+  ],
+};
+
+export const pittstonData: LocationData = {
+  slug: 'pittston-bookkeeping',
+  pageTitle: 'Pittston PA Bookkeeping for Real Estate Investors | Fix & Flip, Landlords — Zen Books',
+  metaDescription: 'Bookkeeping for real estate investors in Pittston, PA. Fix-and-flip project tracking, flood zone cost categorization, per-property P&L. Serving Luzerne County investors in QuickBooks Online.',
+  region: 'Pittston, PA',
+  heroTag: 'Pittston, PA — Luzerne County',
+  heroHeadline: 'Pittston bookkeeping\nfor real estate investors.',
+  heroSubhead: "Situated between Scranton and Wilkes-Barre on the Susquehanna, Pittston's investor market is active and growing. We track every flip project, every rental door, and every flood zone cost — clean in QuickBooks Online.",
+  marketInsight: {
+    title: 'The Pittston investor market.',
+    paragraphs: [
+      "Pittston sits at the geographic center of NEPA — 15 minutes from both Scranton and Wilkes-Barre, with I-81 running right through it. That central location, combined with affordable housing stock and strong rental demand, has made Pittston a consistent performer for both fix-and-flip investors and buy-and-hold landlords across Luzerne County.",
+      "The historic downtown along Main Street is seeing renewed investor interest, with commercial-to-residential conversions and gut rehabs attracting investors who can see the upside in the city's bones. West Pittston — a separate borough just across the Susquehanna — has its own investor micro-market, with different flood zone characteristics and a slightly different buyer pool. Understanding which side of the river your property is on matters for both insurance and financing.",
+      "We serve Pittston investors from our Scranton base, 15 minutes up I-81. We know the Luzerne County market, the flood zone considerations on the Susquehanna, and the specific challenges of flipping and holding in this corridor.",
+    ],
+    stats: [
+      { label: 'Location between Scranton & WB', value: 'Exact midpoint' },
+      { label: 'I-81 access', value: 'Direct' },
+      { label: 'Drive to our Scranton office', value: '~15 minutes' },
+    ],
+  },
+  investorChallenges: {
+    title: 'Challenges Pittston investors face.',
+    items: [
+      {
+        title: 'Flood zone insurance and cost tracking',
+        description: "Properties near the Susquehanna — especially in low-lying sections of Pittston and West Pittston — often carry flood insurance requirements. These premiums need to be tracked per property, not pooled into a single insurance line, or your P&L by property will be wrong.",
+      },
+      {
+        title: 'Fix-and-flip project tracking in historic downtown',
+        description: "Downtown Pittston rehabs involve mixed-use buildings, commercial-to-residential conversions, and gut rehabs with complex cost structures. Each project needs its own ledger — acquisition, demo, structural, mechanical, cosmetic, and soft costs tracked separately.",
+      },
+      {
+        title: 'West Pittston vs. Pittston proper — distinct tax treatment',
+        description: "West Pittston and Pittston are legally distinct boroughs with different tax rates and assessment systems. If you own properties on both sides of the river, your books need to reflect the correct municipal tax treatment for each.",
+      },
+      {
+        title: 'Coal-era environmental costs',
+        description: "Like much of NEPA, some Pittston properties carry coal-era legacy costs — subsidence concerns, environmental testing, or remediation. These have specific tax classification that differs from standard repair and maintenance.",
+      },
+      {
+        title: 'Multi-entity portfolio tracking',
+        description: "Active Pittston investors often hold properties across multiple LLCs — one per deal, one per type, or one per geographic cluster. We track each entity cleanly in QuickBooks Online so you know your net position across the whole portfolio.",
+      },
+      {
+        title: 'Lender documentation for Wyoming Valley refinancing',
+        description: "Local Luzerne County banks and DSCR lenders want clean, property-level financials. Investors who can pull a P&L by property in 60 seconds close faster than those who can't. We make sure you're always ready.",
+      },
+    ],
+  },
+  services: {
+    title: 'How we help Pittston investors.',
+    items: [
+      { title: 'Fix-and-Flip Project Bookkeeping', description: "Each Pittston flip tracked from acquisition to sale. Know your real ROI on every downtown rehab and conversion project." },
+      { title: 'Flood Zone Cost Tracking', description: "Flood insurance, FEMA-related costs, and elevation certificate expenses tracked per property — not pooled. Clean P&L by property, always." },
+      { title: 'Multi-Entity Portfolio Management', description: "Multiple LLCs holding properties across Pittston and West Pittston? We track each entity cleanly in QuickBooks Online — one dashboard, clear picture." },
+      { title: 'Per-Property Rental Bookkeeping', description: "Income, expenses, and net cash flow tracked individually for every door in your Luzerne County portfolio." },
+      { title: 'Municipal Tax Tracking', description: "Pittston and West Pittston have different tax rates. We track each property's correct tax liability — no blending, no errors." },
+      { title: 'Lender-Ready Reporting', description: "Clean QuickBooks reports for DSCR loans, portfolio refinancing, and local Luzerne County bank relationships. Ready on demand." },
+    ],
+  },
+  faqs: [
+    { q: 'Do you work with investors in both Pittston and West Pittston?', a: "Yes. We understand that Pittston and West Pittston are distinct boroughs with different tax treatment. We track properties in both correctly in QuickBooks Online." },
+    { q: 'I have properties in a flood zone in West Pittston. How do you handle that?', a: "We track flood insurance premiums, FEMA-related costs, and flood-related repairs separately by property. Your P&L by property stays accurate even with the added complexity." },
+    { q: "I'm flipping a commercial-to-residential conversion in downtown Pittston. Can you track that?", a: "Absolutely. Mixed-use conversions have complex cost structures — demo, structural, code compliance, mechanical, and finish work all tracked by project ledger from acquisition through sale." },
+    { q: 'Can you handle bookkeeping for multiple LLCs holding Pittston properties?', a: "Yes. Multi-entity portfolio management is a core part of what we do. We track each LLC cleanly in QuickBooks Online and can prepare consolidated reports across your whole operation." },
+    { q: "How do you work with Pittston-area investors — do you meet in person?", a: "We work entirely in QuickBooks Online, so geography doesn't limit the relationship. We're based in Scranton (15 minutes up I-81) and serve investors throughout NEPA. Video calls, phone calls, and shared QuickBooks — no in-person requirement." },
+  ],
+  schema: {
+    locality: 'Pittston',
+    region: 'PA',
+    areaServed: [
+      { '@type': 'City', name: 'Pittston, PA' },
+      { '@type': 'City', name: 'West Pittston, PA' },
+      { '@type': 'AdministrativeArea', name: 'Luzerne County, PA' },
+      { '@type': 'City', name: 'Dupont, PA' },
+      { '@type': 'City', name: 'Avoca, PA' },
+    ],
+  },
+  otherLocations: [
+    { name: 'Wilkes-Barre & NEPA', slug: '/wilkes-barre-nepa-bookkeeping' },
+    { name: 'Scranton', slug: '/scranton-bookkeeping' },
+    { name: 'Archbald', slug: '/archbald-bookkeeping' },
+    { name: 'Carbondale', slug: '/carbondale-bookkeeping' },
+    { name: 'Poconos', slug: '/poconos-bookkeeping' },
+    { name: 'Lehigh Valley', slug: '/lehigh-valley-bookkeeping' },
   ],
 };
