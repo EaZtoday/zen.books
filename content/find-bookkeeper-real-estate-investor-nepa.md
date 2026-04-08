@@ -10,27 +10,33 @@ category: "Real Estate Bookkeeping"
 
 # How to Find a Bookkeeper Who Actually Understands Real Estate Investing (NEPA Edition)
 
-*The generic bookkeeper down the street will categorize your flip rehab costs as "office supplies" if you're not careful. Here's how to find someone who actually knows what they're doing.*
+*Most bookkeepers are competent at small business accounting. Real estate investing is a different structure — and the investors who get the most out of their books find someone who knows that difference.*
 
 ---
 
-## The Problem With Generic Bookkeepers and Real Estate
+> **The short version:** Five questions will tell you whether a bookkeeper actually understands real estate investing or is learning on your dime. Ask them before you sign anything. The right bookkeeper sets up your QuickBooks correctly from day one — the wrong one creates cleanup work that costs more than the bookkeeping itself.
 
-Most bookkeepers are trained to handle small businesses: service companies, retail, restaurants. Real estate investing is a different animal — and the mistakes made by well-meaning but inexperienced bookkeepers cost investors money every year.
+---
 
-Common errors we've seen when new clients come to us from other bookkeepers:
+## Why Real Estate Bookkeeping Is Different
+
+Most bookkeepers are trained to handle small businesses: service companies, retail, restaurants. Real estate investing has a different structure — and a bookkeeper who hasn't worked extensively with investors will set things up in ways that make sense for retail, not for a portfolio with multiple properties and entities.
+
+Common setups we've cleaned up when investors come to us:
 
 - **Rehab costs expensed as repairs** instead of capitalized as improvements (or vice versa)
 - **Hard money loan draws recorded as income** instead of liability
 - **Security deposits recorded as rental income** instead of held in a liability account
 - **Flip sale proceeds recorded as revenue** without netting acquisition and improvement costs
-- **All properties lumped in one P&L** instead of tracked individually
+- **All properties combined in one P&L** instead of tracked individually
 
-None of these errors are malicious. The bookkeeper just didn't understand real estate. But you paid for them in overpaid taxes, confused CPAs, and incorrect financials.
+These aren't unusual — they're exactly what you'd expect from a bookkeeper who was trying their best without real estate-specific training. The good news is they're fixable.
 
 ---
 
 ## What to Look For: 5 Non-Negotiables
+
+> **Key takeaway:** The five questions below aren't trick questions — a bookkeeper with genuine REI experience will answer them quickly and specifically. Vague answers ("I've worked with a few landlords") are a signal to keep looking.
 
 ### 1. QuickBooks Online Proficiency — Not Just "QuickBooks"
 
