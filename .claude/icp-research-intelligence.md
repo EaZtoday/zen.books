@@ -103,7 +103,128 @@
 
 **The gap Zen Books fills:** A human bookkeeper with real estate fluency who sets up QBO correctly from day one (entities, classes, CapEx), produces property-level P&Ls monthly, and coordinates with their CPA — at a price point between DIY software and a full CPA firm.
 
-## Industry Context
+---
+
+## ICP 1B: Fix & Flip Rehabbers (Subsegment — High-Value, Time-Constrained)
+
+**Who they are:** Active flippers doing 4–12 deals/year with project-based timelines, hard money financing, and intense time pressure. They're a **higher-pain, higher-urgency subsegment** within the broader Real Estate Investors ICP.
+
+### Core Pain Points (14 Distinct Problems)
+
+1. **Time sink of DIY bookkeeping** [5/5]  
+   Eating weekends and pulling focus from deal sourcing/scaling as portfolio grows beyond 3-4 simultaneous projects.
+
+2. **Software frustrations and limitations** [5/5]  
+   Stessa requires endless manual entry; QuickBooks feels bloated for project tracking; most tools lack proper double-entry or rehab-specific job costing.
+
+3. **Difficulty distinguishing repairs vs. improvements (CapEx vs. expenses)** [5/5]  
+   Constant confusion on what can be deducted immediately versus depreciated — directly impacts tax liability and project profitability calculations.
+
+4. **Missed deductions and depreciation opportunities** [4/5]  
+   Unclaimed cost segregation, bonus depreciation, or bonus depreciation on materials because books aren't set up to capture it.
+
+5. **Mixing personal and business finances** [4/5]  
+   Using personal credit cards for project expenses; commingled business/personal checking; hides true per-flip profitability.
+
+6. **Audit fears and tax surprises** [4/5]  
+   Large Schedule E deductions or disproportionate losses trigger IRS scrutiny; unexpected tax bills despite healthy cash flow from multiple projects.
+
+7. **Entity structure and allocation headaches** [3/5]  
+   Managing multiple LLCs per deal, partnership entities, cost-basis tracking, and capital account maintenance across active flips.
+
+8. **Scaling breakdown** [5/5]  
+   Books become unmanageable at 5+ simultaneous projects; can't reconcile PM statements, subcontractor invoices, vendor duplicates, or draws per project.
+
+9. **Finding a qualified, affordable bookkeeper who understands REI** [5/5]  
+   Generic accountants don't understand rehab-specific tracking; many charge too much or lack project-cost expertise.
+
+10. **Cash-flow visibility and per-project profitability** [5/5]  
+    Hard to tell mid-project if a flip is truly profitable after holding costs, contractor overruns, and reserves — needed for keep/sell/refi decisions.
+
+11. **Receipt chasing and documentation gaps** [5/5]  
+    Contractors provide unlabeled receipts or incomplete invoices; hard to tie $20k in materials to specific project phases or properties.
+
+12. **Tax vs. book differences and passive activity rules** [4/5]  
+    Navigating Schedule E, real estate professional status, passive loss limitations, and ensuring tax prep matches management reporting.
+
+13. **Year-end tax prep chaos** [5/5]  
+    Scrambling to reconcile multi-project transactions, adjusting entries, basis calculations, and feeding clean data to CPA by April.
+
+14. **Overwhelm with growth and consistency** [5/5]  
+    Tracking across 8+ active flips simultaneously; fear of costly mistakes from inconsistent prior bookkeeping or missed entries.
+
+### Buyer Personas (10 High-Value Flippers)
+
+**Quick reference:** These profiles show market, deal frequency, budget, and specific triggers. All 10 are concentrated in tier-1 fix-and-flip markets (Phoenix, Atlanta, Dallas, Houston, Las Vegas, Orlando, Charlotte, Tampa, Nashville, Austin).
+
+| Name | Market | Deals/Yr | ARV | Pain IDs | Monthly Budget | Email Open Rate | Decision Time |
+|------|--------|----------|-----|----------|----------------|-----------------|---------------|
+| Mike Rodriguez | Phoenix | 6 | $250k | 1, 8, 11 | $500–$3k | 28% | 14 days |
+| Sarah Jenkins | Atlanta | 8 | $220k | 2, 5, 11 | $800–$2k | 30% | 12 days |
+| Carlos Mendoza | Dallas | 5 | $320k | 3, 4, 13 | $1k–$2.5k | 25% | 18 days |
+| Aisha Thompson | Houston | 7 | $280k | 1, 8, 10 | $1.5k–$3k | 28% | 15 days |
+| Tyler Nguyen | Las Vegas | 9 | $210k | 6, 7, 9 | $700–$2.5k | 22% | 11 days |
+| Maria Gonzalez | Orlando | 4 | $380k | 4, 12, 14 | $2k–$3k | 35% | 16 days |
+| David Kim | Charlotte | 10 | $195k | 2, 5, 11 | $900–$1.8k | 26% | 13 days |
+| Rachel Patel | Tampa | 6 | $290k | 1, 8, 13 | $1.2k–$2.5k | 29% | 17 days |
+| Jamal Harris | Nashville | 5 | $340k | 3, 4, 10 | $1k–$2.8k | 24% | 14 days |
+| Lisa Wong | Austin | 12 | $245k | 5, 9, 14 | $1.5k–$3k | 31% | 10 days |
+
+### Emotional Triggers (What Makes Them Hire — Fix & Flip Edition)
+
+- **The scaling wall** — Hit 5+ simultaneous projects and DIY/spreadsheet system breaks; CPA threatens to charge extra [5/5]
+- **Holding cost shock** — Realize a project is eating $250–$300/day and can't see it clearly in books; want real-time visibility [5/5]
+- **Contractor invoice chaos** — $20k subcontractor invoice with no itemization; can't tell if it's overrun or properly allocated [4/5]
+- **Tax prep panic** — CPA asks for per-project basis, cost segregation data, or depreciation schedules; books are a mess [5/5]
+- **Lender rate-lock expires** — Need clean financials for hard money refinance or next deal approval; books delay closing [3/5]
+
+### Buying Behavior (Fix & Flip Version)
+
+**Where they look:** r/FixAndFlip, BiggerPockets (local chapters + forums), REIA meetups, REI Facebook groups by market, hard money lender referrals [5/5]
+
+**What they search:**
+- "Fix and flip bookkeeper" / "flip accounting help"
+- "How to track project costs in QuickBooks"
+- "CapEx vs repairs on flips" / "bonus depreciation for rehab"
+- "Handling multiple flips simultaneously bookkeeping"
+- "Real estate bookkeeper [city name]" (local + market-specific)
+
+**Top objections:**
+- "My volume is too high for a part-time bookkeeper" [4/5]
+- "A bookkeeper won't understand cost-plus contractor pricing" [3/5]
+- "I can't afford to stop and explain every receipt" [4/5]
+- "I need someone who can turn books around in 48 hours at tax time" [3/5]
+
+**What convinces them:**
+- **Per-project P&L dashboard** — "Show me profit by flip in real-time" [5/5]
+- **Handles the mess without questions** — Accepts manual invoices, contractor chaos, vendor duplicates [5/5]
+- **CapEx vs. repairs expertise** — "You understand what can be depreciated vs. deducted" [5/5]
+- **Proven cost segregation / depreciation recovery** — "$10k–$15k per year in recovered deductions" [4/5]
+- **Referrals from other flippers in their market** — "A Phoenix flipper on BiggerPockets recommended you" [5/5]
+- **Fast turnaround at tax time** — "Books ready for CPA by mid-March" [4/5]
+
+**Price expectations:**
+- $700–$3,000/month depending on volume (6–12 deals/year) [5/5]
+- Price scales with deal velocity, not portfolio size [4/5]
+- Will pay premium for real-time reporting and fast tax prep [4/5]
+- Understand bookkeeping is a cost of doing business; ROI-focused [5/5]
+
+### Competitive Landscape (Fix & Flip Edition)
+
+| Competitor | What Flippers Try | Key Failures |
+|-----------|------------------|--------------|
+| **Stessa** | Free software for tracking | Manual categorization required; no project costing; breaks on multi-simultaneous flips |
+| **QuickBooks (DIY)** | Build-your-own classes/projects | Too many variables; inconsistency across projects; CapEx misclassification |
+| **Construction accounting software** (Procore, BuilderTrend) | Project cost tracking | Not tax/depreciation aware; separate from tax accounting; doesn't feed QBO |
+| **Generic bookkeepers** | Local or offshore | No flip-specific knowledge; can't handle volume; slow tax prep |
+| **QuickBooks Live** | Integrated QB service | Revolving door of staff; no industry knowledge; slow turnaround on tax season |
+| **Spreadsheets + CPA** | DIY tracking, CPA cleanup | Errors, missed deductions, last-minute scrambles, expensive cleanup bills |
+
+**The gap Zen Books fills:** A pragmatic human who handles project-volume chaos — multi-flip tracking, contractor invoice mess, CapEx classification — and produces clean, real-time per-flip P&Ls plus tax-ready reports. Not software; not a CPA firm. A flip-fluent operator who works at the speed of the market.
+
+---
+
+## Industry Context (Both Rental & Flip)
 
 **Software stack:** AppFolio, Buildium, Yardi, RentRedi, TenantCloud, Stessa → all need reconciliation with QBO
 
