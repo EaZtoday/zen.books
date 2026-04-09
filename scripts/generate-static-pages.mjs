@@ -156,6 +156,36 @@ const routes = [
     title: 'Real Estate Dealer vs. Investor: Why the IRS Classification Matters for Flippers | Zen Books',
     description: "The IRS treats real estate dealers and investors differently — and it can cost you thousands in self-employment tax. Here's what the classification means and why your books matter.",
   },
+  {
+    path: '/archbald-bookkeeping',
+    title: 'Archbald PA Bookkeeping for Real Estate Investors | Fix & Flip, Landlords — Zen Books',
+    description: 'Bookkeeping for real estate investors in Archbald, PA. Fix-and-flip project tracking, per-property P&L, lender-ready reports. Serving Lackawanna County investors in QuickBooks Online.',
+  },
+  {
+    path: '/carbondale-bookkeeping',
+    title: 'Carbondale PA Bookkeeping for Real Estate Investors | Fix & Flip, Landlords — Zen Books',
+    description: 'Bookkeeping for real estate investors in Carbondale, PA. Victorian-era flip tracking, per-property P&L, clean QuickBooks for Lackawanna County investors. Free portfolio review.',
+  },
+  {
+    path: '/pittston-bookkeeping',
+    title: 'Pittston PA Bookkeeping for Real Estate Investors | Fix & Flip, Landlords — Zen Books',
+    description: 'Bookkeeping for real estate investors in Pittston, PA. Fix-and-flip project tracking, flood zone cost categorization, per-property P&L. Serving Luzerne County investors in QuickBooks Online.',
+  },
+  {
+    path: '/blog/irs-audit-red-flags-real-estate-investors',
+    title: 'IRS Audit Red Flags for Real Estate Investors (and How Clean Books Protect You) | Zen Books',
+    description: 'Real estate investors are audited at higher rates than most taxpayers. Here are the specific red flags that trigger scrutiny — and what your books need to look like to survive one.',
+  },
+  {
+    path: '/blog/year-end-bookkeeping-checklist-real-estate-investors',
+    title: 'Year-End Bookkeeping Checklist for Real Estate Investors | Zen Books',
+    description: "Most real estate investors hand their CPA incomplete records at tax time — and pay for it in missed deductions. Here's what to have ready before December 31st.",
+  },
+  {
+    path: '/blog/find-bookkeeper-real-estate-investor-nepa',
+    title: 'How to Find a Bookkeeper Who Actually Understands Real Estate Investing (NEPA Edition) | Zen Books',
+    description: 'Five questions that reveal whether a bookkeeper actually understands real estate investing — and what to look for in NEPA specifically.',
+  },
 ];
 
 function generatePage(template, route) {

@@ -80,6 +80,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://zenbooks4u.com/archbald-bookkeeping</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zenbooks4u.com/carbondale-bookkeeping</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zenbooks4u.com/pittston-bookkeeping</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- Blog -->
   <url>
@@ -175,6 +193,24 @@
   <url>
     <loc>https://zenbooks4u.com/blog/real-estate-dealer-vs-investor-irs</loc>
     <lastmod>2026-03-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zenbooks4u.com/blog/irs-audit-red-flags-real-estate-investors</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zenbooks4u.com/blog/year-end-bookkeeping-checklist-real-estate-investors</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zenbooks4u.com/blog/find-bookkeeper-real-estate-investor-nepa</loc>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
