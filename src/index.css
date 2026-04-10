@@ -4,6 +4,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-fern-50: #EFF5EC;
+  --color-fern-100: #D4E8CC;
+  --color-fern: #4F7942;
+  --color-fern-dark: #3E6234;
+  --color-fern-light: #6A9B58;
+
+  --color-accent-50: #FDF0E0;
+  --color-accent: #C8772B;
+  --color-accent-dark: #B5691F;
+
+  --color-cream: #FFFDF7;
+  --color-cream-50: #FFFDF7;
+  --color-cream-100: #FBF5EB;
+  --color-cream-200: #F3EADB;
+  --color-cream-300: #E6DCCC;
+
+  --color-forest-50: #1A2B19;
+  --color-forest-100: #243523;
+  --color-forest-200: #2E4229;
+  --color-forest-300: #5A7553;
+  --color-forest-400: #8FA688;
+  --color-forest-500: #B5C5AD;
+
+  --color-warm-300: #C4B8A8;
+  --color-warm-400: #A89A8A;
+  --color-warm-600: #6B5D4F;
+  --color-warm-900: #2C2416;
+}
+
 /* ───────────────────────────────────────────────
    Zen Books — Fern Green & Coconut Cream (Premium Nature)
    ─────────────────────────────────────────────── */
