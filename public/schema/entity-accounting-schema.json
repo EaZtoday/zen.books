@@ -1,0 +1,164 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Entity Structure & Accounting Decisions for Multi-Property Investors",
+    "alternativeHeadline": "Optimize your real estate business entity structure and accounting practices for maximum tax efficiency",
+    "author": {
+      "@type": "Organization",
+      "name": "ZenBooks",
+      "url": "https://zen.books",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://zen.books/logo.png",
+        "width": 250,
+        "height": 250
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ZenBooks",
+      "url": "https://zen.books",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://zen.books/logo.png",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    "datePublished": "2024-05-12",
+    "dateModified": "2025-04-09",
+    "description": "Complete guide to choosing the right entity structure (S-Corp, C-Corp, LLC, Partnership) and accounting methods for multi-property real estate portfolios.",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://zen.books/images/entity-accounting-og.png",
+      "width": 1200,
+      "height": 630,
+      "description": "Entity structure guide for real estate investors"
+    },
+    "articleSection": "Business Structure & Accounting",
+    "keywords": "business entity, LLC, S-Corp, C-Corp, tax planning, accounting methods, real estate accounting, multi-property portfolio",
+    "isAccessibleForFree": true,
+    "inLanguage": "en-US",
+    "wordCount": 4500,
+    "timeRequired": "PT19M",
+    "educationalLevel": "Intermediate to Advanced",
+    "learningResourceType": "Business Structure Guide"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Should I use one LLC for all properties or separate LLCs for each property?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use separate LLCs if: you want asset protection (liability in one property doesn't affect others), you plan to sell individual properties (cleaner closing), or you have different partners for different properties. Use a single LLC if you prefer simplicity, lower annual fees, and unified accounting. Consider your state's LLC filing costs and complexity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the difference between LLC taxation as a disregarded entity vs. S-Corp?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Disregarded Entity (default): profits pass through to personal tax return, all net income subject to 15.3% self-employment tax. S-Corp Election: can pay yourself a 'reasonable salary' subject to payroll taxes, distribute remaining profits as dividends (no self-employment tax). S-Corp saves money if income exceeds ~$60k, but adds complexity and accounting costs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When should I elect to be taxed as an S-Corp?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Consider S-Corp election if: your real estate business generates net profit over $60,000 annually, you actively manage properties (not passive investor), and you're comfortable with additional accounting ($1,500-3,000/year). The self-employment tax savings typically pay for accounting costs once profit exceeds $75k."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I account for depreciation across multiple properties?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depreciation is calculated per property: separate the building value from land value (typically 80/20 split), use a 27.5-year schedule for residential and 39-year for commercial. Aggregate all properties on Schedule E (Form 1040). Track cost basis and depreciation separately for each property to calculate gains correctly at sale."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What accounting method should I use—cash or accrual?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most small real estate investors use cash basis: simpler, matches when money is actually received/paid. Accrual basis required if you have more than $25M in gross receipts. Cash basis works fine unless you have complex financing or want GAAP-compliant statements for lending."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How should I handle related-party transactions between my entities?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Document everything: interest rates must be arm's-length (comparable to third-party loans), management fees must be reasonable and actually paid, rental payments must match fair market value. IRS scrutinizes related-party transactions heavily. Work with a CPA to ensure transactions withstand audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What records should I maintain for each property?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Maintain: original purchase documents showing cost basis, receipts for all repairs/improvements, tenant lease agreements and payment records, utility bills and insurance documents, property tax statements, mortgage statements, depreciation schedules, and bank statements. Keep these for 7 years minimum (IRS statute of limitations)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I use the passive activity loss rules to shelter other income?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only if you qualify as a real estate professional: >50% of service hours in real estate and material participation (100+ hours/year per property). If you qualify, you can deduct unlimited losses against other income. If not, you're limited to $25,000/year loss deduction plus any unused losses carried forward."
+        }
+      }
+    ]
+  },
+  "breadcrumb": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://zen.books"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://zen.books/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Business Structure",
+        "item": "https://zen.books/blog/business-structure"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Entity Structure & Accounting Decisions for Multi-Property Investors",
+        "item": "https://zen.books/blog/entity-accounting"
+      }
+    ]
+  },
+  "localBusiness": {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ZenBooks Real Estate Education",
+    "url": "https://zen.books",
+    "description": "Educational content for real estate investors focusing on financial analysis, compliance, and deal evaluation.",
+    "areaServed": {
+      "@type": "Country",
+      "name": "United States"
+    },
+    "serviceType": "Real Estate Investment Education",
+    "sameAs": [
+      "https://twitter.com/zenbooks",
+      "https://linkedin.com/company/zenbooks"
+    ]
+  }
+}

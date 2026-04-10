@@ -1,0 +1,156 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "IRS Audit Red Flags: What Real Estate Investors Should Know",
+    "alternativeHeadline": "Comprehensive guide to IRS audit triggers and compliance strategies for real estate professionals",
+    "author": {
+      "@type": "Organization",
+      "name": "ZenBooks",
+      "url": "https://zen.books",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://zen.books/logo.png",
+        "width": 250,
+        "height": 250
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ZenBooks",
+      "url": "https://zen.books",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://zen.books/logo.png",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    "datePublished": "2024-03-10",
+    "dateModified": "2025-04-09",
+    "description": "Learn which real estate practices trigger IRS audits and how to maintain compliance while optimizing tax deductions.",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://zen.books/images/audit-red-flags-og.png",
+      "width": 1200,
+      "height": 630,
+      "description": "IRS audit red flags for real estate investors"
+    },
+    "articleSection": "Compliance & Tax Strategy",
+    "keywords": "IRS audit, real estate tax, audit red flags, tax compliance, real estate deductions, real estate taxes",
+    "isAccessibleForFree": true,
+    "inLanguage": "en-US",
+    "wordCount": 3800,
+    "timeRequired": "PT16M",
+    "educationalLevel": "Intermediate to Advanced",
+    "learningResourceType": "Compliance Guide"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What are the top IRS audit red flags for real estate investors?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Key red flags include: claiming significant rental losses while showing high income, excessive entertainment/meal deductions (>10% of income), inconsistent reporting of rental income across years, claiming large home office deductions, frequent flipping of properties in short periods, and claiming losses on personal residences as investment properties."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How aggressive can I be with real estate deductions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Be aggressive but defensible. Document all deductions thoroughly. Legitimate expenses include mortgage interest, property taxes, insurance, utilities, repairs, maintenance, depreciation, HOA fees, and professional services. The IRS targets expenses that appear unreasonably high relative to income or inconsistent with industry standards."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What triggers an IRS audit on rental properties?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Specific triggers include: reporting rental losses for multiple consecutive years, claiming passive activity losses against non-passive income, deducting losses that exceed your basis in the property, large disparities between gross and net income, and using depreciation without filing Form 4562."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I worry about passive activity loss limitations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Real estate professionals can deduct unlimited losses, but others face a $25,000 annual passive loss limit. You must meet specific IRS requirements: more than 50% of personal services must be in real estate and participate materially in each property (100+ hours per year or principal activity test)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How should I document my deductions to avoid audit risk?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Maintain detailed records: keep receipts for all expenses, document time spent on property management, photograph repairs before/after, maintain a mileage log, separate business and personal accounts, file consistently with prior years, and work with a CPA who specializes in real estate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the difference between a repair and a capital improvement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Repairs maintain existing value and are immediately deductible (paint, fix roof leak). Capital improvements add value or prolong life and must be depreciated (new roof, renovation). The IRS scrutinizes this distinction heavily. When in doubt, consult your CPA—misclassification is a common audit trigger."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are travel expenses deductible for real estate investors?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only if directly related to your rental business. A trip to view potential investments is deductible. A family vacation where you briefly tour a property is not. Document the business purpose, keep receipts, and note travel details. Mixed-purpose trips require allocation between business and personal."
+        }
+      }
+    ]
+  },
+  "breadcrumb": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://zen.books"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://zen.books/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Tax & Compliance",
+        "item": "https://zen.books/blog/tax-compliance"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "IRS Audit Red Flags: What Real Estate Investors Should Know",
+        "item": "https://zen.books/blog/audit-red-flags"
+      }
+    ]
+  },
+  "localBusiness": {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ZenBooks Real Estate Education",
+    "url": "https://zen.books",
+    "description": "Educational content for real estate investors focusing on financial analysis, compliance, and deal evaluation.",
+    "areaServed": {
+      "@type": "Country",
+      "name": "United States"
+    },
+    "serviceType": "Real Estate Investment Education",
+    "sameAs": [
+      "https://twitter.com/zenbooks",
+      "https://linkedin.com/company/zenbooks"
+    ]
+  }
+}
