@@ -186,6 +186,31 @@ const routes = [
     title: 'How to Find a Bookkeeper Who Actually Understands Real Estate Investing (NEPA Edition) | Zen Books',
     description: 'Five questions that reveal whether a bookkeeper actually understands real estate investing — and what to look for in NEPA specifically.',
   },
+  {
+    path: '/blog/fix-and-flip-tax-deductions-checklist',
+    title: "Fix-and-Flip Tax Deductions Most Investors Miss (And Why Clean Books Are the Difference) | Zen Books",
+    description: "There are deductions built into every flip that most investors leave on the table — not because they don't exist, but because the books weren't set up to capture them. Here's the checklist.",
+  },
+  {
+    path: '/blog/bookkeeping-five-flips-simultaneously',
+    title: "Bookkeeping When You're Running 5 Flips at Once: How to Scale Without Losing Your Mind | Zen Books",
+    description: "One flip is manageable. Three gets complicated. Five simultaneous deals — without the right system — is a bookkeeping disaster waiting to happen. Here's the structure that actually scales.",
+  },
+  {
+    path: '/blog/cash-flow-management-fix-and-flip',
+    title: "Cash Flow Management for Fix-and-Flip Investors: Why Your Books Need to Predict, Not Just Record | Zen Books",
+    description: "Most bookkeeping systems look backward. Fix-and-flip investors need books that also look forward — showing you when cash will be tight, when draws hit, and whether you can afford to take on the next deal.",
+  },
+  {
+    path: '/blog/cost-segregation-real-estate-investors',
+    title: "Cost Segregation for Real Estate Investors: The Tax Strategy Your Bookkeeper Needs to Know About | Zen Books",
+    description: "Cost segregation studies can accelerate depreciation and generate significant tax savings — but only if your books are structured to support them. Here's what it is, who benefits, and what your books need to look like.",
+  },
+  {
+    path: '/blog/software-for-fix-and-flip-investors',
+    title: "Stessa vs. QuickBooks for Fix-and-Flip: Why Most Flippers Use the Wrong Tool | Zen Books",
+    description: "Stessa is great for buy-and-hold. QuickBooks is great for general businesses. Neither was designed for fix-and-flip — here's what that means for your books and your tax return.",
+  },
 ];
 
 function generatePage(template, route) {
